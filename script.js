@@ -7,8 +7,8 @@ function showTest(testId) {
     document.getElementById(testId).style.display = 'block';
 }
 
-function checkAnswer(groupName, correctValue, resultId) {
-    const selected = document.querySelector(`input[name="${groupName}"]:checked`);
+function checkAnswer(questionName, correctValue, resultId) {
+    const selected = document.querySelector(`input[name="${questionName}"]:checked`);
 
     const resultElement = document.getElementById(resultId);
     if (selected.value === correctValue) {
