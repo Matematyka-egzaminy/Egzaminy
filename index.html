@@ -2,39 +2,54 @@
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
-    <title>Zadania</title>
+    <title>Arkusze-Matematyka-E8</title>
     <link rel="stylesheet" href="style.css">
-</head>
+    </head>
 <body>
-<h1>Zadania</h1>
+<h1>Arkusze - Matematyka - E8</h1>
+<div class="menu-buttons">
+    <button onclick="showTest('test1')">Arkusz 1</button>
+    <button onclick="showTest('test2')">Arkusz 2</button>
+</div>
+<div id="test1" class="quiz-section">
+    <h2>Arkusz 1</h2>
 <div class="zadanie">
     <h2>Zadanie 1</h2>
     <p>\[ \mathrm{Oblicz}: 1+1= \] </p>
     <div class="odp">
-        <input type="radio" name="z1" value="a" id="z1a">
-        <label> 2</label>
-        <br>
-        <input type="radio" name="z1" value="b" id="z1b">
-        <label>388888</label><br>
-        <input type="radio" name="z1" value="c" id="z1c">
-        <label>4</label><br>
-        <input type="radio" name="z1" value="d" id="z1d">
-        <label>5</label>
+        <label> <input type="radio" name="z1" value="correct" id="z1a">
+       \( 2 \)</label><br>
+        <label> <input type="radio" name="z1" value="wrong" id="z1b">
+            \( 28888 \)</label><br>
+        <label><input type="radio" name="z1" value="wrong" id="z1c">
+            \( 4 \)</label><br>
+        <label><input type="radio" name="z1" value="wrong" id="z1d">
+            \( 5 \)</label>
     </div>
 </div>
-
+</div>
+<div id="test2" class="quiz-section">
+    <h2>Arkusz 2</h2>
 <div class="zadanie">
-    <h2>Zadanie 2</h2>
+    <h2>Zadanie 1</h2>
     <p>\[ x^2 + 2x + 1 = 0 \] </p>
 </div>
 <div class="zadanie">
-    <h2>Zadanie 3</h2>
-    <p>Oblicz: 1+1= </p>
+    <h2>Zadanie 2</h2>
+    <p>\(\mathrm{Oblicz: } \sqrt(x)^2+345x-7= \)</p>
 </div>
-<div class="zadanie">
-    <h2>Zadanie 4</h2>
-    <p>Oblicz: 1+1= </p>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+<script>
+    function showTest(testId) {
+        // Ukryj wszystkie testy
+        document.querySelectorAll('.quiz-section').forEach(section => {
+            section.style.display = 'none';
+        });
+        // Pokaż wybrany test
+        document.getElementById(testId).style.display = 'block';
+    }
+</script>
 </body>
 </html>

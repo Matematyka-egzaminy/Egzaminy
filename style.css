@@ -2,19 +2,59 @@ body {
     font-family: Calibri, sans-serif;
 }
 h1 {
-    background-color: black;
+    background-color: #da126c;
     box-shadow: 10px 10px 5px rgba(0,0,0,0.3);
     border-radius: 20px;
     color: #ffffff;
-    font-size: 56px;
+    font-size: 30px;
     font-family: Arial, sans-serif;
     text-align: center;
     font-weight: bold;
-        margin-bottom: 15px;
+    margin-bottom: 15px;
     padding: 10px;
 }
+h2 {
+    background-color: #da126c;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 20px;
+}
+.menu-buttons {
+    margin-bottom: 20px;
+    text-align: center;
+}
+button {
+    padding: 10px 20px;
+    font-size: 24px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #a3702f;
+    color: white;
 
+}
+button:hover {
+    background-color: #a3702f;
+}
+.feedback {
+    margin-top: 10px;
+    font-weight: bold;
+}
+.correct {
+    color: green;
+}
+.incorrect {
+    color: red;
+}
+.quiz-section {
+    display: none; /* Ukryte domyślnie */
+    text-align: left;
+    border-top: 2px solid #eee;
+    padding-top: 20px;
+}
 .zadanie {
+
     background-color: saddlebrown;
     width: 300px;
     text-align: center;
@@ -26,5 +66,8 @@ h1 {
     box-shadow: 10px 10px 5px rgba(0,0,0,0.3);
 }
 .odp {
-    background-color: #138b1f;
+    background-color: #a3702f;
+    text-align:left;
+    margin: 20px auto;
+    padding: 10px;
 }
