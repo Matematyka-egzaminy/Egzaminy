@@ -8,8 +8,9 @@
 <body>
 <h1>Arkusze - Matematyka - E8</h1>
 <div class="menu-buttons">
-    <button onclick="showTest('test1')">Arkusz 1</button>
-    <button onclick="showTest('test2')">Arkusz 2</button>
+    <button class="arkusz-buttons" onclick="showTest('test1')">Arkusz 1</button>
+    <button class="arkusz-buttons" onclick="showTest('test2')">Arkusz 2</button>
+    <button class="arkusz-buttons" onclick="showTest('test3')">Arkusz 3</button>
 </div>
 <div id="test1" class="quiz-section">
     <h2>Arkusz 1</h2>
@@ -26,7 +27,26 @@
         <label><input type="radio" name="zadanie1" value="wrong" id="z1d">
             \( 5 \)</label>
     </div>
+    <button type="button" onclick="checkAnswer('zadanie1', 'correct', 'result-z1')">Sprawdź</button>
+    <p id="result-z1"></p>
 </div>
+
+    <div class="zadanie">
+        <h2>Zadanie 2</h2>
+        <p>\[ \mathrm{Oblicz}: 1+3= \] </p>
+        <div class="odp">
+            <label> <input type="radio" name="zadanie2" value="wrong" id="z2a">
+                \( 2 \)</label><br>
+            <label> <input type="radio" name="zadanie2" value="wrong" id="z2b">
+                \( 28888 \)</label><br>
+            <label><input type="radio" name="zadanie2" value="correct" id="z2c">
+                \( 4 \)</label><br>
+            <label><input type="radio" name="zadanie2" value="wrong" id="z2d">
+                \( 5 \)</label>
+        </div>
+        <button type="button" onclick="checkAnswer('zadanie2', 'correct', 'result-z2')">Sprawdź</button>
+        <p id="result-z2"></p>
+    </div>
 </div>
 <div id="test2" class="quiz-section">
     <h2>Arkusz 2</h2>
@@ -38,6 +58,9 @@
     <h2>Zadanie 2</h2>
     <p>\(\mathrm{Oblicz: } \sqrt(x)^2+345x-7= \)</p>
 </div>
+</div>
+<div id="test3" class="quiz-section">
+    <h2>Arkusz 3</h2>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 <script src="script.js"></script>

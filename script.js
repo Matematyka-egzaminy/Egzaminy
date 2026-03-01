@@ -1,22 +1,24 @@
-function showTest(testId) {
+﻿function showTest(testId) {
     // Ukryj wszystkie testy
     document.querySelectorAll('.quiz-section').forEach(section => {
         section.style.display = 'none';
     });
-    // Pokaż wybrany test
+    // Pokaz wybrany test
     document.getElementById(testId).style.display = 'block';
 }
 
 function checkAnswer(zadanieGroup, correctValue, resultId) {
     const selected = document.querySelector(`input[name="${zadanieGroup}"]:checked`);
-
     const resultElement = document.getElementById(resultId);
+
+    if (!selected) {
+        resultElement.textContent = "Wybierz odpowiedz.";
+        return;
+    }
+
     if (selected.value === correctValue) {
-        resultElement.textContent = "Poprawnie";
+        resultElement.textContent = "Poprawna odpowiedź";
     } else {
-        resultElement.textContent = "Błędnie";
+        resultElement.textContent = "Błędna odpowiedź";
     }
 }
-
-// chat AI:
-// użyj funkcji checkAnswer() w pliku index.html, żeby sprawdzić czy wybrana odpowiedź na pytanie jest prawidłowa

@@ -19,13 +19,17 @@ h2 {
     color: #ffffff;
     border-radius: 20px;
 }
+.arkusz-buttons {
+    background-color: #a3702f;
+    font-size: 20px;
+}
 .menu-buttons {
     margin-bottom: 20px;
     text-align: center;
 }
 button {
     padding: 10px 20px;
-    font-size: 24px;
+    font-size: 15px;
     margin: 5px;
     cursor: pointer;
     border: none;
