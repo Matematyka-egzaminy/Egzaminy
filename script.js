@@ -22,3 +22,23 @@ function checkAnswer(zadanieGroup, correctValue, resultId) {
         resultElement.textContent = "Błędna odpowiedź";
     }
 }
+
+function countCorrectAnswers(testId, resultId) {
+    const testSection = document.getElementById(testId);
+    const questionGroups = new Set();
+    let correctCount = 0;
+
+    testSection.querySelectorAll('input[type="radio"]').forEach(input => {
+        questionGroups.add(input.name);
+    });
+
+    questionGroups.forEach(groupName => {
+        const selected = testSection.querySelector(`input[name="${groupName}"]:checked`);
+        if (selected && selected.value === "correct") {
+            correctCount++;
+        }
+    });
+
+    const resultElement = document.getElementById(resultId);
+    resultElement.textContent = `Wynik: ${correctCount}/${questionGroups.size} poprawnych odpowiedzi.`;
+}
