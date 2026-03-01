@@ -5,21 +5,52 @@
     });
     // Pokaz wybrany test
     document.getElementById(testId).style.display = 'block';
+
+    // Pokaz wynik od razu po wyborze arkusza (jesli istnieje pole wyniku)
+    const testSection = document.getElementById(testId);
+    const resultElement = testSection.querySelector('[id^="result-test"]');
+    if (resultElement) {
+        countCorrectAnswers(testId, resultElement.id);
+    }
 }
 
 function checkAnswer(zadanieGroup, correctValue, resultId) {
     const selected = document.querySelector(`input[name="${zadanieGroup}"]:checked`);
-    const resultElement = document.getElementById(resultId);
+    const resultElement = resultId ? document.getElementById(resultId) : null;
+
+    document.querySelectorAll(`input[name="${zadanieGroup}"]`).forEach(input => {
+        const label = input.closest("label");
+        const oldFeedback = label ? label.querySelector(".answer-feedback") : null;
+        if (oldFeedback) {
+            oldFeedback.remove();
+        }
+    });
 
     if (!selected) {
-        resultElement.textContent = "Wybierz odpowiedz.";
+        if (resultElement) {
+            resultElement.textContent = "Wybierz odpowiedz.";
+        }
         return;
     }
 
+    if (resultElement) {
+        resultElement.textContent = "";
+    }
+
+    const feedback = document.createElement("span");
+    feedback.classList.add("answer-feedback");
+
     if (selected.value === correctValue) {
-        resultElement.textContent = "Poprawna odpowiedź";
+        feedback.classList.add("correct");
+        feedback.textContent = " - Poprawna odpowiedz";
     } else {
-        resultElement.textContent = "Błędna odpowiedź";
+        feedback.classList.add("incorrect");
+        feedback.textContent = " - Bledna odpowiedz";
+    }
+
+    const selectedLabel = selected.closest("label");
+    if (selectedLabel) {
+        selectedLabel.appendChild(feedback);
     }
 }
 
@@ -40,5 +71,5 @@ function countCorrectAnswers(testId, resultId) {
     });
 
     const resultElement = document.getElementById(resultId);
-    resultElement.textContent = `Wynik: ${correctCount}/${questionGroups.size} poprawnych odpowiedzi.`;
+    resultElement.textContent = `Wynik: ${correctCount}/${questionGroups.size} .`;
 }

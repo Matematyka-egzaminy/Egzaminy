@@ -15,8 +15,7 @@
 
 <div id="test1" class="quiz-section">
     <h2>Arkusz 1</h2>
-    <button type="button" onclick="countCorrectAnswers('test1', 'result-test1')">Sprawdź wynik Arkusza 1</button>
-    <p id="result-test1"></p>
+
     <div class="zadanie">
         <h2>Zadanie 1</h2>
         <p>\[ \mathrm{Oblicz}: 1+1= \] </p>
@@ -26,8 +25,7 @@
             <label><input type="radio" name="zadanie1" value="wrong" id="z1c"> \( 4 \)</label><br>
             <label><input type="radio" name="zadanie1" value="wrong" id="z1d"> \( 5 \)</label>
         </div>
-        <button type="button" onclick="checkAnswer('zadanie1', 'correct', 'result-z1')">Sprawdź</button>
-        <p id="result-z1"></p>
+        <button type="button" onclick="checkAnswer('zadanie1', 'correct')">Sprawdź</button>
     </div>
 
     <div class="zadanie">
@@ -39,11 +37,12 @@
             <label><input type="radio" name="zadanie2" value="correct" id="z2c"> \( 4 \)</label><br>
             <label><input type="radio" name="zadanie2" value="wrong" id="z2d"> \( 5 \)</label>
         </div>
-        <button type="button" onclick="checkAnswer('zadanie2', 'correct', 'result-z2')">Sprawdź</button>
-        <p id="result-z2"></p>
+        <button type="button" onclick="checkAnswer('zadanie2', 'correct')">Sprawdź</button>
     </div>
-
-
+    <div class="wynik">
+        <button type="button" onclick="countCorrectAnswers('test1', 'result-test1')">Sprawdź wynik Arkusza 1</button>
+        <p id="result-test1"></p>
+    </div>
 </div>
 
 <div id="test2" class="quiz-section">

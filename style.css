@@ -20,7 +20,7 @@ h2 {
     border-radius: 20px;
 }
 .arkusz-buttons {
-    background-color: #a3702f;
+    background-color: #3e061f;
     font-size: 20px;
 }
 .menu-buttons {
@@ -34,7 +34,7 @@ button {
     cursor: pointer;
     border: none;
     border-radius: 5px;
-    background-color: #a3702f;
+    background-color: #3e061f;
     color: white;
 
 }
@@ -74,4 +74,19 @@ button:hover {
     text-align:left;
     margin: 20px auto;
     padding: 10px;
+}
+.wynik{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.wynik p {
+    margin: 0;
+}
+
+.answer-feedback {
+    margin-left: 8px;
+    font-weight: bold;
 }
