@@ -28,7 +28,7 @@ function checkAnswer(zadanieGroup, correctValue, resultId) {
 
     if (!selected) {
         if (resultElement) {
-            resultElement.textContent = "Wybierz odpowiedz.";
+            resultElement.textContent = "Wybierz odpowiedź.";
         }
         return;
     }
@@ -42,10 +42,10 @@ function checkAnswer(zadanieGroup, correctValue, resultId) {
 
     if (selected.value === correctValue) {
         feedback.classList.add("correct");
-        feedback.textContent = " - Poprawna odpowiedz";
+        feedback.textContent = " - Poprawna odpowiedź";
     } else {
         feedback.classList.add("incorrect");
-        feedback.textContent = " - Bledna odpowiedz";
+        feedback.textContent = " - Błędna odpowiedź";
     }
 
     const selectedLabel = selected.closest("label");
