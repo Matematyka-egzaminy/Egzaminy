@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Arkusz 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="showTest('test1')">
+<h1>Arkusz 1</h1>
+<div class="menu-buttons">
+    <button class="arkusz-buttons" onclick="location.href='index.html'">Powrót</button>
+</div>
+
+<div id="test1" class="quiz-section">
+
+
+    <div class="zadanie">
+        <h2>Zadanie 1</h2>
+        <p>\[ \mathrm{Oblicz}: 1+1= \] </p>
+        <div class="odp">
+            <label><input type="radio" name="zadanie1" value="correct" id="z1a"> \( 2 \)</label><br>
+            <label><input type="radio" name="zadanie1" value="wrong" id="z1b"> \( 28888 \)</label><br>
+            <label><input type="radio" name="zadanie1" value="wrong" id="z1c"> \( 4 \)</label><br>
+            <label><input type="radio" name="zadanie1" value="wrong" id="z1d"> \( 5 \)</label>
+        </div>
+        <button type="button" onclick="checkAnswer('zadanie1', 'correct')">Sprawdź</button>
+    </div>
+
+    <div class="zadanie">
+        <h2>Zadanie 2</h2>
+        <p>\[ \mathrm{Oblicz}: 1+3= \] </p>
+        <div class="odp">
+            <label><input type="radio" name="zadanie2" value="wrong" id="z2a"> \( 2 \)</label><br>
+            <label><input type="radio" name="zadanie2" value="wrong" id="z2b"> \( 28888 \)</label><br>
+            <label><input type="radio" name="zadanie2" value="correct" id="z2c"> \( 4 \)</label><br>
+            <label><input type="radio" name="zadanie2" value="wrong" id="z2d"> \( 5 \)</label>
+        </div>
+        <button type="button" onclick="checkAnswer('zadanie2', 'correct')">Sprawdź</button>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="script.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+    const solutions = [
+        "Rozwiazanie: 1+1=2.",
+        "Rozwiazanie: 1+3=4."
+    ];
+
+    document.querySelectorAll("#test1 .zadanie").forEach((zadanie, index) => {
+        const solutionText = solutions[index];
+        if (!solutionText) {
+            return;
+        }
+
+        const button = document.createElement("button");
+        button.type = "button";
+        button.textContent = "Pokaż rozwiazanie";
+
+        const solution = document.createElement("p");
+        solution.style.display = "none";
+        solution.textContent = solutionText;
+
+        button.addEventListener("click", () => {
+            solution.style.display = "block";
+        });
+
+        zadanie.appendChild(button);
+        zadanie.appendChild(solution);
+    });
+});
+</script>
+</body>
+</html>
