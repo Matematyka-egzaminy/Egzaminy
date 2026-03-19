@@ -79,7 +79,7 @@ button:hover {
     color: red;
 }
 .quiz-section {
-    display: none; /* Ukryte domyślnie */
+
     text-align: left;
     border-top: 2px solid #d7deea;
     padding-top: 20px;
