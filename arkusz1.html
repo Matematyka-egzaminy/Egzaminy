@@ -23,7 +23,11 @@
             <label><input type="radio" name="zadanie1" value="wrong" id="z1c"> \( 4 \)</label><br>
             <label><input type="radio" name="zadanie1" value="wrong" id="z1d"> \( 5 \)</label>
         </div>
-        <button type="button" onclick="checkAnswer('zadanie1', 'correct')">Sprawdź</button>
+        <div class="button-row">
+            <button type="button" onclick="checkAnswer('zadanie1', 'correct')">Sprawdź</button>
+            <button type="button" class="show-solution-button">Pokaż rozwiązanie</button>
+        </div>
+        <p class="solution" style="display: none;">Rozwiazanie: 1+1=2.</p>
     </div>
 
     <div class="zadanie">
@@ -35,7 +39,11 @@
             <label><input type="radio" name="zadanie2" value="correct" id="z2c"> \( 4 \)</label><br>
             <label><input type="radio" name="zadanie2" value="wrong" id="z2d"> \( 5 \)</label>
         </div>
-        <button type="button" onclick="checkAnswer('zadanie2', 'correct')">Sprawdź</button>
+        <div class="button-row">
+            <button type="button" onclick="checkAnswer('zadanie2', 'correct')">Sprawdź</button>
+            <button type="button" class="show-solution-button">Pokaż rozwiązanie</button>
+        </div>
+        <p class="solution" style="display: none;">Rozwiazanie: 1+3=4.</p>
     </div>
 
     <div class="zadanie">
@@ -52,8 +60,10 @@
         </div>
         <div class="button-row">
             <button type="button" onclick="checkCompoundAnswer('zadanie3', 'correct', 'zadanie3-why', 'correct', 'z3-result')">Sprawdź</button>
+            <button type="button" class="show-solution-button">Pokaż rozwiązanie</button>
         </div>
         <p id="z3-result" class="feedback"></p>
+        <p class="solution" style="display: none;">Rozwiazanie: 5 nie jest liczbą parzystą, bo nie dzieli sie przez 2 bez reszty.</p>
     </div>
 </div>
 
@@ -61,37 +71,17 @@
 <script src="script.js"></script>
 <script>
 document.addEventListener("DOMContentLoaded", () => {
-    const solutions = [
-        "Rozwiazanie: 1+1=2.",
-        "Rozwiazanie: 1+3=4.",
-        "Rozwiazanie: 5 nie jest liczbą parzystą, bo nie dzieli sie przez 2 bez reszty."
-    ];
+    document.querySelectorAll("#test1 .zadanie").forEach(zadanie => {
+        const button = zadanie.querySelector(".show-solution-button");
+        const solution = zadanie.querySelector(".solution");
 
-    document.querySelectorAll("#test1 .zadanie").forEach((zadanie, index) => {
-        const solutionText = solutions[index];
-        if (!solutionText) {
+        if (!button || !solution) {
             return;
         }
-
-        const button = document.createElement("button");
-        button.type = "button";
-        button.textContent = "Pokaż rozwiązanie";
-
-        const solution = document.createElement("p");
-        solution.style.display = "none";
-        solution.textContent = solutionText;
 
         button.addEventListener("click", () => {
             solution.style.display = "block";
         });
-
-        const buttonRow = zadanie.querySelector(".button-row");
-        if (buttonRow) {
-            buttonRow.appendChild(button);
-        } else {
-            zadanie.appendChild(button);
-        }
-        zadanie.appendChild(solution);
     });
 });
 </script>
