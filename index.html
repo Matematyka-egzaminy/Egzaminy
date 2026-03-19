@@ -7,23 +7,31 @@
 </head>
 <body>
 <h1> Matematyka - E8</h1>
-<h2> Arkusze do ćwiczeń</h2>
-<div class="menu-buttons">
-    <button class="arkusz-buttons" onclick="location.href='arkusz1.html'">Arkusz 1</button>
-    <button class="arkusz-buttons" onclick="showTest('test2')">Arkusz 2</button>
-    <button class="arkusz-buttons" onclick="showTest('test3')">Arkusz 3</button>
-</div>
-<h2> Testy</h2>
-<div class="menu-buttons tests-buttons">
-    <button class="arkusz-buttons" onclick="location.href='test1.html'">Test 1</button>
-    <button class="arkusz-buttons">Test 2</button>
-    <button class="arkusz-buttons">Test 3</button>
-</div>
-<h2> Rozwiązania zadań</h2>
-<div class="menu-buttons">
-    <button class="arkusz-buttons" onclick="location.href='rozwiazania.html'">Twierdzenie Pitagorasa</button>
-    <button class="arkusz-buttons" onclick="">Ostrosłupy </button>
-    <button class="arkusz-buttons" onclick="">Graniastosłupy</button>
+<div class="columns">
+    <section class="column">
+        <h2> Arkusze do ćwiczeń</h2>
+        <div class="menu-buttons column-buttons">
+            <button class="arkusz-buttons" onclick="location.href='arkusz1.html'">Arkusz 1</button>
+            <button class="arkusz-buttons" onclick="showTest('test2')">Arkusz 2</button>
+            <button class="arkusz-buttons" onclick="showTest('test3')">Arkusz 3</button>
+        </div>
+    </section>
+    <section class="column">
+        <h2> Testy</h2>
+        <div class="menu-buttons tests-buttons column-buttons">
+            <button class="arkusz-buttons" onclick="location.href='test1.html'">Test 1</button>
+            <button class="arkusz-buttons">Test 2</button>
+            <button class="arkusz-buttons">Test 3</button>
+        </div>
+    </section>
+    <section class="column">
+        <h2> Rozwiązania zadań</h2>
+        <div class="menu-buttons column-buttons">
+            <button class="arkusz-buttons" onclick="location.href='rozwiazania.html'">Twierdzenie Pitagorasa</button>
+            <button class="arkusz-buttons" onclick="">Ostrosłupy </button>
+            <button class="arkusz-buttons" onclick="">Graniastosłupy</button>
+        </div>
+    </section>
 </div>
 <div id="test2" class="quiz-section">
     <h2>Arkusz 2</h2>

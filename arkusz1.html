@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
@@ -37,6 +37,24 @@
         </div>
         <button type="button" onclick="checkAnswer('zadanie2', 'correct')">Sprawdź</button>
     </div>
+
+    <div class="zadanie">
+        <h2>Zadanie 3</h2>
+        <p>Czy 5 jest liczbą parzystą?</p>
+        <div class="odp">
+            <label><input type="radio" name="zadanie3" value="wrong" id="z3a"> A) TAK</label><br>
+            <label><input type="radio" name="zadanie3" value="correct" id="z3b"> B) NIE</label>
+        </div> ponieważ:
+        <div class="odp">
+            <label><input type="radio" name="zadanie3-why" value="wrong" id="z3c"> 1) dzieli sie przez 2 bez reszty</label><br>
+            <label><input type="radio" name="zadanie3-why" value="correct" id="z3d"> 2) nie dzieli sie przez 2 bez reszty</label><br>
+            <label><input type="radio" name="zadanie3-why" value="wrong" id="z3e"> 3) jest liczbą pierwszą</label>
+        </div>
+        <div class="button-row">
+            <button type="button" onclick="checkCompoundAnswer('zadanie3', 'correct', 'zadanie3-why', 'correct', 'z3-result')">Sprawdź</button>
+        </div>
+        <p id="z3-result" class="feedback"></p>
+    </div>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
@@ -45,7 +63,8 @@
 document.addEventListener("DOMContentLoaded", () => {
     const solutions = [
         "Rozwiazanie: 1+1=2.",
-        "Rozwiazanie: 1+3=4."
+        "Rozwiazanie: 1+3=4.",
+        "Rozwiazanie: 5 nie jest liczbą parzystą, bo nie dzieli sie przez 2 bez reszty."
     ];
 
     document.querySelectorAll("#test1 .zadanie").forEach((zadanie, index) => {
@@ -56,7 +75,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         const button = document.createElement("button");
         button.type = "button";
-        button.textContent = "Pokaż rozwiazanie";
+        button.textContent = "Pokaż rozwiązanie";
 
         const solution = document.createElement("p");
         solution.style.display = "none";
@@ -66,7 +85,12 @@ document.addEventListener("DOMContentLoaded", () => {
             solution.style.display = "block";
         });
 
-        zadanie.appendChild(button);
+        const buttonRow = zadanie.querySelector(".button-row");
+        if (buttonRow) {
+            buttonRow.appendChild(button);
+        } else {
+            zadanie.appendChild(button);
+        }
         zadanie.appendChild(solution);
     });
 });

@@ -54,6 +54,34 @@ function checkAnswer(zadanieGroup, correctValue, resultId) {
     }
 }
 
+function checkCompoundAnswer(groupA, correctValueA, groupB, correctValueB, resultId) {
+    checkAnswer(groupA, correctValueA);
+    checkAnswer(groupB, correctValueB);
+
+    const selectedA = document.querySelector(`input[name="${groupA}"]:checked`);
+    const selectedB = document.querySelector(`input[name="${groupB}"]:checked`);
+    const resultElement = document.getElementById(resultId);
+
+    if (!resultElement) {
+        return;
+    }
+
+    resultElement.classList.remove("correct", "incorrect");
+
+    if (!selectedA || !selectedB) {
+        resultElement.textContent = "Wybierz odpowiedz i wyjasnienie.";
+        return;
+    }
+
+    if (selectedA.value === correctValueA && selectedB.value === correctValueB) {
+        resultElement.textContent = "Poprawne rozwiazanie.";
+        resultElement.classList.add("correct");
+    } else {
+        resultElement.textContent = "Bledne rozwiazanie.";
+        resultElement.classList.add("incorrect");
+    }
+}
+
 function countCorrectAnswers(testId, resultId) {
     const testSection = document.getElementById(testId);
     const questionGroups = new Set();
