@@ -16,7 +16,7 @@
 
     <div class="zadanie">
         <h2>Zadanie 1</h2>
-        <p>\[ \mathrm{Oblicz}: 1+1= \] </p>
+        <p>Oblicz: \( 1+1= \)</p>
         <div class="odp">
             <label><input type="radio" name="zadanie1" value="correct" id="t1z1a"> \( 2 \)</label><br>
             <label><input type="radio" name="zadanie1" value="wrong" id="t1z1b"> \( 28888 \)</label><br>
@@ -26,7 +26,7 @@
     </div>
     <div class="zadanie">
         <h2>Zadanie 2</h2>
-        <p>\[ \mathrm{Oblicz}: 1+3= \] </p>
+        <p>Oblicz: \( 1+3= \)</p>
         <div class="odp">
             <label><input type="radio" name="zadanie2" value="wrong" id="z2a"> \( 2 \)</label><br>
             <label><input type="radio" name="zadanie2" value="wrong" id="z2b"> \( 28888 \)</label><br>
@@ -43,35 +43,6 @@
 
 <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 <script src="script.js"></script>
-<script>
-function markAnswers(testId) {
-    const testSection = document.getElementById(testId);
-    if (!testSection) {
-        return;
-    }
 
-    testSection.querySelectorAll(".answer-feedback").forEach(el => el.remove());
-
-    testSection.querySelectorAll("input[type=\"radio\"]:checked").forEach(input => {
-        const label = input.closest("label");
-        if (!label) {
-            return;
-        }
-
-        const feedback = document.createElement("span");
-        feedback.classList.add("answer-feedback");
-
-        if (input.value === "correct") {
-            feedback.classList.add("correct");
-            feedback.innerHTML = " &check;";
-        } else {
-            feedback.classList.add("incorrect");
-            feedback.innerHTML = " &times;";
-        }
-
-        label.appendChild(feedback);
-    });
-}
-</script>
 </body>
 </html>

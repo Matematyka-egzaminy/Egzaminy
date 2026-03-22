@@ -101,3 +101,86 @@ function countCorrectAnswers(testId, resultId) {
     const resultElement = document.getElementById(resultId);
     resultElement.textContent = `Wynik: ${correctCount}/${questionGroups.size} .`;
 }
+
+
+function markAnswers(testId) {
+    const testSection = document.getElementById(testId);
+    if (!testSection) {
+        return;
+    }
+
+    testSection.querySelectorAll(".answer-feedback").forEach(el => el.remove());
+
+    testSection.querySelectorAll("input[type=\"radio\"]:checked").forEach(input => {
+        const label = input.closest("label");
+        if (!label) {
+            return;
+        }
+
+        const feedback = document.createElement("span");
+        feedback.classList.add("answer-feedback");
+
+        if (input.value === "correct") {
+            feedback.classList.add("correct");
+            feedback.innerHTML = " &check;";
+        } else {
+            feedback.classList.add("incorrect");
+            feedback.innerHTML = " &times;";
+        }
+
+        label.appendChild(feedback);
+    });
+}
+
+function checkAllAnswers(answerKeys, resultId) {
+    const resultElement = document.getElementById(resultId);
+    if (!resultElement) {
+        return;
+    }
+
+    let allAnswered = true;
+    let allCorrect = true;
+
+    answerKeys.forEach(({ group, correct }) => {
+        checkAnswer(group, correct);
+        const selected = document.querySelector(`input[name="${group}"]:checked`);
+        if (!selected) {
+            allAnswered = false;
+            allCorrect = false;
+            return;
+        }
+        if (selected.value !== correct) {
+            allCorrect = false;
+        }
+    });
+
+    resultElement.classList.remove("correct", "incorrect");
+
+    if (!allAnswered) {
+        resultElement.textContent = "Wybierz wszystkie odpowiedzi.";
+        return;
+    }
+
+    if (allCorrect) {
+        resultElement.textContent = "Poprawne rozwiazanie.";
+        resultElement.classList.add("correct");
+    } else {
+        resultElement.textContent = "Bledne rozwiazanie.";
+        resultElement.classList.add("incorrect");
+    }
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+    document.querySelectorAll("#test1 .zadanie").forEach(zadanie => {
+        const button = zadanie.querySelector(".show-solution-button");
+        const solution = zadanie.querySelector(".solution");
+
+        if (!button || !solution) {
+            return;
+        }
+
+        button.addEventListener("click", () => {
+            solution.style.display = "block";
+        });
+    });
+});

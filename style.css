@@ -86,10 +86,10 @@ button:hover {
 }
 .zadanie {
 
-    background-color: #162447;
-    width: 300px;
-    text-align: center;
-    color: #ffffff;
+    background-color: #f0f0f0;
+    width: 75%;
+    text-align: left;
+    color: #000000;
     font-size: 14px;
     border-radius: 20px;
     margin: 20px auto;
@@ -97,10 +97,27 @@ button:hover {
     box-shadow: 10px 10px 5px rgba(0,0,0,0.3);
 }
 .odp {
-    background-color: #1f3b73;
+    background-color: #e6e6e6;
     text-align:left;
     margin: 20px auto;
     padding: 10px;
+    color: #000000;
+}
+.zadanie-3-columns {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
+}
+.zadanie-3-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.zadanie-3-middle {
+    min-width: 90px;
 }
 .wynik{
     display: flex;
