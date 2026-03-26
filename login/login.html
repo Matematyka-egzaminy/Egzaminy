@@ -4,33 +4,7 @@
     <meta charset="UTF-8">
     <title>Logowanie</title>
     <link rel="stylesheet" href="../style.css">
-    <style>
-        .login-box {
-            max-width: 360px;
-            margin: 40px auto;
-            padding: 20px;
-            border: 1px solid #ccc;
-            border-radius: 8px;
-            background: #fff;
-        }
-        .login-box label {
-            display: block;
-            margin: 10px 0 4px;
-        }
-        .login-box input {
-            width: 100%%;
-            padding: 8px;
-            box-sizing: border-box;
-        }
-        .login-box button {
-            margin-top: 12px;
-            padding: 8px 12px;
-        }
-        .login-msg {
-            margin-top: 12px;
-            font-weight: bold;
-        }
-    </style>
+    <link rel="stylesheet" href="stylelogowania.css">
 </head>
 <body>
 <h1>Logowanie</h1>
@@ -47,23 +21,6 @@
     </form>
 </div>
 
-<script>
-    const form = document.getElementById('loginForm');
-    const msg = document.getElementById('loginMsg');
-
-    form.addEventListener('submit', (e) => {
-        e.preventDefault();
-        const username = document.getElementById('username').value.trim();
-        const password = document.getElementById('password').value;
-
-        if (username === 'admin' && password === '1234') {
-            msg.textContent = 'Zalogowano pomyslnie.';
-            msg.style.color = 'green';
-        } else {
-            msg.textContent = 'Bledny login lub haslo.';
-            msg.style.color = 'red';
-        }
-    });
-</script>
+<script src="script-login.js"></script>
 </body>
 </html>

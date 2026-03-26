@@ -1,0 +1,25 @@
+.login-box {
+    max-width: 360px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: #fff;
+}
+.login-box label {
+    display: block;
+    margin: 10px 0 4px;
+}
+.login-box input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+.login-box button {
+    margin-top: 12px;
+    padding: 8px 12px;
+}
+.login-msg {
+    margin-top: 12px;
+    font-weight: bold;
+}
