@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1331c87a-abef-4e89-b235-9d3205a021a5" name="Changes" comment="init">
-      <change afterPath="$PROJECT_DIR$/login/stylelogowania.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zdjecia/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/filmy/1.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arkusz1.html" beforeDir="false" afterPath="$PROJECT_DIR$/arkusz1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/script-login.js" beforeDir="false" afterPath="$PROJECT_DIR$/login/script-login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rozwiazania.html" beforeDir="false" afterPath="$PROJECT_DIR$/rozwiazania.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,7 +18,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="13" />
+    <option name="cachedIndexableFilesCount" value="17" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -90,6 +94,8 @@
       <recent name="C:\Users\Maria\WebstormProjects\zadania" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Maria\WebstormProjects\zadania\zdjecia" />
+      <recent name="C:\Users\Maria\WebstormProjects\zadania\filmy" />
       <recent name="C:\Users\Maria\WebstormProjects\zadania\login" />
     </key>
   </component>
@@ -146,7 +152,18 @@
       <workItem from="1774544453761" duration="165000" />
       <workItem from="1774544773226" duration="1894000" />
       <workItem from="1774547002726" duration="97000" />
-      <workItem from="1774547134093" duration="959000" />
+      <workItem from="1774547134093" duration="1146000" />
+      <workItem from="1774632447141" duration="296000" />
+      <workItem from="1775648071054" duration="2024000" />
+      <workItem from="1775667456387" duration="99000" />
+      <workItem from="1775667624090" duration="343000" />
+      <workItem from="1775668008196" duration="2390000" />
+      <workItem from="1775670488344" duration="642000" />
+      <workItem from="1775671777393" duration="174000" />
+      <workItem from="1775671985691" duration="11000" />
+      <workItem from="1775672028788" duration="596000" />
+      <workItem from="1775672707182" duration="531000" />
+      <workItem from="1775750309794" duration="1396000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -292,7 +309,23 @@
       <option name="project" value="LOCAL" />
       <updated>1774547660034</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="init">
+      <option name="closed" value="true" />
+      <created>1774548228332</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1774548228332</updated>
+    </task>
+    <task id="LOCAL-00020" summary="init">
+      <option name="closed" value="true" />
+      <created>1774548241657</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1774548241657</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

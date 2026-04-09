@@ -93,6 +93,26 @@
         <p id="z4-result" class="feedback"></p>
         <p class="solution" style="display: none;">Rozwiazanie: 1) Prawdopodobienstwa sa rowne, bo kul bialych i czarnych jest po 5, wiec \( \frac{5}{10} = \frac{1}{2} \). 2) Po wyjeciu jednej bialej i jednej czarnej kuli zostaje po 4, wiec \( \frac{4}{8} = \frac{1}{2} \) i prawdopodobienstwo pozostaje takie samo.</p>
     </div>
+
+    <div class="zadanie">
+        <h2>Zadanie 5</h2>
+        <figure>
+            <img src="zdjecia/1.jpg" alt="Zdjęcie 1"  style="max-width: 100%; height: auto;">
+        </figure>
+
+        <div class="odp">
+            <label><input type="radio" name="zadanie5" value="correct" id="z5a"> 1km</label><br>
+            <label><input type="radio" name="zadanie5" value="wrong" id="z5b"> 10km</label><br>
+            <label><input type="radio" name="zadanie5" value="wrong" id="z5c"> 20m</label><br>
+            <label><input type="radio" name="zadanie5" value="wrong" id="z5d"> 100m</label>
+        </div>
+        <div class="button-row">
+            <button type="button" onclick="checkAnswer('zadanie5', 'correct', 'z5-result')">Sprawdź</button>
+            <button type="button" class="show-solution-button">Pokaż rozwiązanie</button>
+        </div>
+        <p id="z5-result" class="feedback"></p>
+        <p class="solution" style="display: none;">Rozwiazanie: 1km.</p>
+    </div>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
