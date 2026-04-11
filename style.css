@@ -191,6 +191,21 @@ button:hover {
     text-decoration: underline;
 }
 
+.logout-btn {
+    background-color: #d9534f !important;
+    padding: 8px 16px !important;
+    font-size: 14px !important;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.logout-btn:hover {
+    background-color: #c9302c !important;
+}
+
 @media (max-width: 600px) {
     .navbar-container {
         flex-direction: column;

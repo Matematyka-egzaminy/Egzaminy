@@ -1,6 +1,7 @@
 ﻿// Ładowanie paska nawigacji
 document.addEventListener("DOMContentLoaded", () => {
     loadNavbar();
+    loadLogoutScript();
 });
 
 function loadNavbar() {
@@ -12,6 +13,12 @@ function loadNavbar() {
             document.body.insertBefore(navbar, document.body.firstChild);
         })
         .catch(error => console.error('Błąd ładowania paska nawigacji:', error));
+}
+
+function loadLogoutScript() {
+    const script = document.createElement('script');
+    script.src = 'login/script-login.js';
+    document.head.appendChild(script);
 }
 
 function showTest(testId) {

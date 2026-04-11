@@ -16,3 +16,8 @@ function login() {
         msg.style.color = 'red';
     }
 }
+
+function logout() {
+    window.location.href = 'login/login.html';
+}
+
