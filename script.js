@@ -1,4 +1,20 @@
-﻿function showTest(testId) {
+﻿// Ładowanie paska nawigacji
+document.addEventListener("DOMContentLoaded", () => {
+    loadNavbar();
+});
+
+function loadNavbar() {
+    fetch('pasek.html')
+        .then(response => response.text())
+        .then(html => {
+            const navbar = document.createElement('div');
+            navbar.innerHTML = html;
+            document.body.insertBefore(navbar, document.body.firstChild);
+        })
+        .catch(error => console.error('Błąd ładowania paska nawigacji:', error));
+}
+
+function showTest(testId) {
     // Ukryj wszystkie testy
     document.querySelectorAll('.quiz-section').forEach(section => {
         section.style.display = 'none';

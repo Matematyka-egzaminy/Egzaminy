@@ -1,4 +1,3 @@
-const form = document.getElementById('loginForm');
 const msg = document.getElementById('loginMsg');
 
 function login() {
