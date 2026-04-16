@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1331c87a-abef-4e89-b235-9d3205a021a5" name="Changes" comment="init">
-      <change afterPath="$PROJECT_DIR$/.idea/arkusze/arkusz2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/arkusze/arkusz3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/arkusze/arkusz2.html" beforeDir="false" afterPath="$PROJECT_DIR$/arkusze/arkusz2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/arkusze/arkusz3.html" beforeDir="false" afterPath="$PROJECT_DIR$/arkusze/arkusz3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/testy/test2.html" beforeDir="false" afterPath="$PROJECT_DIR$/testy/test2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/testy/test3.html" beforeDir="false" afterPath="$PROJECT_DIR$/testy/test3.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arkusz1.html" beforeDir="false" afterPath="$PROJECT_DIR$/arkusz1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,9 +101,9 @@
       <recent name="C:\Users\Maria\WebstormProjects\zadania" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Maria\WebstormProjects\zadania\.idea\arkusze" />
       <recent name="C:\Users\Maria\WebstormProjects\zadania" />
       <recent name="C:\Users\Maria\WebstormProjects\zadania\.idea\testy" />
+      <recent name="C:\Users\Maria\WebstormProjects\zadania\.idea\arkusze" />
       <recent name="C:\Users\Maria\WebstormProjects\zadania\zdjecia" />
       <recent name="C:\Users\Maria\WebstormProjects\zadania\filmy" />
     </key>
@@ -177,6 +175,7 @@
       <workItem from="1775750309794" duration="1973000" />
       <workItem from="1775752331336" duration="344000" />
       <workItem from="1775752740453" duration="623000" />
+      <workItem from="1776354639082" duration="1606000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -362,7 +361,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775905448790</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="init">
+      <option name="closed" value="true" />
+      <created>1775906553247</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1775906553247</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
