@@ -3,7 +3,6 @@ document.addEventListener("DOMContentLoaded", () => {
        loadLogoutScript();
 });
 
-
 function loadLogoutScript() {
     const script = document.createElement('script');
     script.src = 'login/script-login.js';
