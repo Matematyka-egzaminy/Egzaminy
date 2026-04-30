@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1331c87a-abef-4e89-b235-9d3205a021a5" name="Changes" comment="init">
-      <change beforePath="$PROJECT_DIR$/arkusze.html" beforeDir="false" afterPath="$PROJECT_DIR$/arkusze.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rozwiazania.html" beforeDir="false" afterPath="$PROJECT_DIR$/rozwiazania.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testy.html" beforeDir="false" afterPath="$PROJECT_DIR$/testy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +174,7 @@
       <workItem from="1775752740453" duration="623000" />
       <workItem from="1776354639082" duration="1606000" />
       <workItem from="1777565086700" duration="313000" />
-      <workItem from="1777565550065" duration="2066000" />
+      <workItem from="1777565550065" duration="2574000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -394,7 +392,15 @@
       <option name="project" value="LOCAL" />
       <updated>1777567398593</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="init">
+      <option name="closed" value="true" />
+      <created>1777567726471</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1777567726471</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
