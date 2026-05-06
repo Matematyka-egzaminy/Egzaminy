@@ -7,19 +7,28 @@
     <link rel="stylesheet" href="stylelogowania.css">
 </head>
 <body>
-<h1>Logowanie</h1>
-<div class="login-box">
-    <form id="loginForm">
-        <label for="username">Login</label>
-        <input id="username" name="username" type="text" autocomplete="username" required>
+<main class="login-page">
+    <section class="login-hero">
+        <p class="hero-badge">Panel logowania</p>
+        <h1>Zaloguj sie do platformy</h1>
+        <p class="login-subtitle">
+            Wroc do nauki, rozwiazuj kolejne zadania i monitoruj swoje postepy.
+        </p>
+    </section>
 
-        <label for="password">Haslo</label>
-        <input id="password" name="password" type="password" autocomplete="current-password" required>
+    <section class="login-box">
+        <form id="loginForm">
+            <label for="username">Login</label>
+            <input id="username" name="username" type="text" autocomplete="username" required>
 
-        <button type="button" onclick="login()">Zaloguj</button>
-        <div id="loginMsg" class="login-msg"></div>
-    </form>
-</div>
+            <label for="password">Haslo</label>
+            <input id="password" name="password" type="password" autocomplete="current-password" required>
+
+            <button type="button" onclick="login()">Zaloguj</button>
+            <div id="loginMsg" class="login-msg"></div>
+        </form>
+    </section>
+</main>
 
 <script src="script-login.js"></script>
 </body>
