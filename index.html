@@ -6,49 +6,55 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<h1> Matematyka - E8</h1>
-<div class="columns">
-    <section class="column">
-        <h2> Arkusze do ćwiczeń</h2>
-        <div class="menu-buttons column-buttons">
-            <button class="arkusz-buttons" onclick="location.href='arkusz1.html'">Arkusz 1</button>
-            <button class="arkusz-buttons" onclick="showTest('test2')">Arkusz 2</button>
-            <button class="arkusz-buttons" onclick="showTest('test3')">Arkusz 3</button>
-        </div>
-    </section>
-    <section class="column">
-        <h2> Testy</h2>
-        <div class="menu-buttons tests-buttons column-buttons">
-            <button class="arkusz-buttons" onclick="location.href='test1.html'">Test 1</button>
-            <button class="arkusz-buttons">Test 2</button>
-            <button class="arkusz-buttons">Test 3</button>
-        </div>
-    </section>
-    <section class="column">
-        <h2> Rozwiązania zadań</h2>
-        <div class="menu-buttons column-buttons">
-            <button class="arkusz-buttons" onclick="location.href='rozwiazania.html'">Twierdzenie Pitagorasa</button>
-            <button class="arkusz-buttons" onclick="">Ostrosłupy </button>
-            <button class="arkusz-buttons" onclick="">Graniastosłupy</button>
-        </div>
-    </section>
-</div>
-<div id="test2" class="quiz-section">
-    <h2>Arkusz 2</h2>
-    <div class="zadanie">
-        <h2>Zadanie 1</h2>
-        <p>\[ x^2 + 2x + 1 = 0 \] </p>
-    </div>
-    <div class="zadanie">
-        <h2>Zadanie 2</h2>
-        <p>\(\mathrm{Oblicz: } \sqrt(x)^2+345x-7= \)</p>
-    </div>
-</div>
 
-<div id="test3" class="quiz-section">
-    <h2>Arkusz 3</h2>
-</div>
+<nav class="navbar">
+    <div class="navbar-container">
+        <a href="index.html" class="navbar-brand">Matematyka - E8</a>
+        <ul class="navbar-menu">
+            <li><a href="index.html">Strona główna</a></li>
+            <li><a href="arkusze.html">Arkusze</a></li>
+            <li><a href="testy.html">Testy</a></li>
+            <li><a href="rozwiazania.html">Rozwiązania</a></li>
+            <li><a href="cke.html">Egzaminy CKE do pobrania</a></li>
+            <li><button class="logout-btn" onclick="logout()">Wyloguj</button></li>
+        </ul>
+    </div>
+</nav>
 
+<main class="welcome-page">
+    <section class="hero">
+        <p class="hero-badge">Przygotowanie do egzaminu ósmoklasisty</p>
+        <h1>Matematyka E8 - witaj na pokładzie!</h1>
+        <p class="hero-subtitle">
+            Ćwicz regularnie, rozwiązuj arkusze i sprawdzaj odpowiedzi krok po kroku.
+            Każde zadanie to kolejny punkt do Twojego wyniku.
+        </p>
+        <div class="hero-equation">
+            \[
+            \text{Systematyczna nauka} + \text{sprytna strategia} = \text{wysoki wynik}
+            \]
+        </div>
+        <div class="hero-actions">
+            <a class="hero-link primary-link" href="arkusze.html">Rozpocznij naukę</a>
+            <a class="hero-link" href="testy.html">Sprawdź testy</a>
+        </div>
+    </section>
+
+    <section class="features">
+        <article class="feature-card">
+            <h2>Arkusze egzaminacyjne</h2>
+            <p>Pracuj na zadaniach w stylu CKE i ucz się rozwiązywać je pod presją czasu.</p>
+        </article>
+        <article class="feature-card">
+            <h2>Testy tematyczne</h2>
+            <p>Powtarzaj najważniejsze działy: liczby, algebra, geometria i zadania tekstowe.</p>
+        </article>
+        <article class="feature-card">
+            <h2>Gotowe rozwiązania</h2>
+            <p>Sprawdź tok myślenia i porównaj swoje podejście z poprawnym rozwiązaniem.</p>
+        </article>
+    </section>
+</main>
 <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 <script src="script.js"></script>
 </body>

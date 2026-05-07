@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotDiffPersistence">
+    <option name="pendingDiffs">
+      <map>
+        <entry key="$PROJECT_DIR$/login/script-login.js">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/login/script-login.js" />
+              <option name="originalContent" value="const msg = document.getElementById('loginMsg');&#10;&#10;function login() {&#10;    const username = document.getElementById('username').value.trim();&#10;    const password = document.getElementById('password').value;&#10;&#10;    const users = {&#10;        admin: '1234',&#10;        emilka: '1234',&#10;    };&#10;&#10;    if (Object.prototype.hasOwnProperty.call(users, username) &amp;&amp; password === users[username]) {&#10;       window.location.href = '../index.html';&#10;    } else {&#10;        msg.textContent = 'Bledny login lub haslo.';&#10;        msg.style.color = 'red';&#10;    }&#10;}&#10;" />
+              <option name="updatedContent" value="const msg = document.getElementById('loginMsg');&#10;&#10;function login() {&#10;    const username = document.getElementById('username').value.trim();&#10;    const password = document.getElementById('password').value;&#10;&#10;    const users = {&#10;        admin: '1234',&#10;        emilka: '1234',&#10;    };&#10;&#10;    if (Object.prototype.hasOwnProperty.call(users, username) &amp;&amp; password === users[username]) {&#10;       window.location.href = '../index.html';&#10;    } else {&#10;        msg.textContent = 'Bledny login lub haslo.';&#10;        msg.style.color = 'red';&#10;    }&#10;}&#10;&#10;function logout() {&#10;    window.location.href = 'login/login.html';&#10;}&#10;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/pasek.html">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/pasek.html" />
+              <option name="originalContent" value="&lt;!-- Górny pasek nawigacji --&gt;&#10;&lt;nav class=&quot;navbar&quot;&gt;&#10;    &lt;div class=&quot;navbar-container&quot;&gt;&#10;        &lt;a href=&quot;index.html&quot; class=&quot;navbar-brand&quot;&gt;Matematyka - E8&lt;/a&gt;&#10;        &lt;ul class=&quot;navbar-menu&quot;&gt;&#10;            &lt;li&gt;&lt;a href=&quot;index.html&quot;&gt;Strona główna&lt;/a&gt;&lt;/li&gt;&#10;            &lt;li&gt;&lt;a href=&quot;arkusz1.html&quot;&gt;Arkusz 1&lt;/a&gt;&lt;/li&gt;&#10;            &lt;li&gt;&lt;a href=&quot;test1.html&quot;&gt;Test 1&lt;/a&gt;&lt;/li&gt;&#10;            &lt;li&gt;&lt;a href=&quot;rozwiazania.html&quot;&gt;Rozwiązania&lt;/a&gt;&lt;/li&gt;&#10;        &lt;/ul&gt;&#10;    &lt;/div&gt;&#10;&lt;/nav&gt;&#10;&#10;" />
+              <option name="updatedContent" value="&lt;!-- Górny pasek nawigacji --&gt;&#10;&lt;nav class=&quot;navbar&quot;&gt;&#10;    &lt;div class=&quot;navbar-container&quot;&gt;&#10;        &lt;a href=&quot;index.html&quot; class=&quot;navbar-brand&quot;&gt;Matematyka - E8&lt;/a&gt;&#10;        &lt;ul class=&quot;navbar-menu&quot;&gt;&#10;            &lt;li&gt;&lt;a href=&quot;index.html&quot;&gt;Strona główna&lt;/a&gt;&lt;/li&gt;&#10;            &lt;li&gt;&lt;a href=&quot;arkusz1.html&quot;&gt;Arkusz 1&lt;/a&gt;&lt;/li&gt;&#10;            &lt;li&gt;&lt;a href=&quot;test1.html&quot;&gt;Test 1&lt;/a&gt;&lt;/li&gt;&#10;            &lt;li&gt;&lt;a href=&quot;rozwiazania.html&quot;&gt;Rozwiązania&lt;/a&gt;&lt;/li&gt;&#10;            &lt;li&gt;&lt;button class=&quot;logout-btn&quot; onclick=&quot;logout()&quot;&gt;Wyloguj&lt;/button&gt;&lt;/li&gt;&#10;        &lt;/ul&gt;&#10;    &lt;/div&gt;&#10;&lt;/nav&gt;&#10;&#10;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
