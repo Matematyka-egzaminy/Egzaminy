@@ -6,7 +6,21 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<!-- Pasek nawigacji będzie ładowany dynamicznie z pliku pasek.html -->
+
+<nav class="navbar">
+    <div class="navbar-container">
+        <a href="index.html" class="navbar-brand">Matematyka - E8</a>
+        <ul class="navbar-menu">
+            <li><a href="index.html">Strona główna</a></li>
+            <li><a href="arkusze.html">Arkusze</a></li>
+            <li><a href="testy.html">Testy</a></li>
+            <li><a href="rozwiazania.html">Rozwiązania</a></li>
+            <li><a href="cke.html">Egzaminy CKE do pobrania</a></li>
+            <li><button class="logout-btn" onclick="logout()">Wyloguj</button></li>
+        </ul>
+    </div>
+</nav>
+
 <h1>Arkusz 1</h1>
 <div class="menu-buttons">
     <button class="arkusz-buttons" onclick="location.href='index.html'">Powrót</button>
