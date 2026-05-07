@@ -3,15 +3,6 @@
   <component name="CopilotDiffPersistence">
     <option name="pendingDiffs">
       <map>
-        <entry key="$PROJECT_DIR$/login/script-login.js">
-          <value>
-            <PendingDiffInfo>
-              <option name="filePath" value="$PROJECT_DIR$/login/script-login.js" />
-              <option name="originalContent" value="const msg = document.getElementById('loginMsg');&#10;&#10;function login() {&#10;    const username = document.getElementById('username').value.trim();&#10;    const password = document.getElementById('password').value;&#10;&#10;    const users = {&#10;        admin: '1234',&#10;        emilka: '1234',&#10;    };&#10;&#10;    if (Object.prototype.hasOwnProperty.call(users, username) &amp;&amp; password === users[username]) {&#10;       window.location.href = '../index.html';&#10;    } else {&#10;        msg.textContent = 'Bledny login lub haslo.';&#10;        msg.style.color = 'red';&#10;    }&#10;}&#10;" />
-              <option name="updatedContent" value="const msg = document.getElementById('loginMsg');&#10;&#10;function login() {&#10;    const username = document.getElementById('username').value.trim();&#10;    const password = document.getElementById('password').value;&#10;&#10;    const users = {&#10;        admin: '1234',&#10;        emilka: '1234',&#10;    };&#10;&#10;    if (Object.prototype.hasOwnProperty.call(users, username) &amp;&amp; password === users[username]) {&#10;       window.location.href = '../index.html';&#10;    } else {&#10;        msg.textContent = 'Bledny login lub haslo.';&#10;        msg.style.color = 'red';&#10;    }&#10;}&#10;&#10;function logout() {&#10;    window.location.href = 'login/login.html';&#10;}&#10;" />
-            </PendingDiffInfo>
-          </value>
-        </entry>
         <entry key="$PROJECT_DIR$/pasek.html">
           <value>
             <PendingDiffInfo>
