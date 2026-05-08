@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1331c87a-abef-4e89-b235-9d3205a021a5" name="Changes" comment="pasek nawigacji w arkusz1/test1/roz1">
-      <change beforePath="$PROJECT_DIR$/arkusz1.html" beforeDir="false" afterPath="$PROJECT_DIR$/arkusz1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rozwiazanie1.html" beforeDir="false" afterPath="$PROJECT_DIR$/rozwiazanie1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test1.html" beforeDir="false" afterPath="$PROJECT_DIR$/test1.html" afterDir="false" />
-    </list>
+    <list default="true" id="1331c87a-abef-4e89-b235-9d3205a021a5" name="Changes" comment="przyciski powrotu" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -180,7 +176,7 @@
       <workItem from="1777570678703" duration="189000" />
       <workItem from="1778059895618" duration="1847000" />
       <workItem from="1778062133439" duration="92000" />
-      <workItem from="1778169040888" duration="3645000" />
+      <workItem from="1778169040888" duration="4365000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -478,7 +474,15 @@
       <option name="project" value="LOCAL" />
       <updated>1778172510829</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="przyciski powrotu">
+      <option name="closed" value="true" />
+      <created>1778172787162</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1778172787162</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -499,7 +503,8 @@
     <MESSAGE value="init" />
     <MESSAGE value="przycisk w rozwiązaniach" />
     <MESSAGE value="pasek nawigacji w arkusz1/test1/roz1" />
-    <option name="LAST_COMMIT_MESSAGE" value="pasek nawigacji w arkusz1/test1/roz1" />
+    <MESSAGE value="przyciski powrotu" />
+    <option name="LAST_COMMIT_MESSAGE" value="przyciski powrotu" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
