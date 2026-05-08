@@ -264,8 +264,6 @@ button:hover {
     font-size: 20px;
 }
 
-
-
 .hero-actions {
     margin-top: 22px;
     display: flex;
@@ -287,10 +285,6 @@ button:hover {
 .hero-link:hover {
     transform: translateY(-2px);
     box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2);
-}
-
-.primary-link {
-    background-color: #ffd166;
 }
 
 .features {
