@@ -247,6 +247,38 @@ button:hover {
     text-decoration: none;
 }
 
+/* Rozwijana lista „Arkusze” */
+.navbar-dropdown {
+    position: relative;
+}
+
+.navbar-dropdown-menu {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: calc(100% - 6px);
+    margin: 0;
+    padding: 14px 10px 10px;
+    min-width: 188px;
+    list-style: none;
+    flex-direction: column;
+    gap: 6px;
+    background: linear-gradient(180deg, #1e4488 0%, #102a5c 100%);
+    border-radius: 16px;
+    box-shadow: 0 12px 28px rgba(16, 42, 92, 0.35);
+    z-index: 200;
+}
+
+.navbar-dropdown:hover > .navbar-dropdown-menu,
+.navbar-dropdown:focus-within > .navbar-dropdown-menu {
+    display: flex;
+}
+
+.navbar-dropdown-menu a {
+    display: block;
+    text-align: left;
+}
+
 .logout-btn {
     background-color: #d9534f !important;
     padding: 8px 16px !important;
@@ -365,6 +397,25 @@ button:hover {
     .navbar-menu {
         flex-direction: column;
         gap: 10px;
+        text-align: center;
+    }
+
+    .navbar-dropdown {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar-dropdown-menu {
+        position: static;
+        align-items: stretch;
+        width: 100%;
+        max-width: 280px;
+        margin-top: 6px;
+    }
+
+    .navbar-dropdown-menu a {
         text-align: center;
     }
 
