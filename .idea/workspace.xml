@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1331c87a-abef-4e89-b235-9d3205a021a5" name="Changes" comment="edycja index/arkusze">
-      <change beforePath="$PROJECT_DIR$/arkusz1.html" beforeDir="false" afterPath="$PROJECT_DIR$/arkusz1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arkusze.html" beforeDir="false" afterPath="$PROJECT_DIR$/arkusze.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cke.html" beforeDir="false" afterPath="$PROJECT_DIR$/cke.html" afterDir="false" />
+    <list default="true" id="1331c87a-abef-4e89-b235-9d3205a021a5" name="Changes" comment="edycja pasek nawigacji: lista arkuszy">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rozwiazania.html" beforeDir="false" afterPath="$PROJECT_DIR$/rozwiazania.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rozwiazanie1.html" beforeDir="false" afterPath="$PROJECT_DIR$/rozwiazanie1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test1.html" beforeDir="false" afterPath="$PROJECT_DIR$/test1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testy.html" beforeDir="false" afterPath="$PROJECT_DIR$/testy.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,7 +201,8 @@
       <workItem from="1778169040888" duration="4365000" />
       <workItem from="1778227794302" duration="406000" />
       <workItem from="1778255032659" duration="3650000" />
-      <workItem from="1778511564358" duration="818000" />
+      <workItem from="1778511564358" duration="1035000" />
+      <workItem from="1778513134273" duration="339000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -593,7 +588,15 @@
       <option name="project" value="LOCAL" />
       <updated>1778512010615</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="edycja pasek nawigacji: lista arkuszy">
+      <option name="closed" value="true" />
+      <created>1778512475428</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1778512475428</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -621,7 +624,8 @@
     <MESSAGE value="edycja CKE" />
     <MESSAGE value="edycja test1" />
     <MESSAGE value="edycja index/arkusze" />
-    <option name="LAST_COMMIT_MESSAGE" value="edycja index/arkusze" />
+    <MESSAGE value="edycja pasek nawigacji: lista arkuszy" />
+    <option name="LAST_COMMIT_MESSAGE" value="edycja pasek nawigacji: lista arkuszy" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
