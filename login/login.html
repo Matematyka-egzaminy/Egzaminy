@@ -7,6 +7,29 @@
     <link rel="stylesheet" href="stylelogowania.css">
 </head>
 <body>
+<nav class="navbar">
+    <div class="navbar-container">
+        <a href="../index.html" class="navbar-brand" aria-label="Strona główna – Matematyka, ósma sprawa">
+            <img src="../assets/osma-sprawa-logo.png" alt="" class="navbar-logo" width="180" height="73" aria-hidden="true">
+            <span class="navbar-brand-text">Matematyka</span>
+        </a>
+        <ul class="navbar-menu">
+            <li><a href="../index.html">Strona główna</a></li>
+            <li class="navbar-dropdown">
+                <a href="../arkusze.html" class="navbar-dropdown-trigger">Arkusze</a>
+                <ul class="navbar-dropdown-menu">
+                    <li><a href="../arkusz1.html">Arkusz 1</a></li>
+                    <li><a href="../arkusz2.html">Arkusz 2</a></li>
+                    <li><a href="../arkusz3.html">Arkusz 3</a></li>
+                </ul>
+            </li>
+            <li><a href="../testy.html">Testy</a></li>
+            <li><a href="../rozwiazania.html">Rozwiązania</a></li>
+            <li><a href="../cke.html">Egzaminy CKE do pobrania</a></li>
+            <li><button class="logout-btn" onclick="logout()">Wyloguj</button></li>
+        </ul>
+    </div>
+</nav>
 <main class="login-page">
     <section class="login-hero">
         <p class="hero-badge">Przygotowanie do egzaminu ósmoklasisty</p>
