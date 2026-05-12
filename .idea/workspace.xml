@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1331c87a-abef-4e89-b235-9d3205a021a5" name="Changes" comment="ósma sprawa">
+    <list default="true" id="1331c87a-abef-4e89-b235-9d3205a021a5" name="Changes" comment="ósma sprawa - logo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,15 +201,7 @@
       <workItem from="1778255032659" duration="3650000" />
       <workItem from="1778511564358" duration="1035000" />
       <workItem from="1778513134273" duration="1234000" />
-      <workItem from="1778583443598" duration="2569000" />
-    </task>
-    <task id="LOCAL-00002" summary="init">
-      <option name="closed" value="true" />
-      <created>1770919398870</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1770919398870</updated>
+      <workItem from="1778583443598" duration="3626000" />
     </task>
     <task id="LOCAL-00003" summary="init">
       <option name="closed" value="true" />
@@ -597,7 +587,15 @@
       <option name="project" value="LOCAL" />
       <updated>1778513736334</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="ósma sprawa - logo">
+      <option name="closed" value="true" />
+      <created>1778589045501</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1778589045501</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -627,7 +625,8 @@
     <MESSAGE value="edycja index/arkusze" />
     <MESSAGE value="edycja pasek nawigacji: lista arkuszy" />
     <MESSAGE value="ósma sprawa" />
-    <option name="LAST_COMMIT_MESSAGE" value="ósma sprawa" />
+    <MESSAGE value="ósma sprawa - logo" />
+    <option name="LAST_COMMIT_MESSAGE" value="ósma sprawa - logo" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
