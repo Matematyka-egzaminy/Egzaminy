@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1331c87a-abef-4e89-b235-9d3205a021a5" name="Changes" comment="ósma sprawa - logo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,15 +204,7 @@
       <workItem from="1778513134273" duration="1234000" />
       <workItem from="1778583443598" duration="4129000" />
       <workItem from="1778693236094" duration="317000" />
-      <workItem from="1778774381083" duration="536000" />
-    </task>
-    <task id="LOCAL-00006" summary="init">
-      <option name="closed" value="true" />
-      <created>1771956204902</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1771956204902</updated>
+      <workItem from="1778774381083" duration="2913000" />
     </task>
     <task id="LOCAL-00007" summary="init">
       <option name="closed" value="true" />
@@ -597,7 +590,15 @@
       <option name="project" value="LOCAL" />
       <updated>1778693522237</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="ósma sprawa - logo">
+      <option name="closed" value="true" />
+      <created>1778774974842</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1778774974842</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
