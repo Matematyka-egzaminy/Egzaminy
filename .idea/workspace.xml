@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1331c87a-abef-4e89-b235-9d3205a021a5" name="Changes" comment="ósma sprawa - logo" />
+    <list default="true" id="1331c87a-abef-4e89-b235-9d3205a021a5" name="Changes" comment="ósma sprawa - logo">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,7 +39,7 @@
     <option name="chatModeId" value="Agent" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="27" />
+    <option name="cachedIndexableFilesCount" value="29" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -113,11 +115,11 @@
       <recent name="C:\Users\Maria\WebstormProjects\zadania" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Maria\WebstormProjects\zadania\filmy" />
       <recent name="C:\Users\Maria\WebstormProjects\zadania" />
       <recent name="C:\Users\Maria\WebstormProjects\zadania\.idea\testy" />
       <recent name="C:\Users\Maria\WebstormProjects\zadania\.idea\arkusze" />
       <recent name="C:\Users\Maria\WebstormProjects\zadania\zdjecia" />
-      <recent name="C:\Users\Maria\WebstormProjects\zadania\filmy" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -200,14 +202,8 @@
       <workItem from="1778511564358" duration="1035000" />
       <workItem from="1778513134273" duration="1234000" />
       <workItem from="1778583443598" duration="4129000" />
-    </task>
-    <task id="LOCAL-00005" summary="init">
-      <option name="closed" value="true" />
-      <created>1771955510164</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1771955510164</updated>
+      <workItem from="1778693236094" duration="317000" />
+      <workItem from="1778774381083" duration="536000" />
     </task>
     <task id="LOCAL-00006" summary="init">
       <option name="closed" value="true" />
@@ -593,7 +589,15 @@
       <option name="project" value="LOCAL" />
       <updated>1778591614069</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="ósma sprawa - logo">
+      <option name="closed" value="true" />
+      <created>1778693522237</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1778693522237</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
