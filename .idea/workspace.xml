@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1331c87a-abef-4e89-b235-9d3205a021a5" name="Changes" comment="centrowanie h1 w hero">
+    <list default="true" id="1331c87a-abef-4e89-b235-9d3205a021a5" name="Changes" comment="drukowanie w arkusz1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
@@ -40,7 +40,7 @@
     <option name="chatModeId" value="Agent" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="29" />
+    <option name="cachedIndexableFilesCount" value="28" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -204,15 +204,8 @@
       <workItem from="1778513134273" duration="1234000" />
       <workItem from="1778583443598" duration="4129000" />
       <workItem from="1778693236094" duration="317000" />
-      <workItem from="1778774381083" duration="3632000" />
-    </task>
-    <task id="LOCAL-00008" summary="init">
-      <option name="closed" value="true" />
-      <created>1771956690174</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1771956690174</updated>
+      <workItem from="1778774381083" duration="4265000" />
+      <workItem from="1778932131550" duration="400000" />
     </task>
     <task id="LOCAL-00009" summary="init">
       <option name="closed" value="true" />
@@ -598,7 +591,15 @@
       <option name="project" value="LOCAL" />
       <updated>1778777368274</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="drukowanie w arkusz1">
+      <option name="closed" value="true" />
+      <created>1778778049469</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1778778049469</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -630,7 +631,8 @@
     <MESSAGE value="ósma sprawa" />
     <MESSAGE value="ósma sprawa - logo" />
     <MESSAGE value="centrowanie h1 w hero" />
-    <option name="LAST_COMMIT_MESSAGE" value="centrowanie h1 w hero" />
+    <MESSAGE value="drukowanie w arkusz1" />
+    <option name="LAST_COMMIT_MESSAGE" value="drukowanie w arkusz1" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>

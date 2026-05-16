@@ -271,13 +271,18 @@ button:hover {
     position: relative;
 }
 
+.navbar-dropdown-trigger {
+    position: relative;
+    z-index: 1;
+}
+
 .navbar-dropdown-menu {
     display: none;
     position: absolute;
     left: 0;
-    top: calc(100% - 6px);
-    margin: 0;
-    padding: 14px 10px 10px;
+    top: 100%;
+    margin: 6px 0 0;
+    padding: 8px 10px 10px;
     min-width: 188px;
     list-style: none;
     flex-direction: column;
@@ -286,6 +291,16 @@ button:hover {
     border-radius: 16px;
     box-shadow: 0 12px 28px rgba(16, 42, 92, 0.35);
     z-index: 200;
+}
+
+/* Niewidoczny mostek – utrzymuje hover przy przejściu z „Arkusze” do listy */
+.navbar-dropdown-menu::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -10px;
+    height: 10px;
 }
 
 .navbar-dropdown:hover > .navbar-dropdown-menu,
