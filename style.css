@@ -266,7 +266,7 @@ button:hover {
     text-decoration: none;
 }
 
-/* Rozwijana lista „Arkusze” */
+/* Rozwijane listy w nawigacji (Arkusze, Testy, Rozwiązania) */
 .navbar-dropdown {
     position: relative;
 }

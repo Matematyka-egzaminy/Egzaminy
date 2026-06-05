@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Arkusz 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="navbar-container">
+        <a href="index.html" class="navbar-brand" aria-label="Strona główna – Matematyka, ósma sprawa">
+            <img src="assets/osma-sprawa-logo.png" alt="" class="navbar-logo" width="180" height="73" aria-hidden="true">
+            <span class="navbar-brand-text">Matematyka</span>
+        </a>
+        <ul class="navbar-menu">
+            <li><a href="index.html">Strona główna</a></li>
+            <li class="navbar-dropdown">
+                <a href="arkusze.html" class="navbar-dropdown-trigger">Arkusze</a>
+                <ul class="navbar-dropdown-menu">
+                    <li><a href="arkusz1.html">Arkusz 1</a></li>
+                    <li><a href="arkusz2.html">Arkusz 2</a></li>
+                    <li><a href="arkusz3.html">Arkusz 3</a></li>
+                </ul>
+            </li>
+            <li class="navbar-dropdown">
+                <a href="testy.html" class="navbar-dropdown-trigger">Testy</a>
+                <ul class="navbar-dropdown-menu">
+                    <li><a href="test1.html">Test 1</a></li>
+                    <li><a href="testy/test2.html">Test 2</a></li>
+                    <li><a href="testy/test3.html">Test 3</a></li>
+                </ul>
+            </li>
+            <li class="navbar-dropdown">
+                <a href="rozwiazania.html" class="navbar-dropdown-trigger">Rozwiązania</a>
+                <ul class="navbar-dropdown-menu">
+                    <li><a href="rozwiazanie1.html">Twierdzenie Pitagorasa</a></li>
+                    <li><a href="#">Ostrosłupy</a></li>
+                    <li><a href="#">Graniastosłupy</a></li>
+                </ul>
+            </li>
+            <li><a href="cke.html">Egzaminy CKE do pobrania</a></li>
+            <li><button class="logout-btn" onclick="logout()">Wyloguj</button></li>
+        </ul>
+    </div>
+</nav>
+
+<h1>Arkusz 2</h1>
+<div class="menu-buttons">
+    <button class="arkusz-buttons" onclick="location.href='arkusze.html'">Powrót</button>
+</div>
+
+<div id="test2" class="quiz-section">
+
+    <div class="zadanie">
+        <h2>Zadanie 1</h2>
+        <p>Test z matematyki składa się z \( 40 \) zadań. Na diagramie przedstawiono procentowy podział liczby zadań w teście na zadania z pięciu działów: algebry, planimetrii, stereometrii, arytmetyki, statystyki.</p>
+        <figure>
+            <svg viewBox="0 0 320 220" width="100%" style="max-width: 420px; height: auto;" role="img" aria-label="Diagram kołowy podziału zadań testowych">
+                <g transform="translate(90,110)">
+                    <path d="M 0 -70 A 70 70 0 0 1 66.5 -21.4 L 0 0 Z" fill="#4a7fd4"></path>
+                    <path d="M 66.5 -21.4 A 70 70 0 0 1 21.4 66.5 L 0 0 Z" fill="#2f63bf"></path>
+                    <path d="M 21.4 66.5 A 70 70 0 0 1 -40.4 56.7 L 0 0 Z" fill="#6ea8ff"></path>
+                    <path d="M -40.4 56.7 A 70 70 0 0 1 -48.3 48.8 L 0 0 Z" fill="#9ec5ff"></path>
+                    <path d="M -48.3 48.8 A 70 70 0 0 1 0 -70 L 0 0 Z" fill="#1b3f8b"></path>
+                </g>
+                <g font-size="12" fill="#12213f">
+                    <rect x="185" y="24" width="12" height="12" fill="#4a7fd4"></rect><text x="202" y="34">statystyka – 20%</text>
+                    <rect x="185" y="46" width="12" height="12" fill="#2f63bf"></rect><text x="202" y="56">algebra – 25%</text>
+                    <rect x="185" y="68" width="12" height="12" fill="#6ea8ff"></rect><text x="202" y="78">planimetria – 15%</text>
+                    <rect x="185" y="90" width="12" height="12" fill="#9ec5ff"></rect><text x="202" y="100">stereometria – 5%</text>
+                    <rect x="185" y="112" width="12" height="12" fill="#1b3f8b"></rect><text x="202" y="122">arytmetyka</text>
+                </g>
+            </svg>
+        </figure>
+        <p>Dokończ zdanie. Wybierz właściwą odpowiedź spośród podanych.</p>
+        <p>Liczba zadań z arytmetyki w tym teście jest równa</p>
+        <div class="odp">
+            <label><input type="radio" name="zadanie1" value="correct" id="z1a"> A. \( 14 \)</label><br>
+            <label><input type="radio" name="zadanie1" value="wrong" id="z1b"> B. \( 18 \)</label><br>
+            <label><input type="radio" name="zadanie1" value="wrong" id="z1c"> C. \( 26 \)</label><br>
+            <label><input type="radio" name="zadanie1" value="wrong" id="z1d"> D. \( 35 \)</label>
+        </div>
+        <div class="button-row">
+            <button type="button" onclick="checkAnswer('zadanie1', 'correct', 'z1-result')">Sprawdź</button>
+            <button type="button" class="show-solution-button">Pokaż rozwiązanie</button>
+        </div>
+        <p id="z1-result" class="feedback"></p>
+        <p class="solution" style="display: none;">Rozwiązanie: arytmetyka stanowi \( 35\% \) zadań, wiec \( 35\% \cdot 40 = 0{,}35 \cdot 40 = 14 \).</p>
+    </div>
+
+    <div class="zadanie">
+        <h2>Zadanie 2</h2>
+        <p>Ola otwiera swoją szafkę za pomocą czterocyfrowego kodu \( YXXY \), gdzie \( X \) jest największym wspólnym dzielnikiem liczb \( 18 \) i \( 27 \), a \( Y \) jest najmniejszą wspólną wielokrotnością liczb \( 2 \) i \( 4 \).</p>
+        <p>Jaki jest kod do otwarcia szafki Oli? Wybierz właściwą odpowiedź spośród podanych.</p>
+        <div class="odp">
+            <label><input type="radio" name="zadanie2" value="wrong" id="z2a"> A. \( 4334 \)</label><br>
+            <label><input type="radio" name="zadanie2" value="correct" id="z2b"> B. \( 4994 \)</label><br>
+            <label><input type="radio" name="zadanie2" value="wrong" id="z2c"> C. \( 8338 \)</label><br>
+            <label><input type="radio" name="zadanie2" value="wrong" id="z2d"> D. \( 8998 \)</label>
+        </div>
+        <div class="button-row">
+            <button type="button" onclick="checkAnswer('zadanie2', 'correct', 'z2-result')">Sprawdź</button>
+            <button type="button" class="show-solution-button">Pokaż rozwiązanie</button>
+        </div>
+        <p id="z2-result" class="feedback"></p>
+        <p class="solution" style="display: none;">Rozwiązanie: \( \text{NWD}(18, 27) = 9 \), wiec \( X = 9 \). \( \text{NWW}(2, 4) = 4 \), wiec \( Y = 4 \). Kod \( YXXY \) to \( 4994 \).</p>
+    </div>
+
+    <div class="zadanie">
+        <h2>Zadanie 3</h2>
+        <p>Dane są cztery liczby:</p>
+        <p>\( w = \sqrt{100 - 64} - 2 \)</p>
+        <p>\( x = 12 - \sqrt{64 + 36} \)</p>
+        <p>\( y = \sqrt{25 - 16} - 3 \)</p>
+        <p>\( z = 7 - \sqrt{9 + 16} \)</p>
+        <p>Która z tych liczb jest równa \( 0 \)? Wybierz właściwą odpowiedź spośród podanych.</p>
+        <div class="odp">
+            <label><input type="radio" name="zadanie3" value="wrong" id="z3a"> A. \( w \)</label><br>
+            <label><input type="radio" name="zadanie3" value="wrong" id="z3b"> B. \( x \)</label><br>
+            <label><input type="radio" name="zadanie3" value="correct" id="z3c"> C. \( y \)</label><br>
+            <label><input type="radio" name="zadanie3" value="wrong" id="z3d"> D. \( z \)</label>
+        </div>
+        <div class="button-row">
+            <button type="button" onclick="checkAnswer('zadanie3', 'correct', 'z3-result')">Sprawdź</button>
+            <button type="button" class="show-solution-button">Pokaż rozwiązanie</button>
+        </div>
+        <p id="z3-result" class="feedback"></p>
+        <p class="solution" style="display: none;">Rozwiązanie: \( w = 6 - 2 = 4 \), \( x = 12 - 10 = 2 \), \( y = 3 - 3 = 0 \), \( z = 7 - 5 = 2 \). Liczbą równą \( 0 \) jest \( y \).</p>
+    </div>
+
+    <div class="zadanie">
+        <h2>Zadanie 4</h2>
+        <p>Dokończ zdanie. Wybierz właściwą odpowiedź spośród podanych.</p>
+        <p>Wartość wyrażenia \( 2^5 \cdot 3 \cdot 3^4 \cdot 2^3 \) jest równa wartości wyrażenia</p>
+        <div class="odp">
+            <label><input type="radio" name="zadanie4" value="correct" id="z4a"> A. \( 2^8 \cdot 3^5 \)</label><br>
+            <label><input type="radio" name="zadanie4" value="wrong" id="z4b"> B. \( 4^8 \cdot 9^5 \)</label><br>
+            <label><input type="radio" name="zadanie4" value="wrong" id="z4c"> C. \( 2^{15} \cdot 3^4 \)</label><br>
+            <label><input type="radio" name="zadanie4" value="wrong" id="z4d"> D. \( 4^{15} \cdot 9^4 \)</label>
+        </div>
+        <div class="button-row">
+            <button type="button" onclick="checkAnswer('zadanie4', 'correct', 'z4-result')">Sprawdź</button>
+            <button type="button" class="show-solution-button">Pokaż rozwiązanie</button>
+        </div>
+        <p id="z4-result" class="feedback"></p>
+        <p class="solution" style="display: none;">Rozwiązanie: \( 2^5 \cdot 3 \cdot 3^4 \cdot 2^3 = 2^{5+3} \cdot 3^{1+4} = 2^8 \cdot 3^5 \).</p>
+    </div>
+
+    <div class="zadanie">
+        <h2>Zadanie 5</h2>
+        <p>W pewnej hodowli rasowy kocur kosztuje \( x \) złotych, a rasowa kotka kosztuje \( y \) złotych. Janek kupił z tej hodowli rasowego kocura ze zniżką \( 40\% \) oraz rasową kotkę ze zniżką \( 20\% \).</p>
+        <p>Które wyrażenie poprawnie opisuje, ile złotych zapłacił Janek za te koty? Wybierz właściwą odpowiedź spośród podanych.</p>
+        <div class="odp">
+            <label><input type="radio" name="zadanie5" value="wrong" id="z5a"> A. \( 0{,}4x + 0{,}2y \)</label><br>
+            <label><input type="radio" name="zadanie5" value="wrong" id="z5b"> B. \( 0{,}2x + 0{,}4y \)</label><br>
+            <label><input type="radio" name="zadanie5" value="wrong" id="z5c"> C. \( 0{,}8x + 0{,}6y \)</label><br>
+            <label><input type="radio" name="zadanie5" value="correct" id="z5d"> D. \( 0{,}6x + 0{,}8y \)</label>
+        </div>
+        <div class="button-row">
+            <button type="button" onclick="checkAnswer('zadanie5', 'correct', 'z5-result')">Sprawdź</button>
+            <button type="button" class="show-solution-button">Pokaż rozwiązanie</button>
+        </div>
+        <p id="z5-result" class="feedback"></p>
+        <p class="solution" style="display: none;">Rozwiązanie: po zniżce \( 40\% \) Janek płaci \( 60\% \) ceny kocura, czyli \( 0{,}6x \). Po zniżce \( 20\% \) płaci \( 80\% \) ceny kotki, czyli \( 0{,}8y \). Łącznie: \( 0{,}6x + 0{,}8y \).</p>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
