@@ -1,0 +1,38 @@
+.welcome-page {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 10px 20px 40px;
+}
+
+.menu-buttons {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.columns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.column {
+    flex: 1 1 260px;
+    max-width: 320px;
+}
+
+.column-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.button-row {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    flex-wrap: wrap;
+}

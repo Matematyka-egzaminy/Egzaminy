@@ -5,15 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1331c87a-abef-4e89-b235-9d3205a021a5" name="Changes" comment="nowa struk. css">
+      <change afterPath="$PROJECT_DIR$/css/components/feedback.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/components/hero.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/components/navbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/print.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/sections/quiz.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/sections/rozwiazania.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/arkusz1.html" beforeDir="false" afterPath="$PROJECT_DIR$/arkusz1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arkusz2.html" beforeDir="false" afterPath="$PROJECT_DIR$/arkusz2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/arkusze.html" beforeDir="false" afterPath="$PROJECT_DIR$/arkusze.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cke.html" beforeDir="false" afterPath="$PROJECT_DIR$/cke.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/buttons.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/buttons.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/layout.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/login/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rozwiazania.html" beforeDir="false" afterPath="$PROJECT_DIR$/rozwiazania.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rozwiazanie1.html" beforeDir="false" afterPath="$PROJECT_DIR$/rozwiazanie1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/test1.html" beforeDir="false" afterPath="$PROJECT_DIR$/test1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testy.html" beforeDir="false" afterPath="$PROJECT_DIR$/testy.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testy/test2.html" beforeDir="false" afterPath="$PROJECT_DIR$/testy/test2.html" afterDir="false" />

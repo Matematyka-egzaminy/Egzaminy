@@ -1,0 +1,12 @@
+@media print {
+    .navbar,
+    .menu-buttons,
+    .zadanie .button-row,
+    body > h1 {
+        display: none !important;
+    }
+
+    .zadanie {
+        zoom: 0.5;
+    }
+}

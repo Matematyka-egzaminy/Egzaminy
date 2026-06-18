@@ -1,0 +1,17 @@
+.feedback {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.correct {
+    color: green;
+}
+
+.incorrect {
+    color: red;
+}
+
+.answer-feedback {
+    margin-left: 8px;
+    font-weight: bold;
+}

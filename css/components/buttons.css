@@ -4,7 +4,7 @@ button {
     margin: 5px;
     cursor: pointer;
     border: none;
-    border-radius: 5px;
+    border-radius: 999px;
     background-color: #1b3f8b;
     color: white;
 }
@@ -13,3 +13,19 @@ button:hover {
     background-color: #2f63bf;
 }
 
+.arkusz-buttons {
+    background-color: #1b3f8b;
+    font-size: 20px;
+}
+
+.tests-buttons {
+    margin-top: 10px;
+}
+
+.tests-buttons .arkusz-buttons {
+    background-color: #214a9a;
+}
+
+.tests-buttons .arkusz-buttons:hover {
+    background-color: #2f63bf;
+}
