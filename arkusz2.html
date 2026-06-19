@@ -56,22 +56,7 @@
         <h2>Zadanie 1</h2>
         <p>Test z matematyki składa się z \( 40 \) zadań. Na diagramie przedstawiono procentowy podział liczby zadań w teście na zadania z pięciu działów: algebry, planimetrii, stereometrii, arytmetyki, statystyki.</p>
         <figure>
-            <svg viewBox="0 0 320 220" width="100%" style="max-width: 420px; height: auto;" role="img" aria-label="Diagram kołowy podziału zadań testowych">
-                <g transform="translate(90,110)">
-                    <path d="M 0 -70 A 70 70 0 0 1 66.5 -21.4 L 0 0 Z" fill="#4a7fd4"></path>
-                    <path d="M 66.5 -21.4 A 70 70 0 0 1 21.4 66.5 L 0 0 Z" fill="#2f63bf"></path>
-                    <path d="M 21.4 66.5 A 70 70 0 0 1 -40.4 56.7 L 0 0 Z" fill="#6ea8ff"></path>
-                    <path d="M -40.4 56.7 A 70 70 0 0 1 -48.3 48.8 L 0 0 Z" fill="#9ec5ff"></path>
-                    <path d="M -48.3 48.8 A 70 70 0 0 1 0 -70 L 0 0 Z" fill="#1b3f8b"></path>
-                </g>
-                <g font-size="12" fill="#12213f">
-                    <rect x="185" y="24" width="12" height="12" fill="#4a7fd4"></rect><text x="202" y="34">statystyka – 20%</text>
-                    <rect x="185" y="46" width="12" height="12" fill="#2f63bf"></rect><text x="202" y="56">algebra – 25%</text>
-                    <rect x="185" y="68" width="12" height="12" fill="#6ea8ff"></rect><text x="202" y="78">planimetria – 15%</text>
-                    <rect x="185" y="90" width="12" height="12" fill="#9ec5ff"></rect><text x="202" y="100">stereometria – 5%</text>
-                    <rect x="185" y="112" width="12" height="12" fill="#1b3f8b"></rect><text x="202" y="122">arytmetyka</text>
-                </g>
-            </svg>
+            <img src="zdjecia/arkusz2/zadanie1.png" alt="Diagram kołowy podziału zadań testowych" style="max-width: 100%; height: auto;">
         </figure>
         <p>Dokończ zdanie. Wybierz właściwą odpowiedź spośród podanych.</p>
         <p>Liczba zadań z arytmetyki w tym teście jest równa</p>
@@ -163,6 +148,198 @@
         </div>
         <p id="z5-result" class="feedback"></p>
         <p class="solution" style="display: none;">Rozwiązanie: po zniżce \( 40\% \) Janek płaci \( 60\% \) ceny kocura, czyli \( 0{,}6x \). Po zniżce \( 20\% \) płaci \( 80\% \) ceny kotki, czyli \( 0{,}8y \). Łącznie: \( 0{,}6x + 0{,}8y \).</p>
+    </div>
+
+    <div class="zadanie">
+        <h2>Zadanie 6</h2>
+        <p>W pudełku było jedenaście kul ponumerowanych kolejnymi liczbami naturalnymi od \( 1 \) do \( 11 \). Z tego pudełka wylosowano pięć kul. Suma liczb na dowolnych dwóch kulach, które pozostały w pudełku, jest parzysta.</p>
+        <p>Uzupełnij zdania. Wybierz odpowiedź spośród oznaczonych literami A i B oraz odpowiedź spośród oznaczonych literami C i D.</p>
+        <p>Po losowaniu w pudełku zostały wyłącznie kule ponumerowane liczbami</p>
+        <div class="odp">
+            <label><input type="radio" name="zadanie6-1" value="correct" id="z6a"> A. nieparzystymi</label><br>
+            <label><input type="radio" name="zadanie6-1" value="wrong" id="z6b"> B. parzystymi</label>
+        </div>
+        <p>Suma liczb na pięciu wylosowanych kulach jest równa</p>
+        <div class="odp">
+            <label><input type="radio" name="zadanie6-2" value="correct" id="z6c"> C. \( 30 \)</label><br>
+            <label><input type="radio" name="zadanie6-2" value="wrong" id="z6d"> D. \( 36 \)</label>
+        </div>
+        <div class="button-row">
+            <button type="button" onclick="checkAllAnswers([{ group: 'zadanie6-1', correct: 'correct' }, { group: 'zadanie6-2', correct: 'correct' }], 'z6-result')">Sprawdź</button>
+            <button type="button" class="show-solution-button">Pokaż rozwiązanie</button>
+        </div>
+        <p id="z6-result" class="feedback"></p>
+        <p class="solution" style="display: none;">Rozwiązanie: suma dwóch liczb jest parzysta, gdy obie są parzyste lub obie nieparzyste. W pudełku zostało \( 6 \) kul, a liczb parzystych jest tylko \( 5 \), więc pozostały wyłącznie kule nieparzyste. Wylosowano więc kule \( 2, 4, 6, 8, 10 \), a ich suma to \( 30 \).</p>
+    </div>
+
+    <div class="zadanie">
+        <h2>Zadanie 7</h2>
+        <p>Do \( 10 \) pustych koszy włożono jabłka i pomarańcze, łącznie \( 400 \) sztuk tych owoców. W każdym koszu łączna liczba owoców jest taka sama oraz w każdym koszu liczba jabłek jest o \( 6 \) większa od liczby pomarańczy.</p>
+        <p>Ile sztuk jabłek jest łącznie w tych \( 10 \) koszach? Wybierz właściwą odpowiedź spośród podanych.</p>
+        <div class="odp">
+            <label><input type="radio" name="zadanie7" value="wrong" id="z7a"> A. \( 210 \)</label><br>
+            <label><input type="radio" name="zadanie7" value="correct" id="z7b"> B. \( 230 \)</label><br>
+            <label><input type="radio" name="zadanie7" value="wrong" id="z7c"> C. \( 240 \)</label><br>
+            <label><input type="radio" name="zadanie7" value="wrong" id="z7d"> D. \( 260 \)</label>
+        </div>
+        <div class="button-row">
+            <button type="button" onclick="checkAnswer('zadanie7', 'correct', 'z7-result')">Sprawdź</button>
+            <button type="button" class="show-solution-button">Pokaż rozwiązanie</button>
+        </div>
+        <p id="z7-result" class="feedback"></p>
+        <p class="solution" style="display: none;">Rozwiązanie: w jednym koszu jest \( 400 : 10 = 40 \) owoców. Jeśli \( x \) to liczba pomarańczy, to \( x + (x + 6) = 40 \), więc \( x = 17 \) i jabłek jest \( 23 \). Łącznie: \( 23 \cdot 10 = 230 \).</p>
+    </div>
+
+    <div class="zadanie">
+        <h2>Zadanie 8</h2>
+        <p>Sumę \( S = 1 + 2 + 3 + \ldots + n \) kolejnych liczb naturalnych od \( 1 \) do \( n \) można obliczyć ze wzoru</p>
+        <p>\( S = \frac{1}{2}n(n + 1) \)</p>
+        <p>Uzupełnij zdania. Wybierz odpowiedź spośród oznaczonych literami A i B oraz odpowiedź spośród oznaczonych literami C i D.</p>
+        <p>Suma stu kolejnych liczb naturalnych od \( 1 \) do \( 100 \) jest równa</p>
+        <div class="odp">
+            <label><input type="radio" name="zadanie8-1" value="wrong" id="z8a"> A. \( 5001 \)</label><br>
+            <label><input type="radio" name="zadanie8-1" value="correct" id="z8b"> B. \( 5050 \)</label>
+        </div>
+        <p>Wzór na sumę \( S \) po poprawnym przekształceniu ma postać</p>
+        <div class="odp">
+            <label><input type="radio" name="zadanie8-2" value="wrong" id="z8c"> C. \( S = \frac{1}{2}n^2 + 1 \)</label><br>
+            <label><input type="radio" name="zadanie8-2" value="correct" id="z8d"> D. \( S = \frac{1}{2}n^2 + \frac{1}{2}n \)</label>
+        </div>
+        <div class="button-row">
+            <button type="button" onclick="checkAllAnswers([{ group: 'zadanie8-1', correct: 'correct' }, { group: 'zadanie8-2', correct: 'correct' }], 'z8-result')">Sprawdź</button>
+            <button type="button" class="show-solution-button">Pokaż rozwiązanie</button>
+        </div>
+        <p id="z8-result" class="feedback"></p>
+        <p class="solution" style="display: none;">Rozwiązanie: \( S = \frac{1}{2} \cdot 100 \cdot 101 = 5050 \). Po rozwinięciu nawiasu: \( S = \frac{1}{2}n^2 + \frac{1}{2}n \).</p>
+    </div>
+
+    <div class="zadanie">
+        <h2>Zadanie 9</h2>
+        <p>Średnia arytmetyczna dwóch liczb \( x \) i \( y \) jest równa \( 4 \), a średnia arytmetyczna trzech liczb \( x \), \( y \), \( z \) jest równa \( 5 \).</p>
+        <p>Dokończ zdanie. Wybierz właściwą odpowiedź spośród podanych.</p>
+        <p>Liczba \( z \) jest równa</p>
+        <div class="odp">
+            <label><input type="radio" name="zadanie9" value="wrong" id="z9a"> A. \( 4 \)</label><br>
+            <label><input type="radio" name="zadanie9" value="wrong" id="z9b"> B. \( 5 \)</label><br>
+            <label><input type="radio" name="zadanie9" value="wrong" id="z9c"> C. \( 6 \)</label><br>
+            <label><input type="radio" name="zadanie9" value="correct" id="z9d"> D. \( 7 \)</label>
+        </div>
+        <div class="button-row">
+            <button type="button" onclick="checkAnswer('zadanie9', 'correct', 'z9-result')">Sprawdź</button>
+            <button type="button" class="show-solution-button">Pokaż rozwiązanie</button>
+        </div>
+        <p id="z9-result" class="feedback"></p>
+        <p class="solution" style="display: none;">Rozwiązanie: \( x + y = 8 \) oraz \( x + y + z = 15 \), więc \( z = 15 - 8 = 7 \).</p>
+    </div>
+
+    <div class="zadanie">
+        <h2>Zadanie 10</h2>
+        <p>Dany jest trójkąt równoboczny o boku długości \( 2 \) cm.</p>
+        <p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe.</p>
+        <div class="odp">
+            <p>Wysokość tego trójkąta jest równa \( \sqrt{3} \) cm.</p>
+            <label><input type="radio" name="zadanie10-1" value="correct" id="z10a"> P</label><br>
+            <label><input type="radio" name="zadanie10-1" value="wrong" id="z10b"> F</label>
+        </div>
+        <div class="odp">
+            <p>Pole tego trójkąta jest równe \( \sqrt{3} \) cm\( ^2 \).</p>
+            <label><input type="radio" name="zadanie10-2" value="correct" id="z10c"> P</label><br>
+            <label><input type="radio" name="zadanie10-2" value="wrong" id="z10d"> F</label>
+        </div>
+        <div class="button-row">
+            <button type="button" onclick="checkAllAnswers([{ group: 'zadanie10-1', correct: 'correct' }, { group: 'zadanie10-2', correct: 'correct' }], 'z10-result')">Sprawdź</button>
+            <button type="button" class="show-solution-button">Pokaż rozwiązanie</button>
+        </div>
+        <p id="z10-result" class="feedback"></p>
+        <p class="solution" style="display: none;">Rozwiązanie: \( h = \frac{2\sqrt{3}}{2} = \sqrt{3} \) cm oraz \( P = \frac{2^2\sqrt{3}}{4} = \sqrt{3} \) cm\( ^2 \). Oba zdania są prawdziwe.</p>
+    </div>
+
+    <div class="zadanie">
+        <h2>Zadanie 11</h2>
+        <p>Kąty wewnętrzne czworokąta oznaczono: \( \alpha \), \( \beta \), \( \gamma \) oraz \( \delta \). Miara kąta \( \beta \) jest o \( 70° \) większa od miary kąta \( \alpha \), miara kąta \( \gamma \) jest dwukrotnie większa od miary kąta \( \alpha \). Kąt \( \delta \) jest kątem prostym.</p>
+        <p>Dokończ zdanie. Wybierz właściwą odpowiedź spośród podanych.</p>
+        <p>Miara kąta \( \beta \) jest równa</p>
+        <div class="odp">
+            <label><input type="radio" name="zadanie11" value="wrong" id="z11a"> A. \( 50° \)</label><br>
+            <label><input type="radio" name="zadanie11" value="wrong" id="z11b"> B. \( 85° \)</label><br>
+            <label><input type="radio" name="zadanie11" value="correct" id="z11c"> C. \( 120° \)</label><br>
+            <label><input type="radio" name="zadanie11" value="wrong" id="z11d"> D. \( 155° \)</label>
+        </div>
+        <div class="button-row">
+            <button type="button" onclick="checkAnswer('zadanie11', 'correct', 'z11-result')">Sprawdź</button>
+            <button type="button" class="show-solution-button">Pokaż rozwiązanie</button>
+        </div>
+        <p id="z11-result" class="feedback"></p>
+        <p class="solution" style="display: none;">Rozwiązanie: \( \alpha + (\alpha + 70°) + 2\alpha + 90° = 360° \), więc \( 4\alpha = 200° \) i \( \alpha = 50° \). Zatem \( \beta = 50° + 70° = 120° \).</p>
+    </div>
+
+    <div class="zadanie">
+        <h2>Zadanie 12</h2>
+        <p>Na kartce w kratkę Jurek wykonał rysunek. Na tym rysunku punkty \( M \), \( W \), \( S \) oznaczają położenia odpowiednio: muzeum, wieży widokowej oraz schroniska. Wieża widokowa znajduje się \( 3 \) km na północ i \( 4 \) km na zachód od schroniska. Muzeum znajduje się \( 5 \) km na wschód od schroniska.</p>
+        <figure>
+            <img src="zdjecia/arkusz2/zadanie12.png" alt="Rysunek na kartce w kratkę z punktami M, W i S" style="max-width: 100%; height: auto;">
+        </figure>
+        <p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe.</p>
+        <div class="odp">
+            <p>Odległość w linii prostej schroniska od muzeum jest równa odległości w linii prostej schroniska od wieży widokowej.</p>
+            <label><input type="radio" name="zadanie12-1" value="correct" id="z12a"> P</label><br>
+            <label><input type="radio" name="zadanie12-1" value="wrong" id="z12b"> F</label>
+        </div>
+        <div class="odp">
+            <p>Odległość w linii prostej muzeum od wieży widokowej jest mniejsza niż \( 10 \) km.</p>
+            <label><input type="radio" name="zadanie12-2" value="correct" id="z12c"> P</label><br>
+            <label><input type="radio" name="zadanie12-2" value="wrong" id="z12d"> F</label>
+        </div>
+        <div class="button-row">
+            <button type="button" onclick="checkAllAnswers([{ group: 'zadanie12-1', correct: 'correct' }, { group: 'zadanie12-2', correct: 'correct' }], 'z12-result')">Sprawdź</button>
+            <button type="button" class="show-solution-button">Pokaż rozwiązanie</button>
+        </div>
+        <p id="z12-result" class="feedback"></p>
+        <p class="solution" style="display: none;">Rozwiązanie: \( |SM| = 5 \) km oraz \( |SW| = \sqrt{3^2 + 4^2} = 5 \) km. Odległość \( |MW| = \sqrt{9^2 + 3^2} = \sqrt{90} &lt; 10 \) km. Oba zdania są prawdziwe.</p>
+    </div>
+
+    <div class="zadanie">
+        <h2>Zadanie 13</h2>
+        <p>Przekątna \( AD \) dzieli pięciokąt \( ABCDE \) na trójkąt \( ADE \) i na kwadrat \( ABCD \) (zobacz rysunek). Pole trójkąta \( ADE \) jest równe \( 28 \), a wysokość poprowadzona z wierzchołka \( E \) na bok \( AD \) jest równa \( 7 \).</p>
+        <figure>
+            <img src="zdjecia/arkusz2/zadanie13.png" alt="Pięciokąt ABCDE podzielony przekątną AD na trójkąt ADE i kwadrat ABCD" style="max-width: 100%; height: auto;">
+        </figure>
+        <p>Dokończ zdanie. Wybierz właściwą odpowiedź spośród podanych.</p>
+        <p>Pole kwadratu \( ABCD \) jest równe</p>
+        <div class="odp">
+            <label><input type="radio" name="zadanie13" value="wrong" id="z13a"> A. \( 16 \)</label><br>
+            <label><input type="radio" name="zadanie13" value="wrong" id="z13b"> B. \( 32 \)</label><br>
+            <label><input type="radio" name="zadanie13" value="wrong" id="z13c"> C. \( 49 \)</label><br>
+            <label><input type="radio" name="zadanie13" value="correct" id="z13d"> D. \( 64 \)</label>
+        </div>
+        <div class="button-row">
+            <button type="button" onclick="checkAnswer('zadanie13', 'correct', 'z13-result')">Sprawdź</button>
+            <button type="button" class="show-solution-button">Pokaż rozwiązanie</button>
+        </div>
+        <p id="z13-result" class="feedback"></p>
+        <p class="solution" style="display: none;">Rozwiązanie: \( 28 = \frac{1}{2} \cdot |AD| \cdot 7 \), więc \( |AD| = 8 \). Pole kwadratu to \( 8^2 = 64 \).</p>
+    </div>
+
+    <div class="zadanie">
+        <h2>Zadanie 14</h2>
+        <p>Trzy jednakowe sześciany o krawędzi długości \( 5 \) ustawiono jeden na drugim i otrzymano prostopadłościan (zobacz rysunek).</p>
+        <figure>
+            <img src="zdjecia/arkusz2/zadanie14.png" alt="Trzy sześciany ustawione jeden na drugim tworzą prostopadłościan" style="max-width: 100%; height: auto;">
+        </figure>
+        <p>Dokończ zdanie. Wybierz właściwą odpowiedź spośród podanych.</p>
+        <p>Pole powierzchni całkowitej otrzymanego prostopadłościanu jest równe</p>
+        <div class="odp">
+            <label><input type="radio" name="zadanie14" value="correct" id="z14a"> A. \( 350 \)</label><br>
+            <label><input type="radio" name="zadanie14" value="wrong" id="z14b"> B. \( 375 \)</label><br>
+            <label><input type="radio" name="zadanie14" value="wrong" id="z14c"> C. \( 400 \)</label><br>
+            <label><input type="radio" name="zadanie14" value="wrong" id="z14d"> D. \( 450 \)</label>
+        </div>
+        <div class="button-row">
+            <button type="button" onclick="checkAnswer('zadanie14', 'correct', 'z14-result')">Sprawdź</button>
+            <button type="button" class="show-solution-button">Pokaż rozwiązanie</button>
+        </div>
+        <p id="z14-result" class="feedback"></p>
+        <p class="solution" style="display: none;">Rozwiązanie: prostopadłościan ma wymiary \( 5 \times 5 \times 15 \). Pole powierzchni: \( 2 \cdot (5 \cdot 5 + 5 \cdot 15 + 5 \cdot 15) = 350 \).</p>
     </div>
 </div>
 

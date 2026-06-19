@@ -4,30 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1331c87a-abef-4e89-b235-9d3205a021a5" name="Changes" comment="nowa struk. css">
-      <change afterPath="$PROJECT_DIR$/css/components/feedback.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/components/hero.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/components/navbar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/print.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/sections/quiz.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/sections/rozwiazania.css" afterDir="false" />
+    <list default="true" id="1331c87a-abef-4e89-b235-9d3205a021a5" name="Changes" comment="struktura plików css">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arkusz1.html" beforeDir="false" afterPath="$PROJECT_DIR$/arkusz1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/arkusz2.html" beforeDir="false" afterPath="$PROJECT_DIR$/arkusz2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arkusze.html" beforeDir="false" afterPath="$PROJECT_DIR$/arkusze.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cke.html" beforeDir="false" afterPath="$PROJECT_DIR$/cke.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/buttons.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/buttons.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/layout.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rozwiazania.html" beforeDir="false" afterPath="$PROJECT_DIR$/rozwiazania.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rozwiazanie1.html" beforeDir="false" afterPath="$PROJECT_DIR$/rozwiazanie1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test1.html" beforeDir="false" afterPath="$PROJECT_DIR$/test1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testy.html" beforeDir="false" afterPath="$PROJECT_DIR$/testy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testy/test2.html" beforeDir="false" afterPath="$PROJECT_DIR$/testy/test2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testy/test3.html" beforeDir="false" afterPath="$PROJECT_DIR$/testy/test3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +41,7 @@
     <option name="chatModeId" value="Agent" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="33" />
+    <option name="cachedIndexableFilesCount" value="39" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -233,14 +213,6 @@
       <workItem from="1779292849660" duration="3288000" />
       <workItem from="1779296229968" duration="1251000" />
       <workItem from="1780663106444" duration="3937000" />
-    </task>
-    <task id="LOCAL-00011" summary="init">
-      <option name="closed" value="true" />
-      <created>1772379560348</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1772379560348</updated>
     </task>
     <task id="LOCAL-00012" summary="init">
       <option name="closed" value="true" />
@@ -626,7 +598,15 @@
       <option name="project" value="LOCAL" />
       <updated>1779295892814</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="struktura plików css">
+      <option name="closed" value="true" />
+      <created>1781801227214</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1781801227214</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -661,7 +641,8 @@
     <MESSAGE value="drukowanie w arkusz1" />
     <MESSAGE value="rozwijanie paska nawigacji" />
     <MESSAGE value="nowa struk. css" />
-    <option name="LAST_COMMIT_MESSAGE" value="nowa struk. css" />
+    <MESSAGE value="struktura plików css" />
+    <option name="LAST_COMMIT_MESSAGE" value="struktura plików css" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
