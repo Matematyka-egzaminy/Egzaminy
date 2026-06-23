@@ -4,8 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1331c87a-abef-4e89-b235-9d3205a021a5" name="Changes" comment="arkusz 2">
+    <list default="true" id="1331c87a-abef-4e89-b235-9d3205a021a5" name="Changes" comment="strona startowa">
+      <change afterPath="$PROJECT_DIR$/zdjecia/arkusz1/e8062026-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zdjecia/arkusz1/e8062026-12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zdjecia/arkusz1/e8062026-13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zdjecia/arkusz1/e8062026-14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zdjecia/arkusz1/e8062026-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zdjecia/arkusz1/e8062026-8.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arkusz1.html" beforeDir="false" afterPath="$PROJECT_DIR$/arkusz1.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +46,7 @@
     <option name="chatModeId" value="Agent" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="62" />
+    <option name="cachedIndexableFilesCount" value="43" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -99,7 +106,7 @@
     "git-widget-placeholder": "dev",
     "ignore.virus.scanning.warn.message": "true",
     "javascript.preferred.runtime.type.id": "node",
-    "last_opened_file_path": "C:/Users/Maria/WebstormProjects/zadania/zdjecia/arkusz2",
+    "last_opened_file_path": "C:/Users/Maria/WebstormProjects/zadania/zdjecia/arkusz1",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -113,6 +120,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Maria\WebstormProjects\zadania\zdjecia\arkusz1" />
       <recent name="C:\Users\Maria\WebstormProjects\zadania\zdjecia\arkusz2" />
       <recent name="C:\Users\Maria\WebstormProjects\zadania" />
     </key>
@@ -213,15 +221,8 @@
       <workItem from="1779292849660" duration="3288000" />
       <workItem from="1779296229968" duration="1251000" />
       <workItem from="1780663106444" duration="3937000" />
-      <workItem from="1782217118092" duration="1449000" />
-    </task>
-    <task id="LOCAL-00014" summary="init">
-      <option name="closed" value="true" />
-      <created>1773938835887</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1773938835888</updated>
+      <workItem from="1782217118092" duration="1946000" />
+      <workItem from="1782230572507" duration="741000" />
     </task>
     <task id="LOCAL-00015" summary="init">
       <option name="closed" value="true" />
@@ -607,7 +608,15 @@
       <option name="project" value="LOCAL" />
       <updated>1782217559390</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="strona startowa">
+      <option name="closed" value="true" />
+      <created>1782222939062</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1782222939062</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -644,7 +653,8 @@
     <MESSAGE value="nowa struk. css" />
     <MESSAGE value="struktura plików css" />
     <MESSAGE value="arkusz 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="arkusz 2" />
+    <MESSAGE value="strona startowa" />
+    <option name="LAST_COMMIT_MESSAGE" value="strona startowa" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>

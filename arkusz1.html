@@ -55,19 +55,25 @@
 
     <div class="zadanie">
         <h2>Zadanie 1</h2>
-        <p>Oblicz: \( 1+1= \)</p>
+        <p>Na stronie internetowej szkoły zamieszczono diagram słupkowy przedstawiający liczbę
+            finalistów konkursów przedmiotowych z sześciu kolejnych lat.</p>
+        <figure>
+            <img src="zdjecia/arkusz1/e8062026-1.jpg" style="max-width: 100%; height: auto;">
+        </figure>
+        <p>Dokończ zdanie. Wybierz właściwą odpowiedź spośród podanych.</p>
+        <p>Średnia roczna liczba finalistów w okresie tych sześciu lat była równa</p>
         <div class="odp">
-            <label><input type="radio" name="zadanie1" value="correct" id="z1a"> \( 2 \)</label><br>
-            <label><input type="radio" name="zadanie1" value="wrong" id="z1b"> \( 28888 \)</label><br>
-            <label><input type="radio" name="zadanie1" value="wrong" id="z1c"> \( 4 \)</label><br>
-            <label><input type="radio" name="zadanie1" value="wrong" id="z1d"> \( 5 \)</label>
+            <label><input type="radio" name="zadanie1" value="correct" id="z1a"> \( 6,5 \)</label><br>
+            <label><input type="radio" name="zadanie1" value="wrong" id="z1b"> \( 7 \)</label><br>
+            <label><input type="radio" name="zadanie1" value="wrong" id="z1c"> \( 7,8 \)</label><br>
+            <label><input type="radio" name="zadanie1" value="wrong" id="z1d"> \( 8 \)</label>
         </div>
         <div class="button-row">
             <button type="button" onclick="checkAnswer('zadanie1', 'correct', 'z1-result')">Sprawdź</button>
             <button type="button" class="show-solution-button">Pokaż rozwiązanie</button>
         </div>
         <p id="z1-result" class="feedback"></p>
-        <p class="solution" style="display: none;">Rozwiazanie: \( 1+1=2 \).</p>
+        <p class="solution" style="display: none;">Rozwiazanie: \( (10+8+0+4+12+5):6=6,5 \).</p>
     </div>
 
     <div class="zadanie">
