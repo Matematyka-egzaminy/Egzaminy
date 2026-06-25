@@ -78,23 +78,89 @@
 
     <div class="zadanie">
         <h2>Zadanie 2</h2>
-        <p>Oblicz: \( 1+3= \)</p>
+        <p>Kwotę 1 800 złotych przeznaczoną na nagrody w pewnym konkursie podzielono na trzy
+            części w stosunku 6 : 3 : 1, odpowiednio: za I, za II i za III miejsce.</p>
+        <p>Uzupełnij zdania. Wybierz odpowiedź spośród oznaczonych literami A i B oraz
+            odpowiedź spośród oznaczonych literami C i D.</p>
+        <p>Wartość nagrody za III miejsce jest równa</p>
         <div class="odp">
-            <label><input type="radio" name="zadanie2" value="wrong" id="z2a"> \( 2 \)</label><br>
-            <label><input type="radio" name="zadanie2" value="wrong" id="z2b"> \( 28888 \)</label><br>
-            <label><input type="radio" name="zadanie2" value="correct" id="z2c"> \( 4 \)</label><br>
-            <label><input type="radio" name="zadanie2" value="wrong" id="z2d"> \( 5 \)</label>
+            <label><input type="radio" name="zadanie2-1" value="correct" id="z2a"> A. \( 180 \ złotych \)</label><br>
+            <label><input type="radio" name="zadanie2-1" value="wrong" id="z2b"> B. \( 200  \ złotych \)</label>
+        </div>
+        <p>Wartość nagrody za I miejsce jest (C/D) razy większa od wartości nagrody za II miejsce.</p>
+        <div class="odp">
+            <label><input type="radio" name="zadanie2-2" value="wrong" id="z2c"> C. \( 3 \)</label><br>
+            <label><input type="radio" name="zadanie2-2" value="correct" id="z2d"> D. \( 2 \)</label>
         </div>
         <div class="button-row">
-            <button type="button" onclick="checkAnswer('zadanie2', 'correct', 'z2-result')">Sprawdź</button>
+            <button type="button" onclick="checkAllAnswers([{ group: 'zadanie2-1', correct: 'correct' }, { group: 'zadanie2-2', correct: 'correct' }], 'z2-result')">Sprawdź</button>
             <button type="button" class="show-solution-button">Pokaż rozwiązanie</button>
         </div>
         <p id="z2-result" class="feedback"></p>
-        <p class="solution" style="display: none;">Rozwiazanie: \( 1+3=4 \).</p>
+        <p class="solution" style="display: none;">Rozwiązanie: \( 1800:10=180; 6:3=2\)</p>
     </div>
 
     <div class="zadanie">
         <h2>Zadanie 3</h2>
+        <p>Dokończ zdanie. Wybierz właściwą odpowiedź spośród podanych.</p>
+        <p>Rozwiązaniem równania \( 3(𝑥 + 2) = 6 − (𝑥 − 1) \) jest liczba</p>
+        <div class="odp">
+            <label><input type="radio" name="zadanie3" value="wrong" id="z3a"> \( -3/2 \)</label><br>
+            <label><input type="radio" name="zadanie3" value="wrong" id="z3b"> \( -1 \)</label><br>
+            <label><input type="radio" name="zadanie3" value="correct" id="z3c"> \( 1/4 \)</label><br>
+            <label><input type="radio" name="zadanie3" value="wrong" id="z3d"> \( 1/2 \)</label>
+        </div>
+        <div class="button-row">
+            <button type="button" onclick="checkAnswer('zadanie3', 'correct', 'z3-result')">Sprawdź</button>
+            <button type="button" class="show-solution-button">Pokaż rozwiązanie</button>
+        </div>
+        <p id="z3-result" class="feedback"></p>
+        <p class="solution" style="display: none;">Rozwiazanie: \( (10+8+0+4+12+5):6=6,5 \).</p>
+    </div>
+
+    <div class="zadanie">
+        <h2>Zadanie 4</h2>
+        <p>W tabeli zapisano cztery wyrażenia arytmetyczne:</p>
+        <figure>
+            <img src="zdjecia/arkusz1/e8062026-2.jpg" style="max-width: 100%; height: auto;">
+        </figure>
+        <p>Które z tych wyrażeń ma największą wartość? Wybierz właściwą odpowiedź spośród
+            podanych.</p>
+        <div class="odp">
+            <label><input type="radio" name="zadanie4" value="wrong" id="z4a"> \( I\)</label><br>
+            <label><input type="radio" name="zadanie4" value="correct" id="z4b"> \( II \)</label><br>
+            <label><input type="radio" name="zadanie4" value="wrong" id="z4c"> \( III \)</label><br>
+            <label><input type="radio" name="zadanie4" value="wrong" id="z4d"> \( IV \)</label>
+        </div>
+        <div class="button-row">
+            <button type="button" onclick="checkAnswer('zadanie4', 'correct', 'z4-result')">Sprawdź</button>
+            <button type="button" class="show-solution-button">Pokaż rozwiązanie</button>
+        </div>
+        <p id="z4-result" class="feedback"></p>
+        <p class="solution" style="display: none;">Rozwiazanie: \( (10+8+0+4+12+5):6=6,5 \).</p>
+    </div>
+
+    <div class="zadanie">
+        <h2>Zadanie 5</h2>
+        <p>W pewnej liczbie czterocyfrowej suma cyfr jest równa 3.</p>
+
+        <p>Ile jest liczb czterocyfrowych spełniających ten warunek? Wybierz właściwą
+            odpowiedź spośród podanych.</p>
+        <div class="odp">
+            <label><input type="radio" name="zadanie5" value="wrong" id="z5a"> \( 3\)</label><br>
+            <label><input type="radio" name="zadanie5" value="correct" id="z5b"> \( 6 \)</label><br>
+            <label><input type="radio" name="zadanie5" value="wrong" id="z5c"> \( 9 \)</label><br>
+            <label><input type="radio" name="zadanie5" value="wrong" id="z5d "> \( 10 \)</label>
+        </div>
+        <div class="button-row">
+            <button type="button" onclick="checkAnswer('zadanie5', 'correct', 'z5-result')">Sprawdź</button>
+            <button type="button" class="show-solution-button">Pokaż rozwiązanie</button>
+        </div>
+        <p id="z5-result" class="feedback"></p>
+        <p class="solution" style="display: none;">Rozwiazanie: \( (10+8+0+4+12+5):6=6,5 \).</p>
+    </div>
+    <div class="zadanie">
+        <h2>Zadanie 114</h2>
         <p>Czy \( 5 \) jest liczbą parzystą?</p>
         <div class="odp zadanie-3-columns">
             <div class="zadanie-3-column">
