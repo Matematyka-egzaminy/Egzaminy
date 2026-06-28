@@ -141,8 +141,8 @@
         <p>Ile jest liczb czterocyfrowych spełniających ten warunek? Wybierz właściwą odpowiedź spośród podanych.</p>
         <div class="odp">
             <label><input type="radio" name="zadanie5" value="wrong" id="z5a"> A. \( 3 \)</label><br>
-            <label><input type="radio" name="zadanie5" value="correct" id="z5b"> B. \( 6 \)</label><br>
-            <label><input type="radio" name="zadanie5" value="wrong" id="z5c"> C. \( 9 \)</label><br>
+            <label><input type="radio" name="zadanie5" value="wrong" id="z5b"> B. \( 6 \)</label><br>
+            <label><input type="radio" name="zadanie5" value="correct" id="z5c"> C. \( 9 \)</label><br>
             <label><input type="radio" name="zadanie5" value="wrong" id="z5d"> D. \( 10 \)</label>
         </div>
         <div class="button-row">
@@ -150,41 +150,38 @@
             <button type="button" class="show-solution-button">Pokaż rozwiązanie</button>
         </div>
         <p id="z5-result" class="feedback"></p>
-        <p class="solution" style="display: none;">Rozwiązanie: pierwsza cyfra musi być równa \( 1 \), a suma pozostałych trzech cyfr musi wynosić \( 2 \). Otrzymujemy \( 6 \) takich liczb.</p>
+        <p class="solution" style="display: none;">Rozwiązanie: 1011,1101,1110,1002,1020,1200,2001,2100,2010.</p>
     </div>
 
     <div class="zadanie">
         <h2>Zadanie 6</h2>
-        <p>W urnie jest \( 5 \) kul białych i \( 5 \) czarnych.</p>
-        <p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe.</p>
+        <p>Dane jest wyrażenie arytmetyczne \( \frac{\sqrt{100}-\sqrt{36}}{\sqrt{-8}} \)</p>
+        <p>Dokończ zdanie. Wybierz właściwą odpowiedź spośród podanych.</p>
+        <p>Wartość podanego wyrażenia jest równa</p>
         <div class="odp">
-            <p>Prawdopodobieństwo wylosowania białej kuli jest większe niż prawdopodobieństwo wylosowania czarnej kuli.</p>
-            <label><input type="radio" name="zadanie6-1" value="wrong" id="z6a"> P</label><br>
-            <label><input type="radio" name="zadanie6-1" value="correct" id="z6b"> F</label>
-        </div>
-        <div class="odp">
-            <p>Prawdopodobieństwo wylosowania białej kuli nie zmieni się, jeśli z urny wyjmiemy jedną białą i jedną czarną kulę.</p>
-            <label><input type="radio" name="zadanie6-2" value="correct" id="z6c"> P</label><br>
-            <label><input type="radio" name="zadanie6-2" value="wrong" id="z6d"> F</label>
+            <label><input type="radio" name="zadanie6" value="wrong" id="z6a"> A. \( 4 \)</label><br>
+            <label><input type="radio" name="zadanie6" value="wrong" id="z6b"> B. \( 2 \)</label><br>
+            <label><input type="radio" name="zadanie6" value="correct" id="z6c"> C. \( -2 \)</label><br>
+            <label><input type="radio" name="zadanie6" value="wrong" id="z6d"> D. \( -4 \)</label>
         </div>
         <div class="button-row">
-            <button type="button" onclick="checkAllAnswers([{ group: 'zadanie6-1', correct: 'correct' }, { group: 'zadanie6-2', correct: 'correct' }], 'z6-result')">Sprawdź</button>
+            <button type="button" onclick="checkAnswer('zadanie6', 'correct', 'z6-result')">Sprawdź</button>
             <button type="button" class="show-solution-button">Pokaż rozwiązanie</button>
         </div>
         <p id="z6-result" class="feedback"></p>
-        <p class="solution" style="display: none;">Rozwiązanie: prawdopodobieństwa są równe, bo kul białych i czarnych jest po \( 5 \), więc \( \frac{5}{10} = \frac{1}{2} \). Po wyjęciu jednej białej i jednej czarnej kuli zostaje po \( 4 \), więc \( \frac{4}{8} = \frac{1}{2} \).</p>
+        <p class="solution" style="display: none;">Rozwiązanie: \((10-6):(-2)=-2\)</p>
     </div>
 
     <div class="zadanie">
         <h2>Zadanie 7</h2>
-        <p>Karolina przeczytała \( \frac{3}{5} \) książki. Do końca książki zostało jej \( 48 \) stron.</p>
+        <p>Trzy kolejne liczby naturalne można zapisać w postaci: \( 𝑛, (𝑛 + 1), (𝑛 + 2). \)</p>
         <p>Dokończ zdanie. Wybierz właściwą odpowiedź spośród podanych.</p>
-        <p>Liczba stron w tej książce jest równa</p>
+        <p>Suma każdych trzech kolejnych liczb naturalnych jest liczbą podzielną przez</p>
         <div class="odp">
-            <label><input type="radio" name="zadanie7" value="wrong" id="z7a"> A. \( 100 \)</label><br>
-            <label><input type="radio" name="zadanie7" value="wrong" id="z7b"> B. \( 110 \)</label><br>
-            <label><input type="radio" name="zadanie7" value="correct" id="z7c"> C. \( 120 \)</label><br>
-            <label><input type="radio" name="zadanie7" value="wrong" id="z7d"> D. \( 130 \)</label>
+            <label><input type="radio" name="zadanie7" value="wrong" id="z7a"> A. \( 2 \)</label><br>
+            <label><input type="radio" name="zadanie7" value="correct" id="z7b"> B. \( 3 \)</label><br>
+            <label><input type="radio" name="zadanie7" value="wrong" id="z7c"> C. \( 5 \)</label><br>
+            <label><input type="radio" name="zadanie7" value="wrong" id="z7d"> D. \( 6\)</label>
         </div>
         <div class="button-row">
             <button type="button" onclick="checkAnswer('zadanie7', 'correct', 'z7-result')">Sprawdź</button>
@@ -196,158 +193,171 @@
 
     <div class="zadanie">
         <h2>Zadanie 8</h2>
-        <p>Poniżej przedstawiono fragment kalendarza kwietnia.</p>
+        <p>Poniżej przedstawiono kalendarz na kwiecień w pewnym roku.</p>
         <figure>
             <img src="zdjecia/arkusz1/e8062026-8.jpg" alt="Kalendarz miesiąca kwietnia" style="max-width: 100%; height: auto;">
         </figure>
         <p>Uzupełnij zdania. Wybierz odpowiedź spośród oznaczonych literami A i B oraz odpowiedź spośród oznaczonych literami C i D.</p>
-        <p>Liczba sobót w tym miesiącu wynosi</p>
+        <p>Prawdopodobieństwo, że wybrany dzień tego miesiąca to wtorek, jest równe</p>
         <div class="odp">
-            <label><input type="radio" name="zadanie8-1" value="wrong" id="z8a"> A. \( 3 \)</label><br>
-            <label><input type="radio" name="zadanie8-1" value="correct" id="z8b"> B. \( 4 \)</label>
+            <label><input type="radio" name="zadanie8-1" value="wrong" id="z8a"> A. \( \frac{1}{5} \)</label><br>
+            <label><input type="radio" name="zadanie8-1" value="correct" id="z8b"> B. \( \frac{1}{6} \)</label>
         </div>
-        <p>Liczba wtorków w tym miesiącu wynosi</p>
+        <p>rawdopodobieństwo, że numer wybranego dnia tego miesiąca będzie liczbą podzielną przez C\D jest równe \( \frac{2}{15} \)</p>
         <div class="odp">
-            <label><input type="radio" name="zadanie8-2" value="correct" id="z8c"> C. \( 4 \)</label><br>
-            <label><input type="radio" name="zadanie8-2" value="wrong" id="z8d"> D. \( 5 \)</label>
+            <label><input type="radio" name="zadanie8-2" value="wrong" id="z8c"> C. \( 4 \)</label><br>
+            <label><input type="radio" name="zadanie8-2" value="correct" id="z8d"> D. \( 7 \)</label>
         </div>
         <div class="button-row">
             <button type="button" onclick="checkAllAnswers([{ group: 'zadanie8-1', correct: 'correct' }, { group: 'zadanie8-2', correct: 'correct' }], 'z8-result')">Sprawdź</button>
             <button type="button" class="show-solution-button">Pokaż rozwiązanie</button>
         </div>
         <p id="z8-result" class="feedback"></p>
-        <p class="solution" style="display: none;">Rozwiązanie: w kwietniu przedstawionym w kalendarzu wypada \( 4 \) sobót (dni \( 5, 12, 19, 26 \)) oraz \( 4 \) wtorki (dni \( 8, 15, 22, 29 \)).</p>
+        <p class="solution" style="display: none;">Rozwiązanie: Liczba wtorków: \( 5 \), liczba dni \( 30\)), prawdopodobieństwo \( \frac{5}{30} = \frac{1}{6} \). Dni podzielne przez \(7 : 7,14,21,28\), prawdopodobieństwo: \( 4/30=2/15\)</p>
     </div>
 
     <div class="zadanie">
         <h2>Zadanie 9</h2>
-        <p>Wyniki pomiarów w centymetrach to: \( 12 \), \( 14 \), \( 15 \), \( 16 \), \( 18 \).</p>
+        <p>Dane są cztery wyrażenia arytmetyczne: \(I. 1-2\frac{2}{3}\cdot3 ,\quad II. 3,4-2\frac{1}{4}, \quad III. 3\frac{3}{4}-4,25, \quad IV.6:1,2 \).</p>
         <p>Dokończ zdanie. Wybierz właściwą odpowiedź spośród podanych.</p>
-        <p>Średnia arytmetyczna tych wyników jest równa</p>
+        <p>Liczbami całkowitymi są wartości wyrażeń</p>
         <div class="odp">
-            <label><input type="radio" name="zadanie9" value="correct" id="z9a"> A. \( 15 \)</label><br>
-            <label><input type="radio" name="zadanie9" value="wrong" id="z9b"> B. \( 16 \)</label><br>
-            <label><input type="radio" name="zadanie9" value="wrong" id="z9c"> C. \( 17 \)</label><br>
-            <label><input type="radio" name="zadanie9" value="wrong" id="z9d"> D. \( 18 \)</label>
+            <label><input type="radio" name="zadanie9" value="wrong" id="z9a"> A. I oraz II</label><br>
+            <label><input type="radio" name="zadanie9" value="wrong" id="z9b"> B. II oraz III</label><br>
+            <label><input type="radio" name="zadanie9" value="correct" id="z9c"> C. I oraz IV</label><br>
+            <label><input type="radio" name="zadanie9" value="wrong" id="z9d"> D. III oraz IV</label>
         </div>
         <div class="button-row">
             <button type="button" onclick="checkAnswer('zadanie9', 'correct', 'z9-result')">Sprawdź</button>
             <button type="button" class="show-solution-button">Pokaż rozwiązanie</button>
         </div>
         <p id="z9-result" class="feedback"></p>
-        <p class="solution" style="display: none;">Rozwiązanie: \( (12 + 14 + 15 + 16 + 18) : 5 = 75 : 5 = 15 \).</p>
+        <p class="solution" style="display: none;">Rozwiązanie: </p>
     </div>
 
     <div class="zadanie">
         <h2>Zadanie 10</h2>
-        <p>Dany jest trójkąt prostokątny o przyprostokątnych długości \( 6 \) cm i \( 8 \) cm.</p>
-        <p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe.</p>
+        <p>Ala wyruszyła na wycieczkę rowerową o godzinie 11 : 40. Przejechała trasę o długości 28 km
+            i dotarła do celu tego samego dnia o godzinie 13 : 00.</p>
+        <p>Dokończ zdanie. Wybierz właściwą odpowiedź spośród podanych.</p>
+        <p>Prędkość, z jaką Ala na rowerze pokonała trasę wycieczki, była równa</p>
+
         <div class="odp">
-            <p>Długość przeciwprostokątnej tego trójkąta jest równa \( 10 \) cm.</p>
-            <label><input type="radio" name="zadanie10-1" value="correct" id="z10a"> P</label><br>
-            <label><input type="radio" name="zadanie10-1" value="wrong" id="z10b"> F</label>
-        </div>
-        <div class="odp">
-            <p>Pole tego trójkąta jest równe \( 48 \) cm\( ^2 \).</p>
-            <label><input type="radio" name="zadanie10-2" value="wrong" id="z10c"> P</label><br>
-            <label><input type="radio" name="zadanie10-2" value="correct" id="z10d"> F</label>
+            <label><input type="radio" name="zadanie10" value="wrong" id="z10a"> A. 10,5 km/h</label><br>
+            <label><input type="radio" name="zadanie10" value="wrong" id="z10b"> B. 12 km/h</label><br>
+            <label><input type="radio" name="zadanie10" value="wrong" id="z10c"> C. 16,8 km/h</label><br>
+            <label><input type="radio" name="zadanie10" value="correct" id="z10d"> D. 21 km/h</label>
         </div>
         <div class="button-row">
-            <button type="button" onclick="checkAllAnswers([{ group: 'zadanie10-1', correct: 'correct' }, { group: 'zadanie10-2', correct: 'correct' }], 'z10-result')">Sprawdź</button>
+            <button type="button" onclick="checkAnswer('zadanie10', 'correct', 'z10-result')">Sprawdź</button>
             <button type="button" class="show-solution-button">Pokaż rozwiązanie</button>
         </div>
         <p id="z10-result" class="feedback"></p>
-        <p class="solution" style="display: none;">Rozwiązanie: \( c = \sqrt{6^2 + 8^2} = 10 \) cm oraz \( P = \frac{6 \cdot 8}{2} = 24 \) cm\( ^2 \). Pierwsze zdanie jest prawdziwe, drugie fałszywe.</p>
+        <p class="solution" style="display: none;">Rozwiązanie: Ala jechała 1 godzinę i 20 minut, czyli \(1\frac{1}{3}\) godziny. Prędkość to \( \frac{28}{\frac{4}{3}} = 28 \cdot \frac{3}{4} = 21 \) km/h.  Odpowiedź D jest poprawna.</p>
     </div>
 
     <div class="zadanie">
         <h2>Zadanie 11</h2>
-        <p>Kasia jest \( 3 \) razy starsza od Ani. Ola jest o \( 2 \) lata starsza od Kasi. Wiek Ani oznaczamy literą \( x \).</p>
-        <p>Dokończ zdanie. Wybierz właściwą odpowiedź spośród podanych.</p>
-        <p>Łączny wiek Kasi, Ani i Oli opisuje wyrażenie</p>
+        <p>W prostokątnym układzie współrzędnych (𝑥, 𝑦) dane są odcinki 𝐴𝐵 oraz 𝐶𝐷.
+            Końcami tych odcinków są – odpowiednio – punkty:
+            𝐴 = (0, 0), 𝐵 = (0, 4) oraz 𝐶 = (−2, 0), 𝐷 = (6, 0).</p>
+        <p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F –
+            jeśli jest fałszywe.</p>
         <div class="odp">
-            <label><input type="radio" name="zadanie11" value="wrong" id="z11a"> A. \( 3x + 5 \)</label><br>
-            <label><input type="radio" name="zadanie11" value="wrong" id="z11b"> B. \( 4x + 2 \)</label><br>
-            <label><input type="radio" name="zadanie11" value="correct" id="z11c"> C. \( 5x + 2 \)</label><br>
-            <label><input type="radio" name="zadanie11" value="wrong" id="z11d"> D. \( 7x + 2 \)</label>
+            <p>Odcinek 𝐴𝐵 ma taką samą długość jak odcinek 𝐶𝐷.</p>
+            <label><input type="radio" name="zadanie11-1" value="wrong" id="z11a"> P</label><br>
+            <label><input type="radio" name="zadanie11-1" value="correct" id="z11b"> F</label>
+        </div>
+        <div class="odp">
+            <p>Odcinek 𝐴𝐵 jest prostopadły do odcinka 𝐶𝐷.</p>
+            <label><input type="radio" name="zadanie11-2" value="correct" id="z11c"> P</label><br>
+            <label><input type="radio" name="zadanie11-2" value="wrong" id="z11d"> F</label>
         </div>
         <div class="button-row">
-            <button type="button" onclick="checkAnswer('zadanie11', 'correct', 'z11-result')">Sprawdź</button>
+            <button type="button" onclick="checkAllAnswers([{ group: 'zadanie11-1', correct: 'correct' }, { group: 'zadanie11-2', correct: 'correct' }], 'z11-result')">Sprawdź</button>
             <button type="button" class="show-solution-button">Pokaż rozwiązanie</button>
         </div>
         <p id="z11-result" class="feedback"></p>
-        <p class="solution" style="display: none;">Rozwiązanie: Ani jest \( x \) lat, Kasi \( 3x \) lat, Oli \( 3x + 2 \) lat. Łącznie: \( x + 3x + 3x + 2 = 5x + 2 \).</p>
+        <p class="solution" style="display: none;">Rozwiązanie: Odcinek 𝐴𝐵 ma długość 4, a odcinek 𝐶𝐷 ma długość 8. Zatem odcinki mają różne długości. Pierwsze zdanie jest fałszywe. Odcinek 𝐴𝐵 jest pionowy, a odcinek 𝐶𝐷 jest poziomy, więc są prostopadłe. Drugie zdanie jest prawdziwe.</p>
     </div>
+</div>
 
     <div class="zadanie">
         <h2>Zadanie 12</h2>
-        <p>Dany jest równoległobok \( ABCD \). Przekątna \( BD \) jest prostopadła do boku \( AD \), \( |AD| = 6 \) oraz \( |BD| = 8 \) (zobacz rysunek).</p>
+        <p>Bok 𝐴𝐷 równoległoboku \(𝐴𝐵𝐶𝐷\) ma długość 6, a przekątna 𝐵𝐷 prostopadła do tego boku
+            ma długość 8 (zobacz rysunek).</p>
         <figure>
             <img src="zdjecia/arkusz1/e8062026-12.jpg" alt="Równoległobok ABCD z przekątną BD prostopadłą do boku AD" style="max-width: 100%; height: auto;">
         </figure>
         <p>Dokończ zdanie. Wybierz właściwą odpowiedź spośród podanych.</p>
-        <p>Pole równoległoboku \( ABCD \) jest równe</p>
+        <p>Obwód równoległoboku \(𝐴𝐵𝐶𝐷\) jest równy</p>
         <div class="odp">
-            <label><input type="radio" name="zadanie12" value="wrong" id="z12a"> A. \( 24 \)</label><br>
-            <label><input type="radio" name="zadanie12" value="correct" id="z12b"> B. \( 48 \)</label><br>
-            <label><input type="radio" name="zadanie12" value="wrong" id="z12c"> C. \( 60 \)</label><br>
-            <label><input type="radio" name="zadanie12" value="wrong" id="z12d"> D. \( 96 \)</label>
+            <label><input type="radio" name="zadanie12" value="wrong" id="z12a"> A. \( 32 \)</label><br>
+            <label><input type="radio" name="zadanie12" value="wrong" id="z12b"> B. \( 48 \)</label><br>
+            <label><input type="radio" name="zadanie12" value="wrong" id="z12c"> C. \( 24 \)</label><br>
+            <label><input type="radio" name="zadanie12" value="correct" id="z12d"> D. \( 22 \)</label>
         </div>
         <div class="button-row">
             <button type="button" onclick="checkAnswer('zadanie12', 'correct', 'z12-result')">Sprawdź</button>
             <button type="button" class="show-solution-button">Pokaż rozwiązanie</button>
         </div>
         <p id="z12-result" class="feedback"></p>
-        <p class="solution" style="display: none;">Rozwiązanie: \( BD \) jest wysokością poprowadzoną na bok \( AD \), więc pole wynosi \( 6 \cdot 8 = 48 \).</p>
+        <p class="solution" style="display: none;">Rozwiązanie: Z twierdzenia Pitagorasa \( AB =10 \). Obwód jest równy \( 2 \cdot (6 + 10) = 32 \).</p>
     </div>
 
     <div class="zadanie">
         <h2>Zadanie 13</h2>
-        <p>Figura \( S \) zbudowana została z jednakowych odcinków (zobacz rysunek). Każdy odcinek ma długość \( 5 \).</p>
+        <p>Z ośmiu jednakowych patyczków zbudowano figurę 𝑆 (zobacz rysunek). Ta figura ma dwie
+            osie symetrii w płaszczyźnie rysunku.</p>
         <figure>
             <img src="zdjecia/arkusz1/e8062026-13.jpg" alt="Figura S złożona z kwadratu i dwóch trójkątów" style="max-width: 100%; height: auto;">
         </figure>
-        <p>Dokończ zdanie. Wybierz właściwą odpowiedź spośród podanych.</p>
-        <p>Obwód figury \( S \) jest równy</p>
+        <p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F –
+            jeśli jest fałszywe.</p>
+
         <div class="odp">
-            <label><input type="radio" name="zadanie13" value="wrong" id="z13a"> A. \( 24 \)</label><br>
-            <label><input type="radio" name="zadanie13" value="wrong" id="z13b"> B. \( 28 \)</label><br>
-            <label><input type="radio" name="zadanie13" value="correct" id="z13c"> C. \( 30 \)</label><br>
-            <label><input type="radio" name="zadanie13" value="wrong" id="z13d"> D. \( 36 \)</label>
+            <p>Po usunięciu z figury 𝑆 patyczków 𝐴𝐹 i 𝐴𝐵, bez przesuwania pozostałych
+                patyczków, otrzymamy figurę, która ma jedną oś symetrii.</p>
+            <label><input type="radio" name="zadanie13-1" value="correct" id="z13a"> P</label><br>
+            <label><input type="radio" name="zadanie13-1" value="wrong" id="z13b"> F</label>
+        </div>
+        <div class="odp">
+            <p>Po usunięciu z figury 𝑆 patyczka 𝐹𝐸, bez przesuwania pozostałych
+                patyczków, otrzymamy figurę, która nie ma osi symetrii.</p>
+            <label><input type="radio" name="zadanie13-2" value="wrong" id="z13c"> P</label><br>
+            <label><input type="radio" name="zadanie13-2" value="correct" id="z13d"> F</label>
         </div>
         <div class="button-row">
-            <button type="button" onclick="checkAnswer('zadanie13', 'correct', 'z13-result')">Sprawdź</button>
+            <button type="button" onclick="checkAllAnswers([{ group: 'zadanie13-1', correct: 'correct' }, { group: 'zadanie13-2', correct: 'correct' }], 'z13-result')">Sprawdź</button>
             <button type="button" class="show-solution-button">Pokaż rozwiązanie</button>
         </div>
         <p id="z13-result" class="feedback"></p>
-        <p class="solution" style="display: none;">Rozwiązanie: obwód figury \( S \) składa się z \( 6 \) odcinków jednakowej długości, więc \( 6 \cdot 5 = 30 \).</p>
+        <p class="solution" style="display: none;">Rozwiązanie: </p>
     </div>
+</div>
 
     <div class="zadanie">
         <h2>Zadanie 14</h2>
-        <p>Pięć jednakowych kwadratów ułożono zgodnie z rysunkiem. Bok każdego kwadratu ma długość \( 4 \) cm.</p>
+        <p>Na rysunku przedstawiono siatkę pewnego sześcianu. Obwód tej siatki jest równy 70 cm.</p>
         <figure>
             <img src="zdjecia/arkusz1/e8062026-14.jpg" alt="Figura złożona z pięciu kwadratów ułożonych w układzie zygzakowatym" style="max-width: 100%; height: auto;">
         </figure>
-        <p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe.</p>
+        <p>Dokończ zdanie. Wybierz właściwą odpowiedź spośród podanych.</p>
+        <p>Pole powierzchni całkowitej tego sześcianu jest równe</p>
+
         <div class="odp">
-            <p>Figura składa się z pięciu kwadratów.</p>
-            <label><input type="radio" name="zadanie14-1" value="correct" id="z14a"> P</label><br>
-            <label><input type="radio" name="zadanie14-1" value="wrong" id="z14b"> F</label>
-        </div>
-        <div class="odp">
-            <p>Pole każdego z tych kwadratów jest równe \( 16 \) cm\( ^2 \).</p>
-            <label><input type="radio" name="zadanie14-2" value="correct" id="z14c"> P</label><br>
-            <label><input type="radio" name="zadanie14-2" value="wrong" id="z14d"> F</label>
+            <label><input type="radio" name="zadanie14" value="wrong" id="z14a"> A. \( 100 cm^2\)</label><br>
+            <label><input type="radio" name="zadanie14" value="wrong" id="z14b"> B. \( 120 cm^2\)</label><br>
+            <label><input type="radio" name="zadanie14" value="wrong" id="z14c"> C. \( 125 cm^2\)</label><br>
+            <label><input type="radio" name="zadanie14" value="correct" id="z14d"> D. \( 150 cm^2\)</label>
         </div>
         <div class="button-row">
-            <button type="button" onclick="checkAllAnswers([{ group: 'zadanie14-1', correct: 'correct' }, { group: 'zadanie14-2', correct: 'correct' }], 'z14-result')">Sprawdź</button>
+            <button type="button" onclick="checkAnswer('zadanie14', 'correct', 'z14-result')">Sprawdź</button>
             <button type="button" class="show-solution-button">Pokaż rozwiązanie</button>
         </div>
         <p id="z14-result" class="feedback"></p>
-        <p class="solution" style="display: none;">Rozwiązanie: w figurze widać \( 5 \) kwadratów. Pole kwadratu o boku \( 4 \) cm wynosi \( 4^2 = 16 \) cm\( ^2 \). Oba zdania są prawdziwe.</p>
+        <p class="solution" style="display: none;">Rozwiązanie: Pole powierzchni całkowitej sześcianu jest równe \( 6 \cdot a^2 \), gdzie \( a \) to długość krawędzi. Z obwodu siatki można wyznaczyć długość krawędzi.</p>
     </div>
-</div>
 
 <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 <script src="script.js"></script>
