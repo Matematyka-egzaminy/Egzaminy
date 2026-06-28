@@ -191,7 +191,7 @@ function checkAllAnswers(answerKeys, resultId) {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-    document.querySelectorAll("#test1 .zadanie, #test2 .zadanie").forEach(zadanie => {
+    document.querySelectorAll("#test1 .zadanie, #test2 .zadanie, #test3 .zadanie").forEach(zadanie => {
         const button = zadanie.querySelector(".show-solution-button");
         const solution = zadanie.querySelector(".solution");
 

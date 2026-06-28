@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1331c87a-abef-4e89-b235-9d3205a021a5" name="Changes" comment="arkusz 1">
+    <list default="true" id="1331c87a-abef-4e89-b235-9d3205a021a5" name="Changes" comment="pasek nawigacji">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arkusz1.html" beforeDir="false" afterPath="$PROJECT_DIR$/arkusz1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -218,23 +218,7 @@
       <workItem from="1782217118092" duration="1946000" />
       <workItem from="1782230572507" duration="2641000" />
       <workItem from="1782403117014" duration="834000" />
-      <workItem from="1782404101311" duration="1113000" />
-    </task>
-    <task id="LOCAL-00016" summary="init">
-      <option name="closed" value="true" />
-      <created>1774196601145</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1774196601145</updated>
-    </task>
-    <task id="LOCAL-00017" summary="init">
-      <option name="closed" value="true" />
-      <created>1774546391914</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1774546391914</updated>
+      <workItem from="1782404101311" duration="2964000" />
     </task>
     <task id="LOCAL-00018" summary="init">
       <option name="closed" value="true" />
@@ -612,7 +596,23 @@
       <option name="project" value="LOCAL" />
       <updated>1782231500283</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="arkusz 1">
+      <option name="closed" value="true" />
+      <created>1782405817987</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1782405817991</updated>
+    </task>
+    <task id="LOCAL-00066" summary="pasek nawigacji">
+      <option name="closed" value="true" />
+      <created>1782406070998</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1782406070998</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -651,7 +651,8 @@
     <MESSAGE value="arkusz 2" />
     <MESSAGE value="strona startowa" />
     <MESSAGE value="arkusz 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="arkusz 1" />
+    <MESSAGE value="pasek nawigacji" />
+    <option name="LAST_COMMIT_MESSAGE" value="pasek nawigacji" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
