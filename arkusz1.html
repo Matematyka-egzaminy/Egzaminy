@@ -100,23 +100,42 @@
     </div>
     <div class="zadanie">
             <h2>Zadanie 3</h2>
-            <p>Dokończ zdanie. Wybierz właściwą odpowiedź spośród podanych.</p>
-
-            <p>Wartość wyrażenia \(4^3-8^2:2^4\) jest równa</p>
+            <p>Dane jest wyrażenie</p>
+            <p>\( (0,75\cdot 8 + 8 \cdot\frac{1}{2}):(-2) \)</p>
+        <p>Dokończ zdanie. Wybierz właściwą odpowiedź spośród podanych.</p>
+        <p>Wartość tego wyrażenia jest równa</p>
             <div class="odp">
-                <label><input type="radio" name="zadanie3" value="wrong" id="z3a"> \(0\)</label><br>
-                <label><input type="radio" name="zadanie3" value="wrong" id="z3b"> \(10\)</label><br>
-                <label><input type="radio" name="zadanie3" value="wrong" id="z3c"> \(56\)</label><br>
-                <label><input type="radio" name="zadanie3" value="correct" id="z3d"> \(60\)</label>
+                <label><input type="radio" name="zadanie3" value="correct" id="z3a"> \(-5\)</label><br>
+                <label><input type="radio" name="zadanie3" value="wrong" id="z3b"> \(-3,5\)</label><br>
+                <label><input type="radio" name="zadanie3" value="wrong" id="z3c"> \(3,5\)</label><br>
+                <label><input type="radio" name="zadanie3" value="wrng" id="z3d"> \(5\)</label>
             </div>
             <div class="button-row">
                 <button type="button" onclick="checkAnswer('zadanie3', 'correct', 'z3-result')">Sprawdź</button>
                 <button type="button" class="show-solution-button">Pokaż rozwiązanie</button>
             </div>
             <p id="z3-result" class="feedback"></p>
-            <p class="solution" style="display: none;">Rozwiazanie: \(4^3-8^2:2^4=64-64:16=64-4=60.\)</p>
+            <p class="solution" style="display: none;">Rozwiazanie: \( (0,75\cdot 8 + 8 \cdot\frac{1}{2}):(-2)=(6+4):(-2)=10:(-2)=-5. \)</p>
     </div>
 
+    <div class="zadanie">
+        <h2>Zadanie 4</h2>
+        <p>Uczniowie trzech klas: 8A, 8B i 8C, zebrali łącznie 132,9 kg makulatury. Uczniowie klas 8A i 8B zebrali łącznie 90,6 kg makulatury, a uczniowie klas 8B i 8C zebrali łącznie 86,8 kg makulatury.</p>
+        <p>Ile kilogramów makulatury zebrali uczniowie klasy 8B? Wybierz właściwą odpowiedź spośród podanych.</p>
+
+        <div class="odp">
+            <label><input type="radio" name="zadanie4" value="wrong" id="z4a"> \(43,4\)</label><br>
+            <label><input type="radio" name="zadanie4" value="wrong" id="z4b"> \(44,3\)</label><br>
+            <label><input type="radio" name="zadanie4" value="correct" id="z4c"> \(44,5\)</label><br>
+            <label><input type="radio" name="zadanie4" value="wrng" id="z4d"> \(47,2\)</label>
+        </div>
+        <div class="button-row">
+            <button type="button" onclick="checkAnswer('zadanie4', 'correct', 'z4-result')">Sprawdź</button>
+            <button type="button" class="show-solution-button">Pokaż rozwiązanie</button>
+        </div>
+        <p id="z4-result" class="feedback"></p>
+        <p class="solution" style="display: none;">Rozwiazanie: \( 90,6+ 86,8-132,9=44,5.\)</p>
+    </div>
 
     <div class="zadanie">
         <h2>Zadanie 33</h2>

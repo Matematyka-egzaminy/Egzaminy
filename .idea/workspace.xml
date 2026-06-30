@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1331c87a-abef-4e89-b235-9d3205a021a5" name="Changes" comment="zmiany w cke">
-      <change afterPath="$PROJECT_DIR$/zdjecia/arkusz1/e8122025-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zdjecia/arkusz1/e8122025-12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zdjecia/arkusz1/e8122025-8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zdjecia/arkusz1/e8122025-9.jpg" afterDir="false" />
+    <list default="true" id="1331c87a-abef-4e89-b235-9d3205a021a5" name="Changes" comment="arkusz 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/arkusz1.html" beforeDir="false" afterPath="$PROJECT_DIR$/arkusz1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -225,15 +220,7 @@
       <workItem from="1782403117014" duration="834000" />
       <workItem from="1782404101311" duration="7626000" />
       <workItem from="1782742656065" duration="1736000" />
-      <workItem from="1782826233179" duration="1903000" />
-    </task>
-    <task id="LOCAL-00021" summary="init">
-      <option name="closed" value="true" />
-      <created>1775751998213</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1775751998213</updated>
+      <workItem from="1782826233179" duration="2562000" />
     </task>
     <task id="LOCAL-00022" summary="init">
       <option name="closed" value="true" />
@@ -619,7 +606,15 @@
       <option name="project" value="LOCAL" />
       <updated>1782744206983</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="arkusz 1">
+      <option name="closed" value="true" />
+      <created>1782828420057</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1782828420057</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -657,11 +652,11 @@
     <MESSAGE value="struktura plików css" />
     <MESSAGE value="arkusz 2" />
     <MESSAGE value="strona startowa" />
-    <MESSAGE value="arkusz 1" />
     <MESSAGE value="pasek nawigacji" />
     <MESSAGE value="arkusz 3 - czerwiec 2026" />
     <MESSAGE value="zmiany w cke" />
-    <option name="LAST_COMMIT_MESSAGE" value="zmiany w cke" />
+    <MESSAGE value="arkusz 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="arkusz 1" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
