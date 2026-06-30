@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1331c87a-abef-4e89-b235-9d3205a021a5" name="Changes" comment="arkusz 3 - czerwiec 2026">
+    <list default="true" id="1331c87a-abef-4e89-b235-9d3205a021a5" name="Changes" comment="zmiany w cke">
+      <change afterPath="$PROJECT_DIR$/zdjecia/arkusz1/e8122025-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zdjecia/arkusz1/e8122025-12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zdjecia/arkusz1/e8122025-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zdjecia/arkusz1/e8122025-9.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cke.html" beforeDir="false" afterPath="$PROJECT_DIR$/cke.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arkusz1.html" beforeDir="false" afterPath="$PROJECT_DIR$/arkusz1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -220,15 +224,8 @@
       <workItem from="1782230572507" duration="2641000" />
       <workItem from="1782403117014" duration="834000" />
       <workItem from="1782404101311" duration="7626000" />
-      <workItem from="1782742656065" duration="1189000" />
-    </task>
-    <task id="LOCAL-00020" summary="init">
-      <option name="closed" value="true" />
-      <created>1774548241657</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1774548241657</updated>
+      <workItem from="1782742656065" duration="1736000" />
+      <workItem from="1782826233179" duration="1903000" />
     </task>
     <task id="LOCAL-00021" summary="init">
       <option name="closed" value="true" />
@@ -614,7 +611,15 @@
       <option name="project" value="LOCAL" />
       <updated>1782642648379</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="zmiany w cke">
+      <option name="closed" value="true" />
+      <created>1782744206967</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1782744206983</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -655,7 +660,8 @@
     <MESSAGE value="arkusz 1" />
     <MESSAGE value="pasek nawigacji" />
     <MESSAGE value="arkusz 3 - czerwiec 2026" />
-    <option name="LAST_COMMIT_MESSAGE" value="arkusz 3 - czerwiec 2026" />
+    <MESSAGE value="zmiany w cke" />
+    <option name="LAST_COMMIT_MESSAGE" value="zmiany w cke" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
