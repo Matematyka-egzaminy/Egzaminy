@@ -4,23 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1331c87a-abef-4e89-b235-9d3205a021a5" name="Changes" comment="arkusz 1">
-      <change afterPath="$PROJECT_DIR$/arkusz0.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arkusz1.html" beforeDir="false" afterPath="$PROJECT_DIR$/arkusz1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arkusz2.html" beforeDir="false" afterPath="$PROJECT_DIR$/arkusz2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arkusz3.html" beforeDir="false" afterPath="$PROJECT_DIR$/arkusz3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arkusze.html" beforeDir="false" afterPath="$PROJECT_DIR$/arkusze.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cke.html" beforeDir="false" afterPath="$PROJECT_DIR$/cke.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/components/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/components/navbar.css" afterDir="false" />
+    <list default="true" id="1331c87a-abef-4e89-b235-9d3205a021a5" name="Changes" comment="pasek nawigacji/ działy">
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rozwiazania.html" beforeDir="false" afterPath="$PROJECT_DIR$/rozwiazania.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rozwiazanie1.html" beforeDir="false" afterPath="$PROJECT_DIR$/rozwiazanie1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test1.html" beforeDir="false" afterPath="$PROJECT_DIR$/test1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testy.html" beforeDir="false" afterPath="$PROJECT_DIR$/testy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testy/test2.html" beforeDir="false" afterPath="$PROJECT_DIR$/testy/test2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testy/test3.html" beforeDir="false" afterPath="$PROJECT_DIR$/testy/test3.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -235,15 +220,7 @@
       <workItem from="1782404101311" duration="7626000" />
       <workItem from="1782742656065" duration="1736000" />
       <workItem from="1782826233179" duration="4547000" />
-      <workItem from="1782900392821" duration="1768000" />
-    </task>
-    <task id="LOCAL-00024" summary="init">
-      <option name="closed" value="true" />
-      <created>1775906553247</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1775906553247</updated>
+      <workItem from="1782900392821" duration="2091000" />
     </task>
     <task id="LOCAL-00025" summary="init">
       <option name="closed" value="true" />
@@ -629,7 +606,15 @@
       <option name="project" value="LOCAL" />
       <updated>1782833882711</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="pasek nawigacji/ działy">
+      <option name="closed" value="true" />
+      <created>1782902334821</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1782902334821</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -671,7 +656,8 @@
     <MESSAGE value="arkusz 3 - czerwiec 2026" />
     <MESSAGE value="zmiany w cke" />
     <MESSAGE value="arkusz 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="arkusz 1" />
+    <MESSAGE value="pasek nawigacji/ działy" />
+    <option name="LAST_COMMIT_MESSAGE" value="pasek nawigacji/ działy" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
