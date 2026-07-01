@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1331c87a-abef-4e89-b235-9d3205a021a5" name="Changes" comment="pasek nawigacji/ działy">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    <list default="true" id="1331c87a-abef-4e89-b235-9d3205a021a5" name="Changes" comment="strona główna">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arkusz1.html" beforeDir="false" afterPath="$PROJECT_DIR$/arkusz1.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +40,7 @@
     <option name="chatModeId" value="Agent" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="54" />
+    <option name="cachedIndexableFilesCount" value="56" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -220,15 +221,8 @@
       <workItem from="1782404101311" duration="7626000" />
       <workItem from="1782742656065" duration="1736000" />
       <workItem from="1782826233179" duration="4547000" />
-      <workItem from="1782900392821" duration="2091000" />
-    </task>
-    <task id="LOCAL-00025" summary="init">
-      <option name="closed" value="true" />
-      <created>1777566248801</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1777566248801</updated>
+      <workItem from="1782900392821" duration="2122000" />
+      <workItem from="1782914806858" duration="1442000" />
     </task>
     <task id="LOCAL-00026" summary="init">
       <option name="closed" value="true" />
@@ -614,7 +608,15 @@
       <option name="project" value="LOCAL" />
       <updated>1782902334821</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="strona główna">
+      <option name="closed" value="true" />
+      <created>1782902570329</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1782902570329</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -632,7 +634,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="init" />
     <MESSAGE value="przycisk w rozwiązaniach" />
     <MESSAGE value="pasek nawigacji w arkusz1/test1/roz1" />
     <MESSAGE value="przyciski powrotu" />
@@ -657,7 +658,8 @@
     <MESSAGE value="zmiany w cke" />
     <MESSAGE value="arkusz 1" />
     <MESSAGE value="pasek nawigacji/ działy" />
-    <option name="LAST_COMMIT_MESSAGE" value="pasek nawigacji/ działy" />
+    <MESSAGE value="strona główna" />
+    <option name="LAST_COMMIT_MESSAGE" value="strona główna" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>

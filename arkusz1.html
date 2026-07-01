@@ -191,29 +191,77 @@
         <p id="z6-result" class="feedback"></p>
         <p class="solution" style="display: none;">Rozwiazanie: \(2x+0,5x+8x=10,5x\) </p>
     </div>
-</div>
 
-<div class="zadanie">
-    <h2>Zadanie 7</h2>
+    <div class="zadanie">
+        <h2>Zadanie 7</h2>
     <p>Dane są trzy liczby: \(𝑥=5,27⋅10^{−3}, 𝑦=0,0023, 𝑧=1400⋅10^{−5}\).
         Uporządkowano te liczby w kolejności od najmniejszej do największej.</p>
     <p>Ktory zapis przedstawia poprawny sposob uporz.dkowania liczb \(x, y, z \)? Wybierz właściwą odpowiedź spośród podanych.</p>
 
     <div class="odp">
-        <label><input type="radio" name="zadanie7" value="correct" id="z7a"> \( x <  y < z\)</label><br>
+        <label><input type="radio" name="zadanie7" value="wrong" id="z7a"> \( x <  y < z\)</label><br>
         <label><input type="radio" name="zadanie7" value="wrong" id="z7b"> \( y < x < z\)</label><br>
-        <label><input type="radio" name="zadanie7" value="wrong" id="z7c"> \( z< y < x\) </label><br>
+        <label><input type="radio" name="zadanie7" value="correct" id="z7c"> \( z< y < x\) </label><br>
         <label><input type="radio" name="zadanie7" value="wrong" id="z7d"> \( x < z < y\) </label>
     </div>
     <div class="button-row">
         <button type="button" onclick="checkAnswer('zadanie7', 'correct', 'z7-result')">Sprawdź</button>
         <button type="button" class="show-solution-button">Pokaż rozwiązanie</button>
     </div>
-    <p id="z7-result" class="feedback"></p>
-    <p class="solution" style="display: none;">Rozwiazanie: \(\) </p>
-</div>
-</div>
+        <p id="z7-result" class="feedback"></p>
+        <p class="solution" style="display: none;">Rozwiazanie: \(z=1,4\cdot 10^{-2}; y=2,3\cdot 10^{-3}; x=5,27\cdot 10^{-3}\) </p>
+    </div>
 
+    <div class="zadanie">
+        <h2>Zadanie 8</h2>
+    <p>Na osi liczbowej zaznaczono punkty 𝐾, 𝐿 i 𝑀. Odcinek 𝐾𝑀 jest podzielony na 10 równych części (zobacz rysunek).</p>
+    <figure>
+        <img src="zdjecia/arkusz1/e8122025-8.jpg" style="max-width: 100%; height: auto;">
+    </figure>
+    <p>Z liczb, które są współrzędnymi punktów 𝐾, 𝐿 i 𝑀, utworzono sumy:
+      \(  I. 𝐾+𝐿+𝑀 \quad II. 𝐾+𝐿 \quad III. 𝐾+𝑀 \quad IV. 𝐿+𝑀 \)
+     </p>
+        <p>Która z utworzonych sum jest liczbą podzielną przez 𝟗? Wybierz właściwą odpowiedź spośród podanych.</p>
+        <div class="odp">
+            <label><input type="radio" name="zadanie8" value="wrong" id="z8a"> \(I\)</label><br>
+            <label><input type="radio" name="zadanie8" value="wrong" id="z8b"> \(II\)</label><br>
+            <label><input type="radio" name="zadanie8" value="wrong" id="z8c"> \(III\) </label><br>
+            <label><input type="radio" name="zadanie8" value="correct" id="z8d"> \(IV\) </label>
+        </div>
+        <div class="button-row">
+            <button type="button" onclick="checkAnswer('zadanie8', 'correct', 'z8-result')">Sprawdź</button>
+            <button type="button" class="show-solution-button">Pokaż rozwiązanie</button>
+        </div>
+        <p id="z8-result" class="feedback"></p>
+        <p class="solution" style="display: none;">Rozwiazanie: \(L+M=9+27=36; 36:9=4\) </p>
+    </div>
+
+    <div class="zadanie">
+        <h2>Zadanie 9</h2>
+    <p>Trójkąty 𝐴𝐵𝐶 i 𝐴𝐵𝐷 są równoramienne. Miara kąta między ramionami trójkąta 𝐴𝐵𝐶 jest równa 80°, a miara kąta między ramionami trójkąta 𝐴𝐵𝐷 jest równa 40°. Punkt 𝑆 jest punktem przecięcia odcinków 𝐴𝐶 i 𝐵𝐷 (zobacz rysunek).</p>
+    <figure>
+        <img src="zdjecia/arkusz1/e8122025-9.jpg" style="max-width: 100%; height: auto;">
+    </figure>
+    <p>Uzupełnij zdania. Wybierz odpowiedź spośród oznaczonych literami A i B oraz odpowiedź spośród oznaczonych literami C i D.</p>
+
+    <p>Kąt \(𝐴𝑆𝐵\) jest A/B</p>
+    <div class="odp">
+        <label><input type="radio" name="zadanie9-1" value="wrong" id="z9a"> A. ostry </label><br>
+        <label><input type="radio" name="zadanie9-1" value="correct" id="z9b"> B. prosty </label>
+    </div>
+    <p>Miara kąta \(𝐷𝐴𝐶\) jest równa C/D</p>
+    <div class="odp">
+        <label><input type="radio" name="zadanie9-2" value="correct" id="z9c"> C. \( 20^{\circ} \)</label><br>
+        <label><input type="radio" name="zadanie9-2" value="wrong" id="z9d"> D. \( 40^{\circ}\)</label>
+    </div>
+    <div class="button-row">
+        <button type="button" onclick="checkAllAnswers([{ group: 'zadanie9-1', correct: 'correct' }, { group: 'zadanie9-2', correct: 'correct' }], 'z9-result')">Sprawdź</button>
+        <button type="button" class="show-solution-button">Pokaż rozwiązanie</button>
+    </div>
+        <p id="z9-result" class="feedback"></p>
+        <p class="solution" style="display: none;">Rozwiązanie:  \(ADB=70^{\circ}, DAC=50^{\circ}, DAC=20^{\circ} \),  \( ASB=90^{\circ}  \).</p>
+    </div>
+</div>
 
 <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 <script src="script.js"></script>
