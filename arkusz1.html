@@ -16,6 +16,22 @@
         <ul class="navbar-menu">
             <li><a href="index.html">Strona główna</a></li>
             <li class="navbar-dropdown">
+                <a href="dzialy.html" class="navbar-dropdown-trigger">Działy</a>
+                <ul class="navbar-dropdown-menu navbar-dropdown-menu--dzialy">
+                    <li><a href="#">Liczby naturalne</a></li>
+                    <li><a href="#">Liczby całkowite</a></li>
+                    <li><a href="#">Ułamki zwykłe i dziesiętne</a></li>
+                    <li><a href="#">Wyrażenia algebraiczne</a></li>
+                    <li><a href="#">Potęgi i pierwiastki</a></li>
+                    <li><a href="#">Procenty (podatki, lokaty, stężenia procentowe)</a></li>
+                    <li><a href="#">Zamiana jednostek</a></li>
+                    <li><a href="#">Geometria płaska</a></li>
+                    <li><a href="#">Bryły</a></li>
+                    <li><a href="#">Prawdopodobieństwo</a></li>
+                    <li><a href="#">Statystyka opisowa</a></li>
+                </ul>
+            </li>
+            <li class="navbar-dropdown">
                 <a href="arkusze.html" class="navbar-dropdown-trigger">Arkusze</a>
                 <ul class="navbar-dropdown-menu">
                     <li><a href="arkusz1.html">Arkusz 1</a></li>
@@ -198,121 +214,6 @@
 </div>
 </div>
 
-        <div class="zadanie">
-        <h2>Zadanie 33</h2>
-        <p>Czy \( 5 \) jest liczbą parzystą?</p>
-        <div class="odp zadanie-33-columns">
-            <div class="zadanie-33-column">
-                <label><input type="radio" name="zadanie33" value="wrong" id="z33a"> A) TAK</label><br>
-                <label><input type="radio" name="zadanie33" value="correct" id="z33b"> B) NIE</label>
-            </div>
-            <div class="zadanie-33-column zadanie-33-middle">
-                <p>poniewaz</p>
-            </div>
-            <div class="zadanie-33-column">
-                <label><input type="radio" name="zadanie33-why" value="wrong" id="z33c"> 1) dzieli sie przez \( 2 \) bez reszty</label><br>
-                <label><input type="radio" name="zadanie33-why" value="correct" id="z33d"> 2) nie dzieli sie przez \( 2 \) bez reszty</label><br>
-                <label><input type="radio" name="zadanie33-why" value="wrong" id="z33e"> 3) jest liczbą pierwszą</label>
-            </div>
-        </div>
-        <div class="button-row">
-            <button type="button" onclick="checkCompoundAnswer('zadanie33', 'correct', 'zadanie33-why', 'correct', 'z33-result')">Sprawdź</button>
-            <button type="button" class="show-solution-button">Pokaż rozwiązanie</button>
-        </div>
-        <p id="z33-result" class="feedback"></p>
-        <p class="solution" style="display: none;">Rozwiazanie: 5 nie jest liczba parzysta, bo nie dzieli sie przez 2 bez reszty.</p>
-    </div>
-
-    <div class="zadanie">
-        <h2>Zadanie 43</h2>
-        <p>W urnie jest \( 5 \) kul bialych i \( 5 \) czarnych. Wybierz prawda/falsz.</p>
-        <div class="odp">
-            <p>1. Prawdopodobienstwo wylosowania bialej kuli jest wieksze niz prawdopodobienstwo wylosowania czarnej kuli.</p>
-            <label><input type="radio" name="zadanie43-1" value="wrong" id="z43a"> Prawda</label><br>
-            <label><input type="radio" name="zadanie43-1" value="correct" id="z43b"> Falsz</label>
-        </div>
-        <div class="odp">
-            <p>2. Prawdopodobienstwo wylosowania bialej kuli nie zmieni sie, jesli z urny wyjmiemy jedna biala i jedna czarna kule.</p>
-            <label><input type="radio" name="zadanie43-2" value="correct" id="z43c"> Prawda</label><br>
-            <label><input type="radio" name="zadanie43-2" value="wrong" id="z43d"> Falsz</label>
-        </div>
-        <div class="button-row">
-            <button type="button" onclick="checkAllAnswers([{ group: 'zadanie43-1', correct: 'correct' }, { group: 'zadanie43-2', correct: 'correct' }], 'z43-result')">Sprawdz</button>
-            <button type="button" class="show-solution-button">Pokaz rozwiazanie</button>
-        </div>
-        <p id="z43-result" class="feedback"></p>
-        <p class="solution" style="display: none;">Rozwiazanie: 1) Prawdopodobienstwa sa rowne, bo kul bialych i czarnych jest po 5, wiec \( \frac{5}{10} = \frac{1}{2} \). 2) Po wyjeciu jednej bialej i jednej czarnej kuli zostaje po 4, wiec \( \frac{4}{8} = \frac{1}{2} \) i prawdopodobienstwo pozostaje takie samo.</p>
-    </div>
-
-    <div class="zadanie">
-        <h2>Zadanie 53</h2>
-        <figure>
-            <img src="zdjecia/1.jpg" alt="Zdjęcie 1" style="max-width: 100%; height: auto;">
-        </figure>
-
-        <div class="odp">
-            <label><input type="radio" name="zadanie5" value="correct" id="z53a"> 1km</label><br>
-            <label><input type="radio" name="zadanie5" value="wrong" id="z53b"> 10km</label><br>
-            <label><input type="radio" name="zadanie5" value="wrong" id="z53c"> 20m</label><br>
-            <label><input type="radio" name="zadanie5" value="wrong" id="z53d"> 100m</label>
-        </div>
-        <div class="button-row">
-            <button type="button" onclick="checkAnswer('zadanie5', 'correct', 'z53-result')">Sprawdź</button>
-            <button type="button" class="show-solution-button">Pokaż rozwiązanie</button>
-        </div>
-        <p id="z53-result" class="feedback"></p>
-        <p class="solution" style="display: none;">Rozwiazanie: 1km.</p>
-    </div>
-</div>
-<div class="zadanie">
-    <h2>Zadanie 31</h2>
-    <p>Na diagramie przedstawiono zysk pewnej firmy w kolejnych kwartałach 2024 roku.</p>
-    <figure>
-        <img src="zdjecia/arkusz1/e8122025-1.jpg" style="max-width: 100%; height: auto;">
-    </figure>
-    <p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe.</p>
-
-    <div class="odp">
-        <p>1. Zysk tej firmy w I kwartale stanowi \(\frac{1}{6}\) zysku z całego roku 2024.</p>
-        <label><input type="radio" name="zadanie31-1" value="wrong" id="z31a"> Prawda</label><br>
-        <label><input type="radio" name="zadanie31-1" value="correct" id="z31b"> Fałsz</label>
-    </div>
-    <div class="odp">
-        <p>2. Zysk tej firmy w drugim półroczu 2024 roku był o 350 tysięcy złotych większy niż jej zysk w pierwszym półroczu 2024 roku.</p>
-        <label><input type="radio" name="zadanie31-2" value="wrong" id="z31c"> Prawda</label><br>
-        <label><input type="radio" name="zadanie31-2" value="correct" id="z31d"> Fałsz</label>
-    </div>
-    <div class="button-row">
-        <button type="button" onclick="checkAllAnswers([{ group: 'zadanie31-1', correct: 'correct' }, { group: 'zadanie31-2', correct: 'correct' }], 'z31-result')">Sprawdz</button>
-        <button type="button" class="show-solution-button">Pokaz rozwiazanie</button>
-    </div>
-    <p id="z31-result" class="feedback"></p>
-    <p class="solution" style="display: none;">Rozwiazanie: Całkowity zysk \(\), pierwszy kwartał: \(\frac{}{}\neq\frac{1}{6}\); zysk w pierwszym półroczu:\(\), w drugim: \( \), różnica:\(\)</p>
-</div>
-    <div class="zadanie">
-        <h2>Zadanie 83</h2>
-        <p>Poniżej przedstawiono kalendarz na kwiecień w pewnym roku.</p>
-        <figure>
-            <img src="zdjecia/arkusz1/e8062026-8.jpg" alt="Kalendarz miesiąca kwietnia" style="max-width: 100%; height: auto;">
-        </figure>
-        <p>Uzupełnij zdania. Wybierz odpowiedź spośród oznaczonych literami A i B oraz odpowiedź spośród oznaczonych literami C i D.</p>
-        <p>Prawdopodobieństwo, że wybrany dzień tego miesiąca to wtorek, jest równe</p>
-        <div class="odp">
-            <label><input type="radio" name="zadanie83-1" value="wrong" id="z83a"> A. \( \frac{1}{5} \)</label><br>
-            <label><input type="radio" name="zadanie83-1" value="correct" id="z83b"> B. \( \frac{1}{6} \)</label>
-        </div>
-        <p>rawdopodobieństwo, że numer wybranego dnia tego miesiąca będzie liczbą podzielną przez C\D jest równe \( \frac{2}{15} \)</p>
-        <div class="odp">
-            <label><input type="radio" name="zadanie83-2" value="wrong" id="z83c"> C. \( 4 \)</label><br>
-            <label><input type="radio" name="zadanie83-2" value="correct" id="z83d"> D. \( 7 \)</label>
-        </div>
-        <div class="button-row">
-            <button type="button" onclick="checkAllAnswers([{ group: 'zadanie83-1', correct: 'correct' }, { group: 'zadanie83-2', correct: 'correct' }], 'z83-result')">Sprawdź</button>
-            <button type="button" class="show-solution-button">Pokaż rozwiązanie</button>
-        </div>
-        <p id="z83-result" class="feedback"></p>
-        <p class="solution" style="display: none;">Rozwiązanie: Liczba wtorków: \( 5 \), liczba dni \( 30\)), prawdopodobieństwo \( \frac{5}{30} = \frac{1}{6} \). Dni podzielne przez \(7 : 7,14,21,28\), prawdopodobieństwo: \( 4/30=2/15\)</p>
-    </div>
 
 <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 <script src="script.js"></script>
