@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1331c87a-abef-4e89-b235-9d3205a021a5" name="Changes" comment="strona główna">
+    <list default="true" id="1331c87a-abef-4e89-b235-9d3205a021a5" name="Changes" comment="arkusz 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/arkusz1.html" beforeDir="false" afterPath="$PROJECT_DIR$/arkusz1.html" afterDir="false" />
     </list>
@@ -222,15 +222,7 @@
       <workItem from="1782742656065" duration="1736000" />
       <workItem from="1782826233179" duration="4547000" />
       <workItem from="1782900392821" duration="2122000" />
-      <workItem from="1782914806858" duration="1442000" />
-    </task>
-    <task id="LOCAL-00026" summary="init">
-      <option name="closed" value="true" />
-      <created>1777566980853</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1777566980853</updated>
+      <workItem from="1782914806858" duration="2077000" />
     </task>
     <task id="LOCAL-00027" summary="init">
       <option name="closed" value="true" />
@@ -616,7 +608,15 @@
       <option name="project" value="LOCAL" />
       <updated>1782902570329</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="arkusz 1">
+      <option name="closed" value="true" />
+      <created>1782916437832</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1782916437832</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -656,10 +656,10 @@
     <MESSAGE value="pasek nawigacji" />
     <MESSAGE value="arkusz 3 - czerwiec 2026" />
     <MESSAGE value="zmiany w cke" />
-    <MESSAGE value="arkusz 1" />
     <MESSAGE value="pasek nawigacji/ działy" />
     <MESSAGE value="strona główna" />
-    <option name="LAST_COMMIT_MESSAGE" value="strona główna" />
+    <MESSAGE value="arkusz 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="arkusz 1" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
