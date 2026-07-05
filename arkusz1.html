@@ -280,6 +280,30 @@
     <p id="z10-result" class="feedback"></p>
     <p class="solution" style="display: none;">Rozwiazanie: Suma ośmiu liczby wynosi:\(8\cdot 9=72\). Po dodaniu liczby \(9\) suma wynosi \(81\). \(81:9=9\) </p>
 </div>
+
+    <div class="zadanie">
+        <h2>Zadanie 11</h2>
+        <p>Dany jest prostokąt 𝐴𝐵𝐶𝐷 o bokach długości 4 cm i 9 cm. Ten prostokąt narysowano w skali 2 : 1 i otrzymano prostokąt 𝐸𝐹𝐺𝐻.
+            Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe.</p>
+        <div class="odp">
+            <p>1. Obwód prostokąta 𝐸𝐹𝐺𝐻 jest dwukrotnie większy od obwodu prostokąta 𝐴𝐵𝐶𝐷.</p>
+            <label><input type="radio" name="zadanie11-1" value="correct" id="z11a"> Prawda</label><br>
+            <label><input type="radio" name="zadanie11-1" value="wrong" id="z11b"> Fałsz</label>
+        </div>
+        <div class="odp">
+            <p>2. Pole prostokąta 𝐸𝐹𝐺𝐻 jest równe \(144 cm^2\)</p>
+            <label><input type="radio" name="zadanie11-2" value="correct" id="z11c"> Prawda</label><br>
+            <label><input type="radio" name="zadanie11-2" value="wrong" id="z11d"> Fałsz</label>
+        </div>
+        <div class="button-row">
+            <button type="button" onclick="checkAllAnswers([{ group: 'zadanie11-1', correct: 'correct' }, { group: 'zadanie11-2', correct: 'correct' }], 'z11-result')">Sprawdź</button>
+            <button type="button" class="show-solution-button">Pokaż rozwiązanie</button>
+        </div>
+        <p id="z11-result" class="feedback"></p>
+        <p class="solution" style="display: none;">Rozwiązanie: Skala 2:1 to skala powiększająca, oznacza to, że wymiary nowego prostokąta wynoszą 8cm X 18 cm.  Obwód
+            \(2\cdot 8+2\cdot 18)=52\). Pole: \(8\cdot 18=144.\)</p>
+    </div>
+
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
