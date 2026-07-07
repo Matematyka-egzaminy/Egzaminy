@@ -4,10 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1331c87a-abef-4e89-b235-9d3205a021a5" name="Changes" comment="arkusze cke">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="1331c87a-abef-4e89-b235-9d3205a021a5" name="Changes" comment="dokończony arkusz 01.2026">
       <change beforePath="$PROJECT_DIR$/01-2026.html" beforeDir="false" afterPath="$PROJECT_DIR$/01-2026.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-2026.html" beforeDir="false" afterPath="$PROJECT_DIR$/05-2026.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-2026.html" beforeDir="false" afterPath="$PROJECT_DIR$/06-2026.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arkusz0.html" beforeDir="false" afterPath="$PROJECT_DIR$/arkusz0.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arkusz1.html" beforeDir="false" afterPath="$PROJECT_DIR$/arkusz1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arkusz2.html" beforeDir="false" afterPath="$PROJECT_DIR$/arkusz2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arkusz3.html" beforeDir="false" afterPath="$PROJECT_DIR$/arkusz3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arkusze.html" beforeDir="false" afterPath="$PROJECT_DIR$/arkusze.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cke.html" beforeDir="false" afterPath="$PROJECT_DIR$/cke.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dzialy.html" beforeDir="false" afterPath="$PROJECT_DIR$/dzialy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rozwiazania.html" beforeDir="false" afterPath="$PROJECT_DIR$/rozwiazania.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rozwiazanie1.html" beforeDir="false" afterPath="$PROJECT_DIR$/rozwiazanie1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1.html" beforeDir="false" afterPath="$PROJECT_DIR$/test1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testy.html" beforeDir="false" afterPath="$PROJECT_DIR$/testy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testy/test2.html" beforeDir="false" afterPath="$PROJECT_DIR$/testy/test2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testy/test3.html" beforeDir="false" afterPath="$PROJECT_DIR$/testy/test3.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -226,15 +241,7 @@
       <workItem from="1782914806858" duration="2162000" />
       <workItem from="1783007492593" duration="4127000" />
       <workItem from="1783250914869" duration="2493000" />
-      <workItem from="1783424459479" duration="2048000" />
-    </task>
-    <task id="LOCAL-00032" summary="init">
-      <option name="closed" value="true" />
-      <created>1778061465461</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1778061465461</updated>
+      <workItem from="1783424459479" duration="2383000" />
     </task>
     <task id="LOCAL-00033" summary="init">
       <option name="closed" value="true" />
@@ -620,7 +627,15 @@
       <option name="project" value="LOCAL" />
       <updated>1783425781085</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="dokończony arkusz 01.2026">
+      <option name="closed" value="true" />
+      <created>1783426566909</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1783426566909</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -638,7 +653,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="pasek nawigacji w arkusz1/test1/roz1" />
     <MESSAGE value="przyciski powrotu" />
     <MESSAGE value="edycja panelu logowania" />
     <MESSAGE value="edycja index.html" />
@@ -663,7 +677,8 @@
     <MESSAGE value="strona główna" />
     <MESSAGE value="arkusz 1" />
     <MESSAGE value="arkusze cke" />
-    <option name="LAST_COMMIT_MESSAGE" value="arkusze cke" />
+    <MESSAGE value="dokończony arkusz 01.2026" />
+    <option name="LAST_COMMIT_MESSAGE" value="dokończony arkusz 01.2026" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
