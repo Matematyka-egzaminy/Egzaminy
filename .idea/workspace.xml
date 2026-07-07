@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1331c87a-abef-4e89-b235-9d3205a021a5" name="Changes" comment="dokończony arkusz 01.2026">
-      <change afterPath="$PROJECT_DIR$/dzialy/bryly.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dzialy/calkowite.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dzialy/geometria-plaska.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dzialy/jednostki.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dzialy/naturalne.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dzialy/potęgi-pierwiastki.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dzialy/prawdopodobienstwo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dzialy/procenty.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dzialy/statystyka-opisowa.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dzialy/ulamki.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dzialy/wyrazenia.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dzialy.html" beforeDir="false" afterPath="$PROJECT_DIR$/dzialy.html" afterDir="false" />
-    </list>
+    <list default="true" id="1331c87a-abef-4e89-b235-9d3205a021a5" name="Changes" comment="działy" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -237,15 +223,7 @@
       <workItem from="1783007492593" duration="4127000" />
       <workItem from="1783250914869" duration="2493000" />
       <workItem from="1783424459479" duration="2435000" />
-      <workItem from="1783431327056" duration="1346000" />
-    </task>
-    <task id="LOCAL-00034" summary="init">
-      <option name="closed" value="true" />
-      <created>1778169972229</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1778169972229</updated>
+      <workItem from="1783431327056" duration="1680000" />
     </task>
     <task id="LOCAL-00035" summary="init">
       <option name="closed" value="true" />
@@ -631,7 +609,15 @@
       <option name="project" value="LOCAL" />
       <updated>1783426883430</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="działy">
+      <option name="closed" value="true" />
+      <created>1783432700009</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1783432700009</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -649,7 +635,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="przyciski powrotu" />
     <MESSAGE value="edycja panelu logowania" />
     <MESSAGE value="edycja index.html" />
     <MESSAGE value="edycja arkusze/testy/rozwiazania" />
@@ -674,7 +659,8 @@
     <MESSAGE value="arkusz 1" />
     <MESSAGE value="arkusze cke" />
     <MESSAGE value="dokończony arkusz 01.2026" />
-    <option name="LAST_COMMIT_MESSAGE" value="dokończony arkusz 01.2026" />
+    <MESSAGE value="działy" />
+    <option name="LAST_COMMIT_MESSAGE" value="działy" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
