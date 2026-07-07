@@ -5,24 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1331c87a-abef-4e89-b235-9d3205a021a5" name="Changes" comment="dokończony arkusz 01.2026">
-      <change beforePath="$PROJECT_DIR$/01-2026.html" beforeDir="false" afterPath="$PROJECT_DIR$/01-2026.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-2026.html" beforeDir="false" afterPath="$PROJECT_DIR$/05-2026.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-2026.html" beforeDir="false" afterPath="$PROJECT_DIR$/06-2026.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arkusz0.html" beforeDir="false" afterPath="$PROJECT_DIR$/arkusz0.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arkusz1.html" beforeDir="false" afterPath="$PROJECT_DIR$/arkusz1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arkusz2.html" beforeDir="false" afterPath="$PROJECT_DIR$/arkusz2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arkusz3.html" beforeDir="false" afterPath="$PROJECT_DIR$/arkusz3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arkusze.html" beforeDir="false" afterPath="$PROJECT_DIR$/arkusze.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cke.html" beforeDir="false" afterPath="$PROJECT_DIR$/cke.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dzialy/bryly.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dzialy/calkowite.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dzialy/geometria-plaska.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dzialy/jednostki.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dzialy/naturalne.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dzialy/potęgi-pierwiastki.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dzialy/prawdopodobienstwo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dzialy/procenty.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dzialy/statystyka-opisowa.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dzialy/ulamki.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dzialy/wyrazenia.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dzialy.html" beforeDir="false" afterPath="$PROJECT_DIR$/dzialy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rozwiazania.html" beforeDir="false" afterPath="$PROJECT_DIR$/rozwiazania.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rozwiazanie1.html" beforeDir="false" afterPath="$PROJECT_DIR$/rozwiazanie1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test1.html" beforeDir="false" afterPath="$PROJECT_DIR$/test1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testy.html" beforeDir="false" afterPath="$PROJECT_DIR$/testy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testy/test2.html" beforeDir="false" afterPath="$PROJECT_DIR$/testy/test2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testy/test3.html" beforeDir="false" afterPath="$PROJECT_DIR$/testy/test3.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +51,7 @@
     <option name="chatModeId" value="Agent" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="56" />
+    <option name="cachedIndexableFilesCount" value="59" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -135,8 +130,8 @@
       <recent name="C:\Users\Maria\WebstormProjects\zadania" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Maria\WebstormProjects\zadania\filmy" />
       <recent name="C:\Users\Maria\WebstormProjects\zadania" />
+      <recent name="C:\Users\Maria\WebstormProjects\zadania\filmy" />
       <recent name="C:\Users\Maria\WebstormProjects\zadania\.idea\testy" />
       <recent name="C:\Users\Maria\WebstormProjects\zadania\.idea\arkusze" />
       <recent name="C:\Users\Maria\WebstormProjects\zadania\zdjecia" />
@@ -241,15 +236,8 @@
       <workItem from="1782914806858" duration="2162000" />
       <workItem from="1783007492593" duration="4127000" />
       <workItem from="1783250914869" duration="2493000" />
-      <workItem from="1783424459479" duration="2383000" />
-    </task>
-    <task id="LOCAL-00033" summary="init">
-      <option name="closed" value="true" />
-      <created>1778061659583</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1778061659583</updated>
+      <workItem from="1783424459479" duration="2435000" />
+      <workItem from="1783431327056" duration="1346000" />
     </task>
     <task id="LOCAL-00034" summary="init">
       <option name="closed" value="true" />
@@ -635,7 +623,15 @@
       <option name="project" value="LOCAL" />
       <updated>1783426566909</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="dokończony arkusz 01.2026">
+      <option name="closed" value="true" />
+      <created>1783426883430</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1783426883430</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
