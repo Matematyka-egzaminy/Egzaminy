@@ -63,7 +63,7 @@
 
 <h1>Arkusz 1</h1>
 <div class="menu-buttons">
-    <button class="arkusz-buttons" onclick="location.href='arkusze.html'">Powrót</button>
+    <button class="arkusz-buttons" onclick="location.href='cke.html'">Powrót</button>
 </div>
 
 <div id="test1" class="quiz-section">
@@ -303,7 +303,26 @@
         <p class="solution" style="display: none;">Rozwiązanie: Skala 2:1 to skala powiększająca, oznacza to, że wymiary nowego prostokąta wynoszą 8cm X 18 cm.  Obwód
             \(2\cdot 8+2\cdot 18)=52\). Pole: \(8\cdot 18=144.\)</p>
     </div>
-
+    <div class="zadanie">
+        <h2>Zadanie 12</h2>
+        <p>Z kart w kształcie trójkąta równobocznego o boku długości 2 cm układano figury w sposób przedstawiony na rysunku.</p>
+        <figure>
+            <img src="zdjecia/arkusz1/e8122025-12.jpg" style="max-width: 100%; height: auto;">
+        </figure>
+           <p> Ile takich trójkątów należy ułożyć, aby otrzymać trapez o obwodzie równym 𝟒𝟐 𝐜𝐦? Wybierz właściwą odpowiedź spośród podanych.</p>
+        <div class="odp">
+            <label><input type="radio" name="zadanie12" value="wrong" id="z12a"> A) 7</label><br>
+            <label><input type="radio" name="zadanie12" value="wrong" id="z12b"> B) 11</label><br>
+            <label><input type="radio" name="zadanie12" value="correct" id="z12c"> C) 19</label><br>
+            <label><input type="radio" name="zadanie12" value="wrong" id="z12d"> D) 21</label>
+        </div>
+        <div class="button-row">
+            <button type="button" onclick="checkAnswer('zadanie12', 'correct', 'z12-result')">Sprawdź</button>
+            <button type="button" class="show-solution-button">Pokaż rozwiązanie</button>
+        </div>
+        <p id="z12-result" class="feedback"></p>
+        <p class="solution" style="display: none;">Rozwiązanie: Długość ścian bocznych trapezu:\( 2\cdot 2cm=4 cm\). Suma długości podstaw: \(42cm - 4 cm=38cm.\) Liczba trójkóątów: \(38cm:2=19cm.\)</p>
+    </div>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
