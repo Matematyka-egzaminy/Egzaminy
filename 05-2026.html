@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Arkusz 2</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="navbar-container">
+        <a href="index.html" class="navbar-brand" aria-label="Strona główna – Matematyka, ósma sprawa">
+            <img src="assets/osma-sprawa-logo.png" alt="" class="navbar-logo" width="180" height="73" aria-hidden="true">
+            <span class="navbar-brand-text">Matematyka</span>
+        </a>
+        <ul class="navbar-menu">
+            <li><a href="index.html">Strona główna</a></li>
+            <li class="navbar-dropdown">
+                <a href="dzialy.html" class="navbar-dropdown-trigger">Działy</a>
+                <ul class="navbar-dropdown-menu navbar-dropdown-menu--dzialy">
+                    <li><a href="#">Liczby naturalne</a></li>
+                    <li><a href="#">Liczby całkowite</a></li>
+                    <li><a href="#">Ułamki zwykłe i dziesiętne</a></li>
+                    <li><a href="#">Wyrażenia algebraiczne</a></li>
+                    <li><a href="#">Potęgi i pierwiastki</a></li>
+                    <li><a href="#">Procenty (podatki, lokaty, stężenia procentowe)</a></li>
+                    <li><a href="#">Zamiana jednostek</a></li>
+                    <li><a href="#">Geometria płaska</a></li>
+                    <li><a href="#">Bryły</a></li>
+                    <li><a href="#">Prawdopodobieństwo</a></li>
+                    <li><a href="#">Statystyka opisowa</a></li>
+                </ul>
+            </li>
+            <li class="navbar-dropdown">
+                <a href="arkusze.html" class="navbar-dropdown-trigger">Arkusze</a>
+                <ul class="navbar-dropdown-menu">
+                    <li><a href="arkusz1.html">Arkusz 1</a></li>
+                    <li><a href="arkusz2.html">Arkusz 2</a></li>
+                    <li><a href="arkusz3.html">Arkusz 3</a></li>
+                </ul>
+            </li>
+            <li class="navbar-dropdown">
+                <a href="testy.html" class="navbar-dropdown-trigger">Testy</a>
+                <ul class="navbar-dropdown-menu">
+                    <li><a href="test1.html">Test 1</a></li>
+                    <li><a href="testy/test2.html">Test 2</a></li>
+                    <li><a href="testy/test3.html">Test 3</a></li>
+                </ul>
+            </li>
+            <li class="navbar-dropdown">
+                <a href="rozwiazania.html" class="navbar-dropdown-trigger">Rozwiązania</a>
+                <ul class="navbar-dropdown-menu">
+                    <li><a href="rozwiazanie1.html">Twierdzenie Pitagorasa</a></li>
+                    <li><a href="#">Ostrosłupy</a></li>
+                    <li><a href="#">Graniastosłupy</a></li>
+                </ul>
+            </li>
+            <li><a href="cke.html">Egzaminy CKE</a></li>
+            <li><button class="logout-btn" onclick="logout()">Wyloguj</button></li>
+        </ul>
+    </div>
+</nav>
+
+<h1>Arkusz 2</h1>
+<div class="menu-buttons">
+    <button class="arkusz-buttons" onclick="location.href='arkusze.html'">Powrót</button>
+</div>
+
+<div id="test2" class="quiz-section">
+
+    <div class="zadanie">
+        <h2>Zadanie 1</h2>
+        <p>Test z matematyki składa się z \( 40 \) zadań. Na diagramie przedstawiono procentowy podział liczby zadań w teście na zadania z pięciu działów: algebry, planimetrii, stereometrii, arytmetyki, statystyki.</p>
+        <figure>
+            <img src="zdjecia/arkusz2/e8052026-1.jpg" alt="Diagram kołowy podziału zadań testowych" style="max-width: 100%; height: auto;">
+        </figure>
+        <p>Dokończ zdanie. Wybierz właściwą odpowiedź spośród podanych.</p>
+        <p>Liczba zadań z arytmetyki w tym teście jest równa</p>
+        <div class="odp">
+            <label><input type="radio" name="zadanie1" value="correct" id="z1a"> A. \( 14 \)</label><br>
+            <label><input type="radio" name="zadanie1" value="wrong" id="z1b"> B. \( 18 \)</label><br>
+            <label><input type="radio" name="zadanie1" value="wrong" id="z1c"> C. \( 26 \)</label><br>
+            <label><input type="radio" name="zadanie1" value="wrong" id="z1d"> D. \( 35 \)</label>
+        </div>
+        <div class="button-row">
+            <button type="button" onclick="checkAnswer('zadanie1', 'correct', 'z1-result')">Sprawdź</button>
+            <button type="button" class="show-solution-button">Pokaż rozwiązanie</button>
+        </div>
+        <p id="z1-result" class="feedback"></p>
+        <p class="solution" style="display: none;">Rozwiązanie: arytmetyka stanowi \( 35\% \) zadań, wiec \( 35\% \cdot 40 = 0{,}35 \cdot 40 = 14 \).</p>
+    </div>
+
+    <div class="zadanie">
+        <h2>Zadanie 2</h2>
+        <p>Ola otwiera swoją szafkę za pomocą czterocyfrowego kodu \( YXXY \), gdzie \( X \) jest największym wspólnym dzielnikiem liczb \( 18 \) i \( 27 \), a \( Y \) jest najmniejszą wspólną wielokrotnością liczb \( 2 \) i \( 4 \).</p>
+        <p>Jaki jest kod do otwarcia szafki Oli? Wybierz właściwą odpowiedź spośród podanych.</p>
+        <div class="odp">
+            <label><input type="radio" name="zadanie2" value="wrong" id="z2a"> A. \( 4334 \)</label><br>
+            <label><input type="radio" name="zadanie2" value="correct" id="z2b"> B. \( 4994 \)</label><br>
+            <label><input type="radio" name="zadanie2" value="wrong" id="z2c"> C. \( 8338 \)</label><br>
+            <label><input type="radio" name="zadanie2" value="wrong" id="z2d"> D. \( 8998 \)</label>
+        </div>
+        <div class="button-row">
+            <button type="button" onclick="checkAnswer('zadanie2', 'correct', 'z2-result')">Sprawdź</button>
+            <button type="button" class="show-solution-button">Pokaż rozwiązanie</button>
+        </div>
+        <p id="z2-result" class="feedback"></p>
+        <p class="solution" style="display: none;">Rozwiązanie: \( \text{NWD}(18, 27) = 9 \), wiec \( X = 9 \). \( \text{NWW}(2, 4) = 4 \), wiec \( Y = 4 \). Kod \( YXXY \) to \( 4994 \).</p>
+    </div>
+
+    <div class="zadanie">
+        <h2>Zadanie 3</h2>
+        <p>Dane są cztery liczby:</p>
+        <p>\( w = \sqrt{100 - 64} - 2 \)</p>
+        <p>\( x = 12 - \sqrt{64 + 36} \)</p>
+        <p>\( y = \sqrt{25 - 16} - 3 \)</p>
+        <p>\( z = 7 - \sqrt{9 + 16} \)</p>
+        <p>Która z tych liczb jest równa \( 0 \)? Wybierz właściwą odpowiedź spośród podanych.</p>
+        <div class="odp">
+            <label><input type="radio" name="zadanie3" value="wrong" id="z3a"> A. \( w \)</label><br>
+            <label><input type="radio" name="zadanie3" value="wrong" id="z3b"> B. \( x \)</label><br>
+            <label><input type="radio" name="zadanie3" value="correct" id="z3c"> C. \( y \)</label><br>
+            <label><input type="radio" name="zadanie3" value="wrong" id="z3d"> D. \( z \)</label>
+        </div>
+        <div class="button-row">
+            <button type="button" onclick="checkAnswer('zadanie3', 'correct', 'z3-result')">Sprawdź</button>
+            <button type="button" class="show-solution-button">Pokaż rozwiązanie</button>
+        </div>
+        <p id="z3-result" class="feedback"></p>
+        <p class="solution" style="display: none;">Rozwiązanie: \( w = 6 - 2 = 4 \), \( x = 12 - 10 = 2 \), \( y = 3 - 3 = 0 \), \( z = 7 - 5 = 2 \). Liczbą równą \( 0 \) jest \( y \).</p>
+    </div>
+
+    <div class="zadanie">
+        <h2>Zadanie 4</h2>
+        <p>Dokończ zdanie. Wybierz właściwą odpowiedź spośród podanych.</p>
+        <p>Wartość wyrażenia \( 2^5 \cdot 3 \cdot 3^4 \cdot 2^3 \) jest równa wartości wyrażenia</p>
+        <div class="odp">
+            <label><input type="radio" name="zadanie4" value="correct" id="z4a"> A. \( 2^8 \cdot 3^5 \)</label><br>
+            <label><input type="radio" name="zadanie4" value="wrong" id="z4b"> B. \( 4^8 \cdot 9^5 \)</label><br>
+            <label><input type="radio" name="zadanie4" value="wrong" id="z4c"> C. \( 2^{15} \cdot 3^4 \)</label><br>
+            <label><input type="radio" name="zadanie4" value="wrong" id="z4d"> D. \( 4^{15} \cdot 9^4 \)</label>
+        </div>
+        <div class="button-row">
+            <button type="button" onclick="checkAnswer('zadanie4', 'correct', 'z4-result')">Sprawdź</button>
+            <button type="button" class="show-solution-button">Pokaż rozwiązanie</button>
+        </div>
+        <p id="z4-result" class="feedback"></p>
+        <p class="solution" style="display: none;">Rozwiązanie: \( 2^5 \cdot 3 \cdot 3^4 \cdot 2^3 = 2^{5+3} \cdot 3^{1+4} = 2^8 \cdot 3^5 \).</p>
+    </div>
+
+    <div class="zadanie">
+        <h2>Zadanie 5</h2>
+        <p>W pewnej hodowli rasowy kocur kosztuje \( x \) złotych, a rasowa kotka kosztuje \( y \) złotych. Janek kupił z tej hodowli rasowego kocura ze zniżką \( 40\% \) oraz rasową kotkę ze zniżką \( 20\% \).</p>
+        <p>Które wyrażenie poprawnie opisuje, ile złotych zapłacił Janek za te koty? Wybierz właściwą odpowiedź spośród podanych.</p>
+        <div class="odp">
+            <label><input type="radio" name="zadanie5" value="wrong" id="z5a"> A. \( 0{,}4x + 0{,}2y \)</label><br>
+            <label><input type="radio" name="zadanie5" value="wrong" id="z5b"> B. \( 0{,}2x + 0{,}4y \)</label><br>
+            <label><input type="radio" name="zadanie5" value="wrong" id="z5c"> C. \( 0{,}8x + 0{,}6y \)</label><br>
+            <label><input type="radio" name="zadanie5" value="correct" id="z5d"> D. \( 0{,}6x + 0{,}8y \)</label>
+        </div>
+        <div class="button-row">
+            <button type="button" onclick="checkAnswer('zadanie5', 'correct', 'z5-result')">Sprawdź</button>
+            <button type="button" class="show-solution-button">Pokaż rozwiązanie</button>
+        </div>
+        <p id="z5-result" class="feedback"></p>
+        <p class="solution" style="display: none;">Rozwiązanie: po zniżce \( 40\% \) Janek płaci \( 60\% \) ceny kocura, czyli \( 0{,}6x \). Po zniżce \( 20\% \) płaci \( 80\% \) ceny kotki, czyli \( 0{,}8y \). Łącznie: \( 0{,}6x + 0{,}8y \).</p>
+    </div>
+
+    <div class="zadanie">
+        <h2>Zadanie 6</h2>
+        <p>W pudełku było jedenaście kul ponumerowanych kolejnymi liczbami naturalnymi od \( 1 \) do \( 11 \). Z tego pudełka wylosowano pięć kul. Suma liczb na dowolnych dwóch kulach, które pozostały w pudełku, jest parzysta.</p>
+        <p>Uzupełnij zdania. Wybierz odpowiedź spośród oznaczonych literami A i B oraz odpowiedź spośród oznaczonych literami C i D.</p>
+        <p>Po losowaniu w pudełku zostały wyłącznie kule ponumerowane liczbami</p>
+        <div class="odp">
+            <label><input type="radio" name="zadanie6-1" value="correct" id="z6a"> A. nieparzystymi</label><br>
+            <label><input type="radio" name="zadanie6-1" value="wrong" id="z6b"> B. parzystymi</label>
+        </div>
+        <p>Suma liczb na pięciu wylosowanych kulach jest równa</p>
+        <div class="odp">
+            <label><input type="radio" name="zadanie6-2" value="correct" id="z6c"> C. \( 30 \)</label><br>
+            <label><input type="radio" name="zadanie6-2" value="wrong" id="z6d"> D. \( 36 \)</label>
+        </div>
+        <div class="button-row">
+            <button type="button" onclick="checkAllAnswers([{ group: 'zadanie6-1', correct: 'correct' }, { group: 'zadanie6-2', correct: 'correct' }], 'z6-result')">Sprawdź</button>
+            <button type="button" class="show-solution-button">Pokaż rozwiązanie</button>
+        </div>
+        <p id="z6-result" class="feedback"></p>
+        <p class="solution" style="display: none;">Rozwiązanie: suma dwóch liczb jest parzysta, gdy obie są parzyste lub obie nieparzyste. W pudełku zostało \( 6 \) kul, a liczb parzystych jest tylko \( 5 \), więc pozostały wyłącznie kule nieparzyste. Wylosowano więc kule \( 2, 4, 6, 8, 10 \), a ich suma to \( 30 \).</p>
+    </div>
+
+    <div class="zadanie">
+        <h2>Zadanie 7</h2>
+        <p>Do \( 10 \) pustych koszy włożono jabłka i pomarańcze, łącznie \( 400 \) sztuk tych owoców. W każdym koszu łączna liczba owoców jest taka sama oraz w każdym koszu liczba jabłek jest o \( 6 \) większa od liczby pomarańczy.</p>
+        <p>Ile sztuk jabłek jest łącznie w tych \( 10 \) koszach? Wybierz właściwą odpowiedź spośród podanych.</p>
+        <div class="odp">
+            <label><input type="radio" name="zadanie7" value="wrong" id="z7a"> A. \( 210 \)</label><br>
+            <label><input type="radio" name="zadanie7" value="correct" id="z7b"> B. \( 230 \)</label><br>
+            <label><input type="radio" name="zadanie7" value="wrong" id="z7c"> C. \( 240 \)</label><br>
+            <label><input type="radio" name="zadanie7" value="wrong" id="z7d"> D. \( 260 \)</label>
+        </div>
+        <div class="button-row">
+            <button type="button" onclick="checkAnswer('zadanie7', 'correct', 'z7-result')">Sprawdź</button>
+            <button type="button" class="show-solution-button">Pokaż rozwiązanie</button>
+        </div>
+        <p id="z7-result" class="feedback"></p>
+        <p class="solution" style="display: none;">Rozwiązanie: w jednym koszu jest \( 400 : 10 = 40 \) owoców. Jeśli \( x \) to liczba pomarańczy, to \( x + (x + 6) = 40 \), więc \( x = 17 \) i jabłek jest \( 23 \). Łącznie: \( 23 \cdot 10 = 230 \).</p>
+    </div>
+
+    <div class="zadanie">
+        <h2>Zadanie 8</h2>
+        <p>Sumę \( S = 1 + 2 + 3 + \ldots + n \) kolejnych liczb naturalnych od \( 1 \) do \( n \) można obliczyć ze wzoru</p>
+        <p>\( S = \frac{1}{2}n(n + 1) \)</p>
+        <p>Uzupełnij zdania. Wybierz odpowiedź spośród oznaczonych literami A i B oraz odpowiedź spośród oznaczonych literami C i D.</p>
+        <p>Suma stu kolejnych liczb naturalnych od \( 1 \) do \( 100 \) jest równa</p>
+        <div class="odp">
+            <label><input type="radio" name="zadanie8-1" value="wrong" id="z8a"> A. \( 5001 \)</label><br>
+            <label><input type="radio" name="zadanie8-1" value="correct" id="z8b"> B. \( 5050 \)</label>
+        </div>
+        <p>Wzór na sumę \( S \) po poprawnym przekształceniu ma postać</p>
+        <div class="odp">
+            <label><input type="radio" name="zadanie8-2" value="wrong" id="z8c"> C. \( S = \frac{1}{2}n^2 + 1 \)</label><br>
+            <label><input type="radio" name="zadanie8-2" value="correct" id="z8d"> D. \( S = \frac{1}{2}n^2 + \frac{1}{2}n \)</label>
+        </div>
+        <div class="button-row">
+            <button type="button" onclick="checkAllAnswers([{ group: 'zadanie8-1', correct: 'correct' }, { group: 'zadanie8-2', correct: 'correct' }], 'z8-result')">Sprawdź</button>
+            <button type="button" class="show-solution-button">Pokaż rozwiązanie</button>
+        </div>
+        <p id="z8-result" class="feedback"></p>
+        <p class="solution" style="display: none;">Rozwiązanie: \( S = \frac{1}{2} \cdot 100 \cdot 101 = 5050 \). Po rozwinięciu nawiasu: \( S = \frac{1}{2}n^2 + \frac{1}{2}n \).</p>
+    </div>
+
+    <div class="zadanie">
+        <h2>Zadanie 9</h2>
+        <p>Średnia arytmetyczna dwóch liczb \( x \) i \( y \) jest równa \( 4 \), a średnia arytmetyczna trzech liczb \( x \), \( y \), \( z \) jest równa \( 5 \).</p>
+        <p>Dokończ zdanie. Wybierz właściwą odpowiedź spośród podanych.</p>
+        <p>Liczba \( z \) jest równa</p>
+        <div class="odp">
+            <label><input type="radio" name="zadanie9" value="wrong" id="z9a"> A. \( 4 \)</label><br>
+            <label><input type="radio" name="zadanie9" value="wrong" id="z9b"> B. \( 5 \)</label><br>
+            <label><input type="radio" name="zadanie9" value="wrong" id="z9c"> C. \( 6 \)</label><br>
+            <label><input type="radio" name="zadanie9" value="correct" id="z9d"> D. \( 7 \)</label>
+        </div>
+        <div class="button-row">
+            <button type="button" onclick="checkAnswer('zadanie9', 'correct', 'z9-result')">Sprawdź</button>
+            <button type="button" class="show-solution-button">Pokaż rozwiązanie</button>
+        </div>
+        <p id="z9-result" class="feedback"></p>
+        <p class="solution" style="display: none;">Rozwiązanie: \( x + y = 8 \) oraz \( x + y + z = 15 \), więc \( z = 15 - 8 = 7 \).</p>
+    </div>
+
+    <div class="zadanie">
+        <h2>Zadanie 10</h2>
+        <p>Dany jest trójkąt równoboczny o boku długości \( 2 \) cm.</p>
+        <p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe.</p>
+        <div class="odp">
+            <p>Wysokość tego trójkąta jest równa \( \sqrt{3} \) cm.</p>
+            <label><input type="radio" name="zadanie10-1" value="correct" id="z10a"> P</label><br>
+            <label><input type="radio" name="zadanie10-1" value="wrong" id="z10b"> F</label>
+        </div>
+        <div class="odp">
+            <p>Pole tego trójkąta jest równe \( \sqrt{3} \) cm\( ^2 \).</p>
+            <label><input type="radio" name="zadanie10-2" value="correct" id="z10c"> P</label><br>
+            <label><input type="radio" name="zadanie10-2" value="wrong" id="z10d"> F</label>
+        </div>
+        <div class="button-row">
+            <button type="button" onclick="checkAllAnswers([{ group: 'zadanie10-1', correct: 'correct' }, { group: 'zadanie10-2', correct: 'correct' }], 'z10-result')">Sprawdź</button>
+            <button type="button" class="show-solution-button">Pokaż rozwiązanie</button>
+        </div>
+        <p id="z10-result" class="feedback"></p>
+        <p class="solution" style="display: none;">Rozwiązanie: \( h = \frac{2\sqrt{3}}{2} = \sqrt{3} \) cm oraz \( P = \frac{2^2\sqrt{3}}{4} = \sqrt{3} \) cm\( ^2 \). Oba zdania są prawdziwe.</p>
+    </div>
+
+    <div class="zadanie">
+        <h2>Zadanie 11</h2>
+        <p>Kąty wewnętrzne czworokąta oznaczono: \( \alpha \), \( \beta \), \( \gamma \) oraz \( \delta \). Miara kąta \( \beta \) jest o \( 70° \) większa od miary kąta \( \alpha \), miara kąta \( \gamma \) jest dwukrotnie większa od miary kąta \( \alpha \). Kąt \( \delta \) jest kątem prostym.</p>
+        <p>Dokończ zdanie. Wybierz właściwą odpowiedź spośród podanych.</p>
+        <p>Miara kąta \( \beta \) jest równa</p>
+        <div class="odp">
+            <label><input type="radio" name="zadanie11" value="wrong" id="z11a"> A. \( 50° \)</label><br>
+            <label><input type="radio" name="zadanie11" value="wrong" id="z11b"> B. \( 85° \)</label><br>
+            <label><input type="radio" name="zadanie11" value="correct" id="z11c"> C. \( 120° \)</label><br>
+            <label><input type="radio" name="zadanie11" value="wrong" id="z11d"> D. \( 155° \)</label>
+        </div>
+        <div class="button-row">
+            <button type="button" onclick="checkAnswer('zadanie11', 'correct', 'z11-result')">Sprawdź</button>
+            <button type="button" class="show-solution-button">Pokaż rozwiązanie</button>
+        </div>
+        <p id="z11-result" class="feedback"></p>
+        <p class="solution" style="display: none;">Rozwiązanie: \( \alpha + (\alpha + 70°) + 2\alpha + 90° = 360° \), więc \( 4\alpha = 200° \) i \( \alpha = 50° \). Zatem \( \beta = 50° + 70° = 120° \).</p>
+    </div>
+
+    <div class="zadanie">
+        <h2>Zadanie 12</h2>
+        <p>Na kartce w kratkę Jurek wykonał rysunek. Na tym rysunku punkty \( M \), \( W \), \( S \) oznaczają położenia odpowiednio: muzeum, wieży widokowej oraz schroniska. Wieża widokowa znajduje się \( 3 \) km na północ i \( 4 \) km na zachód od schroniska. Muzeum znajduje się \( 5 \) km na wschód od schroniska.</p>
+        <figure>
+            <img src="zdjecia/arkusz2/e8052026-12.jpg" alt="Rysunek na kartce w kratkę z punktami M, W i S" style="max-width: 100%; height: auto;">
+        </figure>
+        <p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe.</p>
+        <div class="odp">
+            <p>Odległość w linii prostej schroniska od muzeum jest równa odległości w linii prostej schroniska od wieży widokowej.</p>
+            <label><input type="radio" name="zadanie12-1" value="correct" id="z12a"> P</label><br>
+            <label><input type="radio" name="zadanie12-1" value="wrong" id="z12b"> F</label>
+        </div>
+        <div class="odp">
+            <p>Odległość w linii prostej muzeum od wieży widokowej jest mniejsza niż \( 10 \) km.</p>
+            <label><input type="radio" name="zadanie12-2" value="correct" id="z12c"> P</label><br>
+            <label><input type="radio" name="zadanie12-2" value="wrong" id="z12d"> F</label>
+        </div>
+        <div class="button-row">
+            <button type="button" onclick="checkAllAnswers([{ group: 'zadanie12-1', correct: 'correct' }, { group: 'zadanie12-2', correct: 'correct' }], 'z12-result')">Sprawdź</button>
+            <button type="button" class="show-solution-button">Pokaż rozwiązanie</button>
+        </div>
+        <p id="z12-result" class="feedback"></p>
+        <p class="solution" style="display: none;">Rozwiązanie: \( |SM| = 5 \) km oraz \( |SW| = \sqrt{3^2 + 4^2} = 5 \) km. Odległość \( |MW| = \sqrt{9^2 + 3^2} = \sqrt{90} &lt; 10 \) km. Oba zdania są prawdziwe.</p>
+    </div>
+
+    <div class="zadanie">
+        <h2>Zadanie 13</h2>
+        <p>Przekątna \( AD \) dzieli pięciokąt \( ABCDE \) na trójkąt \( ADE \) i na kwadrat \( ABCD \) (zobacz rysunek). Pole trójkąta \( ADE \) jest równe \( 28 \), a wysokość poprowadzona z wierzchołka \( E \) na bok \( AD \) jest równa \( 7 \).</p>
+        <figure>
+            <img src="zdjecia/arkusz2/e8052026-13.jpg" alt="Pięciokąt ABCDE podzielony przekątną AD na trójkąt ADE i kwadrat ABCD" style="max-width: 100%; height: auto;">
+        </figure>
+        <p>Dokończ zdanie. Wybierz właściwą odpowiedź spośród podanych.</p>
+        <p>Pole kwadratu \( ABCD \) jest równe</p>
+        <div class="odp">
+            <label><input type="radio" name="zadanie13" value="wrong" id="z13a"> A. \( 16 \)</label><br>
+            <label><input type="radio" name="zadanie13" value="wrong" id="z13b"> B. \( 32 \)</label><br>
+            <label><input type="radio" name="zadanie13" value="wrong" id="z13c"> C. \( 49 \)</label><br>
+            <label><input type="radio" name="zadanie13" value="correct" id="z13d"> D. \( 64 \)</label>
+        </div>
+        <div class="button-row">
+            <button type="button" onclick="checkAnswer('zadanie13', 'correct', 'z13-result')">Sprawdź</button>
+            <button type="button" class="show-solution-button">Pokaż rozwiązanie</button>
+        </div>
+        <p id="z13-result" class="feedback"></p>
+        <p class="solution" style="display: none;">Rozwiązanie: \( 28 = \frac{1}{2} \cdot |AD| \cdot 7 \), więc \( |AD| = 8 \). Pole kwadratu to \( 8^2 = 64 \).</p>
+    </div>
+
+    <div class="zadanie">
+        <h2>Zadanie 14</h2>
+        <p>Trzy jednakowe sześciany o krawędzi długości \( 5 \) ustawiono jeden na drugim i otrzymano prostopadłościan (zobacz rysunek).</p>
+        <figure>
+            <img src="zdjecia/arkusz2/e8052026-14.jpg" alt="Trzy sześciany ustawione jeden na drugim tworzą prostopadłościan" style="max-width: 100%; height: auto;">
+        </figure>
+        <p>Dokończ zdanie. Wybierz właściwą odpowiedź spośród podanych.</p>
+        <p>Pole powierzchni całkowitej otrzymanego prostopadłościanu jest równe</p>
+        <div class="odp">
+            <label><input type="radio" name="zadanie14" value="correct" id="z14a"> A. \( 350 \)</label><br>
+            <label><input type="radio" name="zadanie14" value="wrong" id="z14b"> B. \( 375 \)</label><br>
+            <label><input type="radio" name="zadanie14" value="wrong" id="z14c"> C. \( 400 \)</label><br>
+            <label><input type="radio" name="zadanie14" value="wrong" id="z14d"> D. \( 450 \)</label>
+        </div>
+        <div class="button-row">
+            <button type="button" onclick="checkAnswer('zadanie14', 'correct', 'z14-result')">Sprawdź</button>
+            <button type="button" class="show-solution-button">Pokaż rozwiązanie</button>
+        </div>
+        <p id="z14-result" class="feedback"></p>
+        <p class="solution" style="display: none;">Rozwiązanie: prostopadłościan ma wymiary \( 5 \times 5 \times 15 \). Pole powierzchni: \( 2 \cdot (5 \cdot 5 + 5 \cdot 15 + 5 \cdot 15) = 350 \).</p>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

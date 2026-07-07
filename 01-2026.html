@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Arkusz 1</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="navbar-container">
+        <a href="index.html" class="navbar-brand" aria-label="Strona główna – Matematyka, ósma sprawa">
+            <img src="assets/osma-sprawa-logo.png" alt="" class="navbar-logo" width="180" height="73" aria-hidden="true">
+            <span class="navbar-brand-text">Matematyka</span>
+        </a>
+        <ul class="navbar-menu">
+            <li><a href="index.html">Strona główna</a></li>
+            <li class="navbar-dropdown">
+                <a href="dzialy.html" class="navbar-dropdown-trigger">Działy</a>
+                <ul class="navbar-dropdown-menu navbar-dropdown-menu--dzialy">
+                    <li><a href="#">Liczby naturalne</a></li>
+                    <li><a href="#">Liczby całkowite</a></li>
+                    <li><a href="#">Ułamki zwykłe i dziesiętne</a></li>
+                    <li><a href="#">Wyrażenia algebraiczne</a></li>
+                    <li><a href="#">Potęgi i pierwiastki</a></li>
+                    <li><a href="#">Procenty (podatki, lokaty, stężenia procentowe)</a></li>
+                    <li><a href="#">Zamiana jednostek</a></li>
+                    <li><a href="#">Geometria płaska</a></li>
+                    <li><a href="#">Bryły</a></li>
+                    <li><a href="#">Prawdopodobieństwo</a></li>
+                    <li><a href="#">Statystyka opisowa</a></li>
+                </ul>
+            </li>
+            <li class="navbar-dropdown">
+                <a href="arkusze.html" class="navbar-dropdown-trigger">Arkusze</a>
+                <ul class="navbar-dropdown-menu">
+                    <li><a href="arkusz1.html">Arkusz 1</a></li>
+                    <li><a href="arkusz2.html">Arkusz 2</a></li>
+                    <li><a href="arkusz3.html">Arkusz 3</a></li>
+                </ul>
+            </li>
+            <li class="navbar-dropdown">
+                <a href="testy.html" class="navbar-dropdown-trigger">Testy</a>
+                <ul class="navbar-dropdown-menu">
+                    <li><a href="test1.html">Test 1</a></li>
+                    <li><a href="testy/test2.html">Test 2</a></li>
+                    <li><a href="testy/test3.html">Test 3</a></li>
+                </ul>
+            </li>
+            <li class="navbar-dropdown">
+                <a href="rozwiazania.html" class="navbar-dropdown-trigger">Rozwiązania</a>
+                <ul class="navbar-dropdown-menu">
+                    <li><a href="rozwiazanie1.html">Twierdzenie Pitagorasa</a></li>
+                    <li><a href="#">Ostrosłupy</a></li>
+                    <li><a href="#">Graniastosłupy</a></li>
+                </ul>
+            </li>
+            <li><a href="cke.html">Egzaminy CKE</a></li>
+            <li><button class="logout-btn" onclick="logout()">Wyloguj</button></li>
+        </ul>
+    </div>
+</nav>
+
+<h1>Arkusz 1</h1>
+<div class="menu-buttons">
+    <button class="arkusz-buttons" onclick="location.href='arkusze.html'">Powrót</button>
+</div>
+
+<div id="test1" class="quiz-section">
+
+
+    <div class="zadanie">
+        <h2>Zadanie 1</h2>
+        <p>Na diagramie przedstawiono zysk pewnej firmy w kolejnych kwartałach 2024 roku.</p>
+        <figure>
+            <img src="zdjecia/arkusz1/e8122025-1.jpg" style="max-width: 100%; height: auto;">
+        </figure>
+        <p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe.</p>
+
+        <div class="odp">
+            <p>1. Zysk tej firmy w I kwartale stanowi \(\frac{1}{6}\) zysku z całego roku 2024.</p>
+            <label><input type="radio" name="zadanie1-1" value="wrong" id="z1a"> Prawda</label><br>
+            <label><input type="radio" name="zadanie1-1" value="correct" id="z1b"> Fałsz</label>
+        </div>
+        <div class="odp">
+            <p>2. Zysk tej firmy w drugim półroczu 2024 roku był o 350 tysięcy złotych większy niż jej zysk w pierwszym półroczu 2024 roku.</p>
+            <label><input type="radio" name="zadanie1-2" value="wrong" id="z1c"> Prawda</label><br>
+            <label><input type="radio" name="zadanie1-2" value="correct" id="z1d"> Fałsz</label>
+        </div>
+        <div class="button-row">
+            <button type="button" onclick="checkAllAnswers([{ group: 'zadanie1-1', correct: 'correct' }, { group: 'zadanie1-2', correct: 'correct' }], 'z1-result')">Sprawdz</button>
+            <button type="button" class="show-solution-button">Pokaz rozwiazanie</button>
+        </div>
+        <p id="z1-result" class="feedback"></p>
+        <p class="solution" style="display: none;">Rozwiazanie: Całkowity zysk \(\), pierwszy kwartał: \(\frac{}{}\neq\frac{1}{6}\); zysk w pierwszym półroczu:\(\), w drugim: \( \), różnica:\(\)</p>
+    </div>
+
+
+    <div class="zadanie">
+        <h2>Zadanie 2</h2>
+        <p>Dokończ zdanie. Wybierz właściwą odpowiedź spośród podanych.</p>
+
+        <p>Wartość wyrażenia \(4^3-8^2:2^4\) jest równa</p>
+        <div class="odp">
+            <label><input type="radio" name="zadanie2" value="wrong" id="z2a"> \(0\)</label><br>
+            <label><input type="radio" name="zadanie2" value="wrong" id="z2b"> \(10\)</label><br>
+            <label><input type="radio" name="zadanie2" value="wrong" id="z2c"> \(56\)</label><br>
+            <label><input type="radio" name="zadanie2" value="correct" id="z2d"> \(60\)</label>
+        </div>
+        <div class="button-row">
+            <button type="button" onclick="checkAnswer('zadanie2', 'correct', 'z2-result')">Sprawdź</button>
+            <button type="button" class="show-solution-button">Pokaż rozwiązanie</button>
+        </div>
+        <p id="z2-result" class="feedback"></p>
+        <p class="solution" style="display: none;">Rozwiazanie: \(4^3-8^2:2^4=64-64:16=64-4=60.\)</p>
+    </div>
+    <div class="zadanie">
+        <h2>Zadanie 3</h2>
+        <p>Dane jest wyrażenie</p>
+        <p>\( (0,75\cdot 8 + 8 \cdot\frac{1}{2}):(-2) \)</p>
+        <p>Dokończ zdanie. Wybierz właściwą odpowiedź spośród podanych.</p>
+        <p>Wartość tego wyrażenia jest równa</p>
+        <div class="odp">
+            <label><input type="radio" name="zadanie3" value="correct" id="z3a"> \(-5\)</label><br>
+            <label><input type="radio" name="zadanie3" value="wrong" id="z3b"> \(-3,5\)</label><br>
+            <label><input type="radio" name="zadanie3" value="wrong" id="z3c"> \(3,5\)</label><br>
+            <label><input type="radio" name="zadanie3" value="wrng" id="z3d"> \(5\)</label>
+        </div>
+        <div class="button-row">
+            <button type="button" onclick="checkAnswer('zadanie3', 'correct', 'z3-result')">Sprawdź</button>
+            <button type="button" class="show-solution-button">Pokaż rozwiązanie</button>
+        </div>
+        <p id="z3-result" class="feedback"></p>
+        <p class="solution" style="display: none;">Rozwiazanie: \( (0,75\cdot 8 + 8 \cdot\frac{1}{2}):(-2)=(6+4):(-2)=10:(-2)=-5. \)</p>
+    </div>
+
+    <div class="zadanie">
+        <h2>Zadanie 4</h2>
+        <p>Uczniowie trzech klas: 8A, 8B i 8C, zebrali łącznie 132,9 kg makulatury. Uczniowie klas 8A i 8B zebrali łącznie 90,6 kg makulatury, a uczniowie klas 8B i 8C zebrali łącznie 86,8 kg makulatury.</p>
+        <p>Ile kilogramów makulatury zebrali uczniowie klasy 8B? Wybierz właściwą odpowiedź spośród podanych.</p>
+
+        <div class="odp">
+            <label><input type="radio" name="zadanie4" value="wrong" id="z4a"> \(43,4\)</label><br>
+            <label><input type="radio" name="zadanie4" value="wrong" id="z4b"> \(44,3\)</label><br>
+            <label><input type="radio" name="zadanie4" value="correct" id="z4c"> \(44,5\)</label><br>
+            <label><input type="radio" name="zadanie4" value="wrng" id="z4d"> \(47,2\)</label>
+        </div>
+        <div class="button-row">
+            <button type="button" onclick="checkAnswer('zadanie4', 'correct', 'z4-result')">Sprawdź</button>
+            <button type="button" class="show-solution-button">Pokaż rozwiązanie</button>
+        </div>
+        <p id="z4-result" class="feedback"></p>
+        <p class="solution" style="display: none;">Rozwiazanie: \( 90,6+ 86,8-132,9=44,5.\)</p>
+    </div>
+    <div class="zadanie">
+        <h2>Zadanie 5</h2>
+        <p>Uzupełnij zdania. Wybierz odpowiedź spośród oznaczonych literami A i B oraz odpowiedź spośród oznaczonych literami C i D.</p>
+        <p>Równość \(3𝑎−4=𝑎+2 \) jest spełniona dla liczby \(𝑎\) równej A/B</p>
+        <div class="odp">
+            <label><input type="radio" name="zadanie5-1" value="correct" id="z5a"> A. \( 3\)</label><br>
+            <label><input type="radio" name="zadanie5-1" value="wrong" id="z5b"> B. \( 1\)</label>
+        </div>
+        <p>Wyrażenie \( (3𝑎−4)−(𝑎+2)\)  jest równe  C/D</p>
+        <div class="odp">
+            <label><input type="radio" name="zadanie5-2" value="wrong" id="z5c"> C. \( 4 \)</label><br>
+            <label><input type="radio" name="zadanie5-2" value="correct" id="z5d"> D. \( 7 \)</label>
+        </div>
+        <div class="button-row">
+            <button type="button" onclick="checkAllAnswers([{ group: 'zadanie5-1', correct: 'correct' }, { group: 'zadanie5-2', correct: 'correct' }], 'z5-result')">Sprawdź</button>
+            <button type="button" class="show-solution-button">Pokaż rozwiązanie</button>
+        </div>
+        <p id="z5-result" class="feedback"></p>
+        <p class="solution" style="display: none;">Rozwiązanie:  \( 3\cdot 3-4=5; 3+2=5 \),  \( (3𝑎−4)−(𝑎+2)=3a-4-a-2=2a-6 \).</p>
+    </div>
+
+    <div class="zadanie">
+        <h2>Zadanie 6</h2>
+        <p>Aleks kupił jeden komplet słuchawek bezprzewodowych, dwie jednakowe ładowarki i dwa jednakowe dyski USB. Jeden dysk USB był 2 razy tańszy od ładowarki, a komplet słuchawek bezprzewodowych był 4 razy droższy od jednej ładowarki.</p>
+        <p>Dokończ zdanie. Wybierz właściwą odpowiedź spośród podanych.</p>
+        <p>Jeżeli przez \(𝑥\) oznaczymy cenę jednej ładowarki, to wartość zakupów Aleksa opiszemy wyrażeniem</p>
+        <div class="odp">
+            <label><input type="radio" name="zadanie6" value="correct" id="z6a"> \(10,5x\)</label><br>
+            <label><input type="radio" name="zadanie6" value="wrong" id="z6b"> \(7x\)</label><br>
+            <label><input type="radio" name="zadanie6" value="wrong" id="z6c"> \(6,5x\) </label><br>
+            <label><input type="radio" name="zadanie6" value="wrong" id="z6d"> \(6x\) </label>
+        </div>
+        <div class="button-row">
+            <button type="button" onclick="checkAnswer('zadanie6', 'correct', 'z6-result')">Sprawdź</button>
+            <button type="button" class="show-solution-button">Pokaż rozwiązanie</button>
+        </div>
+        <p id="z6-result" class="feedback"></p>
+        <p class="solution" style="display: none;">Rozwiazanie: \(2x+0,5x+8x=10,5x\) </p>
+    </div>
+
+    <div class="zadanie">
+        <h2>Zadanie 7</h2>
+        <p>Dane są trzy liczby: \(𝑥=5,27⋅10^{−3}, 𝑦=0,0023, 𝑧=1400⋅10^{−5}\).
+            Uporządkowano te liczby w kolejności od najmniejszej do największej.</p>
+        <p>Ktory zapis przedstawia poprawny sposob uporz.dkowania liczb \(x, y, z \)? Wybierz właściwą odpowiedź spośród podanych.</p>
+
+        <div class="odp">
+            <label><input type="radio" name="zadanie7" value="wrong" id="z7a"> \( x <  y < z\)</label><br>
+            <label><input type="radio" name="zadanie7" value="wrong" id="z7b"> \( y < x < z\)</label><br>
+            <label><input type="radio" name="zadanie7" value="correct" id="z7c"> \( z< y < x\) </label><br>
+            <label><input type="radio" name="zadanie7" value="wrong" id="z7d"> \( x < z < y\) </label>
+        </div>
+        <div class="button-row">
+            <button type="button" onclick="checkAnswer('zadanie7', 'correct', 'z7-result')">Sprawdź</button>
+            <button type="button" class="show-solution-button">Pokaż rozwiązanie</button>
+        </div>
+        <p id="z7-result" class="feedback"></p>
+        <p class="solution" style="display: none;">Rozwiazanie: \(z=1,4\cdot 10^{-2}; y=2,3\cdot 10^{-3}; x=5,27\cdot 10^{-3}\) </p>
+    </div>
+
+    <div class="zadanie">
+        <h2>Zadanie 8</h2>
+        <p>Na osi liczbowej zaznaczono punkty 𝐾, 𝐿 i 𝑀. Odcinek 𝐾𝑀 jest podzielony na 10 równych części (zobacz rysunek).</p>
+        <figure>
+            <img src="zdjecia/arkusz1/e8122025-8.jpg" style="max-width: 100%; height: auto;">
+        </figure>
+        <p>Z liczb, które są współrzędnymi punktów 𝐾, 𝐿 i 𝑀, utworzono sumy:
+            \(  I. 𝐾+𝐿+𝑀 \quad II. 𝐾+𝐿 \quad III. 𝐾+𝑀 \quad IV. 𝐿+𝑀 \)
+        </p>
+        <p>Która z utworzonych sum jest liczbą podzielną przez 𝟗? Wybierz właściwą odpowiedź spośród podanych.</p>
+        <div class="odp">
+            <label><input type="radio" name="zadanie8" value="wrong" id="z8a"> \(I\)</label><br>
+            <label><input type="radio" name="zadanie8" value="wrong" id="z8b"> \(II\)</label><br>
+            <label><input type="radio" name="zadanie8" value="wrong" id="z8c"> \(III\) </label><br>
+            <label><input type="radio" name="zadanie8" value="correct" id="z8d"> \(IV\) </label>
+        </div>
+        <div class="button-row">
+            <button type="button" onclick="checkAnswer('zadanie8', 'correct', 'z8-result')">Sprawdź</button>
+            <button type="button" class="show-solution-button">Pokaż rozwiązanie</button>
+        </div>
+        <p id="z8-result" class="feedback"></p>
+        <p class="solution" style="display: none;">Rozwiazanie: \(L+M=9+27=36; 36:9=4\) </p>
+    </div>
+
+    <div class="zadanie">
+        <h2>Zadanie 9</h2>
+        <p>Trójkąty 𝐴𝐵𝐶 i 𝐴𝐵𝐷 są równoramienne. Miara kąta między ramionami trójkąta 𝐴𝐵𝐶 jest równa 80°, a miara kąta między ramionami trójkąta 𝐴𝐵𝐷 jest równa 40°. Punkt 𝑆 jest punktem przecięcia odcinków 𝐴𝐶 i 𝐵𝐷 (zobacz rysunek).</p>
+        <figure>
+            <img src="zdjecia/arkusz1/e8122025-9.jpg" style="max-width: 100%; height: auto;">
+        </figure>
+        <p>Uzupełnij zdania. Wybierz odpowiedź spośród oznaczonych literami A i B oraz odpowiedź spośród oznaczonych literami C i D.</p>
+
+        <p>Kąt \(𝐴𝑆𝐵\) jest A/B</p>
+        <div class="odp">
+            <label><input type="radio" name="zadanie9-1" value="wrong" id="z9a"> A. ostry </label><br>
+            <label><input type="radio" name="zadanie9-1" value="correct" id="z9b"> B. prosty </label>
+        </div>
+        <p>Miara kąta \(𝐷𝐴𝐶\) jest równa C/D</p>
+        <div class="odp">
+            <label><input type="radio" name="zadanie9-2" value="correct" id="z9c"> C. \( 20^{\circ} \)</label><br>
+            <label><input type="radio" name="zadanie9-2" value="wrong" id="z9d"> D. \( 40^{\circ}\)</label>
+        </div>
+        <div class="button-row">
+            <button type="button" onclick="checkAllAnswers([{ group: 'zadanie9-1', correct: 'correct' }, { group: 'zadanie9-2', correct: 'correct' }], 'z9-result')">Sprawdź</button>
+            <button type="button" class="show-solution-button">Pokaż rozwiązanie</button>
+        </div>
+        <p id="z9-result" class="feedback"></p>
+        <p class="solution" style="display: none;">Rozwiązanie:  \(ADB=70^{\circ}, DAC=50^{\circ}, DAC=20^{\circ} \),  \( ASB=90^{\circ}  \).</p>
+    </div>
+    <div class="zadanie">
+        <h2>Zadanie 10</h2>
+        <p>Na tablicy zapisano osiem liczb całkowitych dodatnich, których średnia arytmetyczna jest równa 9.</p>
+
+        <p>Dokończ zdanie. Wybierz właściwą odpowiedź spośród podanych.</p>
+        <p>Po dopisaniu do tych ośmiu liczb dodatkowej liczby równej 9 średnia arytmetyczna</p>
+        <div class="odp">
+            <label><input type="radio" name="zadanie10" value="wrong" id="z10a"> wzrośnie o 1 </label><br>
+            <label><input type="radio" name="zadanie10" value="wrong" id="z10b"> zmaleje o 1</label><br>
+            <label><input type="radio" name="zadanie10" value="correct" id="z10c"> nie zmieni się </label><br>
+            <label><input type="radio" name="zadanie10" value="wrong" id="z10d"> wzrośnie o 9.</label>
+        </div>
+        <div class="button-row">
+            <button type="button" onclick="checkAnswer('zadanie10', 'correct', 'z10-result')">Sprawdź</button>
+            <button type="button" class="show-solution-button">Pokaż rozwiązanie</button>
+        </div>
+        <p id="z10-result" class="feedback"></p>
+        <p class="solution" style="display: none;">Rozwiazanie: Suma ośmiu liczby wynosi:\(8\cdot 9=72\). Po dodaniu liczby \(9\) suma wynosi \(81\). \(81:9=9\) </p>
+    </div>
+
+    <div class="zadanie">
+        <h2>Zadanie 11</h2>
+        <p>Dany jest prostokąt 𝐴𝐵𝐶𝐷 o bokach długości 4 cm i 9 cm. Ten prostokąt narysowano w skali 2 : 1 i otrzymano prostokąt 𝐸𝐹𝐺𝐻.
+            Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe.</p>
+        <div class="odp">
+            <p>1. Obwód prostokąta 𝐸𝐹𝐺𝐻 jest dwukrotnie większy od obwodu prostokąta 𝐴𝐵𝐶𝐷.</p>
+            <label><input type="radio" name="zadanie11-1" value="correct" id="z11a"> Prawda</label><br>
+            <label><input type="radio" name="zadanie11-1" value="wrong" id="z11b"> Fałsz</label>
+        </div>
+        <div class="odp">
+            <p>2. Pole prostokąta 𝐸𝐹𝐺𝐻 jest równe \(144 cm^2\)</p>
+            <label><input type="radio" name="zadanie11-2" value="correct" id="z11c"> Prawda</label><br>
+            <label><input type="radio" name="zadanie11-2" value="wrong" id="z11d"> Fałsz</label>
+        </div>
+        <div class="button-row">
+            <button type="button" onclick="checkAllAnswers([{ group: 'zadanie11-1', correct: 'correct' }, { group: 'zadanie11-2', correct: 'correct' }], 'z11-result')">Sprawdź</button>
+            <button type="button" class="show-solution-button">Pokaż rozwiązanie</button>
+        </div>
+        <p id="z11-result" class="feedback"></p>
+        <p class="solution" style="display: none;">Rozwiązanie: Skala 2:1 to skala powiększająca, oznacza to, że wymiary nowego prostokąta wynoszą 8cm X 18 cm.  Obwód
+            \(2\cdot 8+2\cdot 18)=52\). Pole: \(8\cdot 18=144.\)</p>
+    </div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

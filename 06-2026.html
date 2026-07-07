@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Arkusz 3</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="navbar-container">
+        <a href="index.html" class="navbar-brand" aria-label="Strona główna – Matematyka, ósma sprawa">
+            <img src="assets/osma-sprawa-logo.png" alt="" class="navbar-logo" width="180" height="73" aria-hidden="true">
+            <span class="navbar-brand-text">Matematyka</span>
+        </a>
+        <ul class="navbar-menu">
+            <li><a href="index.html">Strona główna</a></li>
+            <li class="navbar-dropdown">
+                <a href="dzialy.html" class="navbar-dropdown-trigger">Działy</a>
+                <ul class="navbar-dropdown-menu navbar-dropdown-menu--dzialy">
+                    <li><a href="#">Liczby naturalne</a></li>
+                    <li><a href="#">Liczby całkowite</a></li>
+                    <li><a href="#">Ułamki zwykłe i dziesiętne</a></li>
+                    <li><a href="#">Wyrażenia algebraiczne</a></li>
+                    <li><a href="#">Potęgi i pierwiastki</a></li>
+                    <li><a href="#">Procenty (podatki, lokaty, stężenia procentowe)</a></li>
+                    <li><a href="#">Zamiana jednostek</a></li>
+                    <li><a href="#">Geometria płaska</a></li>
+                    <li><a href="#">Bryły</a></li>
+                    <li><a href="#">Prawdopodobieństwo</a></li>
+                    <li><a href="#">Statystyka opisowa</a></li>
+                </ul>
+            </li>
+            <li class="navbar-dropdown">
+                <a href="arkusze.html" class="navbar-dropdown-trigger">Arkusze</a>
+                <ul class="navbar-dropdown-menu">
+                    <li><a href="arkusz1.html">Arkusz 1</a></li>
+                    <li><a href="arkusz2.html">Arkusz 2</a></li>
+                    <li><a href="arkusz3.html">Arkusz 3</a></li>
+                </ul>
+            </li>
+            <li class="navbar-dropdown">
+                <a href="testy.html" class="navbar-dropdown-trigger">Testy</a>
+                <ul class="navbar-dropdown-menu">
+                    <li><a href="test1.html">Test 1</a></li>
+                    <li><a href="testy/test2.html">Test 2</a></li>
+                    <li><a href="testy/test3.html">Test 3</a></li>
+                </ul>
+            </li>
+            <li class="navbar-dropdown">
+                <a href="rozwiazania.html" class="navbar-dropdown-trigger">Rozwiązania</a>
+                <ul class="navbar-dropdown-menu">
+                    <li><a href="rozwiazanie1.html">Twierdzenie Pitagorasa</a></li>
+                    <li><a href="#">Ostrosłupy</a></li>
+                    <li><a href="#">Graniastosłupy</a></li>
+                </ul>
+            </li>
+            <li><a href="cke.html">Egzaminy CKE</a></li>
+            <li><button class="logout-btn" onclick="logout()">Wyloguj</button></li>
+        </ul>
+    </div>
+</nav>
+
+<h1>Arkusz 3</h1>
+<div class="menu-buttons">
+    <button class="arkusz-buttons" onclick="location.href='arkusze.html'">Powrót</button>
+</div>
+
+<div id="test3" class="quiz-section">
+
+    <div class="zadanie">
+        <h2>Zadanie 1</h2>
+        <p>Na stronie internetowej szkoły zamieszczono diagram słupkowy przedstawiający liczbę finalistów konkursów przedmiotowych z sześciu kolejnych lat.</p>
+        <figure>
+            <img src="zdjecia/arkusz1/e8062026-1.jpg" alt="Diagram słupkowy liczby finalistów w latach 2018–2023" style="max-width: 100%; height: auto;">
+        </figure>
+        <p>Dokończ zdanie. Wybierz właściwą odpowiedź spośród podanych.</p>
+        <p>Średnia roczna liczba finalistów w okresie tych sześciu lat była równa</p>
+        <div class="odp">
+            <label><input type="radio" name="zadanie1" value="correct" id="z1a"> A. \( 6{,}5 \)</label><br>
+            <label><input type="radio" name="zadanie1" value="wrong" id="z1b"> B. \( 7 \)</label><br>
+            <label><input type="radio" name="zadanie1" value="wrong" id="z1c"> C. \( 7{,}8 \)</label><br>
+            <label><input type="radio" name="zadanie1" value="wrong" id="z1d"> D. \( 8 \)</label>
+        </div>
+        <div class="button-row">
+            <button type="button" onclick="checkAnswer('zadanie1', 'correct', 'z1-result')">Sprawdź</button>
+            <button type="button" class="show-solution-button">Pokaż rozwiązanie</button>
+        </div>
+        <p id="z1-result" class="feedback"></p>
+        <p class="solution" style="display: none;">Rozwiązanie: \( (10 + 8 + 0 + 4 + 12 + 5) : 6 = 39 : 6 = 6{,}5 \).</p>
+    </div>
+
+    <div class="zadanie">
+        <h2>Zadanie 2</h2>
+        <p>Kwotę \( 1800 \) złotych przeznaczoną na nagrody w pewnym konkursie podzielono na trzy części w stosunku \( 6 : 3 : 1 \), odpowiednio: za I, za II i za III miejsce.</p>
+        <p>Uzupełnij zdania. Wybierz odpowiedź spośród oznaczonych literami A i B oraz odpowiedź spośród oznaczonych literami C i D.</p>
+        <p>Wartość nagrody za III miejsce jest równa</p>
+        <div class="odp">
+            <label><input type="radio" name="zadanie2-1" value="correct" id="z2a"> A. \( 180 \) złotych</label><br>
+            <label><input type="radio" name="zadanie2-1" value="wrong" id="z2b"> B. \( 200 \) złotych</label>
+        </div>
+        <p>Wartość nagrody za I miejsce jest razy większa od wartości nagrody za II miejsce.</p>
+        <div class="odp">
+            <label><input type="radio" name="zadanie2-2" value="wrong" id="z2c"> C. \( 3 \)</label><br>
+            <label><input type="radio" name="zadanie2-2" value="correct" id="z2d"> D. \( 2 \)</label>
+        </div>
+        <div class="button-row">
+            <button type="button" onclick="checkAllAnswers([{ group: 'zadanie2-1', correct: 'correct' }, { group: 'zadanie2-2', correct: 'correct' }], 'z2-result')">Sprawdź</button>
+            <button type="button" class="show-solution-button">Pokaż rozwiązanie</button>
+        </div>
+        <p id="z2-result" class="feedback"></p>
+        <p class="solution" style="display: none;">Rozwiązanie: \( 1800 : 10 = 180 \) złotych za III miejsce. Stosunek nagrody za I do nagrody za II wynosi \( 6 : 3 = 2 \).</p>
+    </div>
+
+    <div class="zadanie">
+        <h2>Zadanie 3</h2>
+        <p>Dokończ zdanie. Wybierz właściwą odpowiedź spośród podanych.</p>
+        <p>Rozwiązaniem równania \( 3(x + 2) = 6 - (x - 1) \) jest liczba</p>
+        <div class="odp">
+            <label><input type="radio" name="zadanie3" value="wrong" id="z3a"> A. \( -\frac{3}{2} \)</label><br>
+            <label><input type="radio" name="zadanie3" value="wrong" id="z3b"> B. \( -1 \)</label><br>
+            <label><input type="radio" name="zadanie3" value="correct" id="z3c"> C. \( \frac{1}{4} \)</label><br>
+            <label><input type="radio" name="zadanie3" value="wrong" id="z3d"> D. \( \frac{1}{2} \)</label>
+        </div>
+        <div class="button-row">
+            <button type="button" onclick="checkAnswer('zadanie3', 'correct', 'z3-result')">Sprawdź</button>
+            <button type="button" class="show-solution-button">Pokaż rozwiązanie</button>
+        </div>
+        <p id="z3-result" class="feedback"></p>
+        <p class="solution" style="display: none;">Rozwiązanie: \( 3x + 6 = 7 - x \), więc \( 4x = 1 \) i \( x = \frac{1}{4} \).</p>
+    </div>
+
+    <div class="zadanie">
+        <h2>Zadanie 4</h2>
+        <p>W tabeli zapisano cztery wyrażenia arytmetyczne:</p>
+        <figure>
+            <img src="zdjecia/arkusz1/e8062026-2.jpg" alt="Tabela czterech wyrażeń arytmetycznych oznaczonych I–IV" style="max-width: 100%; height: auto;">
+        </figure>
+        <p>Które z tych wyrażeń ma największą wartość? Wybierz właściwą odpowiedź spośród podanych.</p>
+        <div class="odp">
+            <label><input type="radio" name="zadanie4" value="wrong" id="z4a"> A. \( I \)</label><br>
+            <label><input type="radio" name="zadanie4" value="correct" id="z4b"> B. \( II \)</label><br>
+            <label><input type="radio" name="zadanie4" value="wrong" id="z4c"> C. \( III \)</label><br>
+            <label><input type="radio" name="zadanie4" value="wrong" id="z4d"> D. \( IV \)</label>
+        </div>
+        <div class="button-row">
+            <button type="button" onclick="checkAnswer('zadanie4', 'correct', 'z4-result')">Sprawdź</button>
+            <button type="button" class="show-solution-button">Pokaż rozwiązanie</button>
+        </div>
+        <p id="z4-result" class="feedback"></p>
+        <p class="solution" style="display: none;">Rozwiązanie: \( I = 2^{23} \), \( II = 4^{13} = 2^{26} \), \( III = 2^{22} \), \( IV = 2^{20} \). Największą wartość ma \( II \).</p>
+    </div>
+
+    <div class="zadanie">
+        <h2>Zadanie 5</h2>
+        <p>W pewnej liczbie czterocyfrowej suma cyfr jest równa \( 3 \).</p>
+        <p>Ile jest liczb czterocyfrowych spełniających ten warunek? Wybierz właściwą odpowiedź spośród podanych.</p>
+        <div class="odp">
+            <label><input type="radio" name="zadanie5" value="wrong" id="z5a"> A. \( 3 \)</label><br>
+            <label><input type="radio" name="zadanie5" value="wrong" id="z5b"> B. \( 6 \)</label><br>
+            <label><input type="radio" name="zadanie5" value="correct" id="z5c"> C. \( 9 \)</label><br>
+            <label><input type="radio" name="zadanie5" value="wrong" id="z5d"> D. \( 10 \)</label>
+        </div>
+        <div class="button-row">
+            <button type="button" onclick="checkAnswer('zadanie5', 'correct', 'z5-result')">Sprawdź</button>
+            <button type="button" class="show-solution-button">Pokaż rozwiązanie</button>
+        </div>
+        <p id="z5-result" class="feedback"></p>
+        <p class="solution" style="display: none;">Rozwiązanie: 1011,1101,1110,1002,1020,1200,2001,2100,2010.</p>
+    </div>
+
+    <div class="zadanie">
+        <h2>Zadanie 6</h2>
+        <p>Dane jest wyrażenie arytmetyczne \( \frac{\sqrt{100}-\sqrt{36}}{\sqrt{-8}} \)</p>
+        <p>Dokończ zdanie. Wybierz właściwą odpowiedź spośród podanych.</p>
+        <p>Wartość podanego wyrażenia jest równa</p>
+        <div class="odp">
+            <label><input type="radio" name="zadanie6" value="wrong" id="z6a"> A. \( 4 \)</label><br>
+            <label><input type="radio" name="zadanie6" value="wrong" id="z6b"> B. \( 2 \)</label><br>
+            <label><input type="radio" name="zadanie6" value="correct" id="z6c"> C. \( -2 \)</label><br>
+            <label><input type="radio" name="zadanie6" value="wrong" id="z6d"> D. \( -4 \)</label>
+        </div>
+        <div class="button-row">
+            <button type="button" onclick="checkAnswer('zadanie6', 'correct', 'z6-result')">Sprawdź</button>
+            <button type="button" class="show-solution-button">Pokaż rozwiązanie</button>
+        </div>
+        <p id="z6-result" class="feedback"></p>
+        <p class="solution" style="display: none;">Rozwiązanie: \((10-6):(-2)=-2\)</p>
+    </div>
+
+    <div class="zadanie">
+        <h2>Zadanie 7</h2>
+        <p>Trzy kolejne liczby naturalne można zapisać w postaci: \( 𝑛, (𝑛 + 1), (𝑛 + 2). \)</p>
+        <p>Dokończ zdanie. Wybierz właściwą odpowiedź spośród podanych.</p>
+        <p>Suma każdych trzech kolejnych liczb naturalnych jest liczbą podzielną przez</p>
+        <div class="odp">
+            <label><input type="radio" name="zadanie7" value="wrong" id="z7a"> A. \( 2 \)</label><br>
+            <label><input type="radio" name="zadanie7" value="correct" id="z7b"> B. \( 3 \)</label><br>
+            <label><input type="radio" name="zadanie7" value="wrong" id="z7c"> C. \( 5 \)</label><br>
+            <label><input type="radio" name="zadanie7" value="wrong" id="z7d"> D. \( 6\)</label>
+        </div>
+        <div class="button-row">
+            <button type="button" onclick="checkAnswer('zadanie7', 'correct', 'z7-result')">Sprawdź</button>
+            <button type="button" class="show-solution-button">Pokaż rozwiązanie</button>
+        </div>
+        <p id="z7-result" class="feedback"></p>
+        <p class="solution" style="display: none;">Rozwiązanie: \( \frac{2}{5} \) książki to \( 48 \) strony, więc cała książka ma \( 48 : \frac{2}{5} = 120 \) stron.</p>
+    </div>
+
+    <div class="zadanie">
+        <h2>Zadanie 8</h2>
+        <p>Poniżej przedstawiono kalendarz na kwiecień w pewnym roku.</p>
+        <figure>
+            <img src="zdjecia/arkusz1/e8062026-8.jpg" alt="Kalendarz miesiąca kwietnia" style="max-width: 100%; height: auto;">
+        </figure>
+        <p>Uzupełnij zdania. Wybierz odpowiedź spośród oznaczonych literami A i B oraz odpowiedź spośród oznaczonych literami C i D.</p>
+        <p>Prawdopodobieństwo, że wybrany dzień tego miesiąca to wtorek, jest równe</p>
+        <div class="odp">
+            <label><input type="radio" name="zadanie8-1" value="wrong" id="z8a"> A. \( \frac{1}{5} \)</label><br>
+            <label><input type="radio" name="zadanie8-1" value="correct" id="z8b"> B. \( \frac{1}{6} \)</label>
+        </div>
+        <p>rawdopodobieństwo, że numer wybranego dnia tego miesiąca będzie liczbą podzielną przez C\D jest równe \( \frac{2}{15} \)</p>
+        <div class="odp">
+            <label><input type="radio" name="zadanie8-2" value="wrong" id="z8c"> C. \( 4 \)</label><br>
+            <label><input type="radio" name="zadanie8-2" value="correct" id="z8d"> D. \( 7 \)</label>
+        </div>
+        <div class="button-row">
+            <button type="button" onclick="checkAllAnswers([{ group: 'zadanie8-1', correct: 'correct' }, { group: 'zadanie8-2', correct: 'correct' }], 'z8-result')">Sprawdź</button>
+            <button type="button" class="show-solution-button">Pokaż rozwiązanie</button>
+        </div>
+        <p id="z8-result" class="feedback"></p>
+        <p class="solution" style="display: none;">Rozwiązanie: Liczba wtorków: \( 5 \), liczba dni \( 30\)), prawdopodobieństwo \( \frac{5}{30} = \frac{1}{6} \). Dni podzielne przez \(7 : 7,14,21,28\), prawdopodobieństwo: \( 4/30=2/15\)</p>
+    </div>
+
+    <div class="zadanie">
+        <h2>Zadanie 9</h2>
+        <p>Dane są cztery wyrażenia arytmetyczne: \(I. 1-2\frac{2}{3}\cdot3 ,\quad II. 3,4-2\frac{1}{4}, \quad III. 3\frac{3}{4}-4,25, \quad IV.6:1,2 \).</p>
+        <p>Dokończ zdanie. Wybierz właściwą odpowiedź spośród podanych.</p>
+        <p>Liczbami całkowitymi są wartości wyrażeń</p>
+        <div class="odp">
+            <label><input type="radio" name="zadanie9" value="wrong" id="z9a"> A. I oraz II</label><br>
+            <label><input type="radio" name="zadanie9" value="wrong" id="z9b"> B. II oraz III</label><br>
+            <label><input type="radio" name="zadanie9" value="correct" id="z9c"> C. I oraz IV</label><br>
+            <label><input type="radio" name="zadanie9" value="wrong" id="z9d"> D. III oraz IV</label>
+        </div>
+        <div class="button-row">
+            <button type="button" onclick="checkAnswer('zadanie9', 'correct', 'z9-result')">Sprawdź</button>
+            <button type="button" class="show-solution-button">Pokaż rozwiązanie</button>
+        </div>
+        <p id="z9-result" class="feedback"></p>
+        <p class="solution" style="display: none;">Rozwiązanie: </p>
+    </div>
+
+    <div class="zadanie">
+        <h2>Zadanie 10</h2>
+        <p>Ala wyruszyła na wycieczkę rowerową o godzinie 11 : 40. Przejechała trasę o długości 28 km
+            i dotarła do celu tego samego dnia o godzinie 13 : 00.</p>
+        <p>Dokończ zdanie. Wybierz właściwą odpowiedź spośród podanych.</p>
+        <p>Prędkość, z jaką Ala na rowerze pokonała trasę wycieczki, była równa</p>
+
+        <div class="odp">
+            <label><input type="radio" name="zadanie10" value="wrong" id="z10a"> A. 10,5 km/h</label><br>
+            <label><input type="radio" name="zadanie10" value="wrong" id="z10b"> B. 12 km/h</label><br>
+            <label><input type="radio" name="zadanie10" value="wrong" id="z10c"> C. 16,8 km/h</label><br>
+            <label><input type="radio" name="zadanie10" value="correct" id="z10d"> D. 21 km/h</label>
+        </div>
+        <div class="button-row">
+            <button type="button" onclick="checkAnswer('zadanie10', 'correct', 'z10-result')">Sprawdź</button>
+            <button type="button" class="show-solution-button">Pokaż rozwiązanie</button>
+        </div>
+        <p id="z10-result" class="feedback"></p>
+        <p class="solution" style="display: none;">Rozwiązanie: Ala jechała 1 godzinę i 20 minut, czyli \(1\frac{1}{3}\) godziny. Prędkość to \( \frac{28}{\frac{4}{3}} = 28 \cdot \frac{3}{4} = 21 \) km/h.  Odpowiedź D jest poprawna.</p>
+    </div>
+
+    <div class="zadanie">
+        <h2>Zadanie 11</h2>
+        <p>W prostokątnym układzie współrzędnych (𝑥, 𝑦) dane są odcinki 𝐴𝐵 oraz 𝐶𝐷.
+            Końcami tych odcinków są – odpowiednio – punkty:
+            𝐴 = (0, 0), 𝐵 = (0, 4) oraz 𝐶 = (−2, 0), 𝐷 = (6, 0).</p>
+        <p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F –
+            jeśli jest fałszywe.</p>
+        <div class="odp">
+            <p>Odcinek 𝐴𝐵 ma taką samą długość jak odcinek 𝐶𝐷.</p>
+            <label><input type="radio" name="zadanie11-1" value="wrong" id="z11a"> P</label><br>
+            <label><input type="radio" name="zadanie11-1" value="correct" id="z11b"> F</label>
+        </div>
+        <div class="odp">
+            <p>Odcinek 𝐴𝐵 jest prostopadły do odcinka 𝐶𝐷.</p>
+            <label><input type="radio" name="zadanie11-2" value="correct" id="z11c"> P</label><br>
+            <label><input type="radio" name="zadanie11-2" value="wrong" id="z11d"> F</label>
+        </div>
+        <div class="button-row">
+            <button type="button" onclick="checkAllAnswers([{ group: 'zadanie11-1', correct: 'correct' }, { group: 'zadanie11-2', correct: 'correct' }], 'z11-result')">Sprawdź</button>
+            <button type="button" class="show-solution-button">Pokaż rozwiązanie</button>
+        </div>
+        <p id="z11-result" class="feedback"></p>
+        <p class="solution" style="display: none;">Rozwiązanie: Odcinek 𝐴𝐵 ma długość 4, a odcinek 𝐶𝐷 ma długość 8. Zatem odcinki mają różne długości. Pierwsze zdanie jest fałszywe. Odcinek 𝐴𝐵 jest pionowy, a odcinek 𝐶𝐷 jest poziomy, więc są prostopadłe. Drugie zdanie jest prawdziwe.</p>
+    </div>
+
+    <div class="zadanie">
+        <h2>Zadanie 12</h2>
+        <p>Bok 𝐴𝐷 równoległoboku \(𝐴𝐵𝐶𝐷\) ma długość 6, a przekątna 𝐵𝐷 prostopadła do tego boku
+            ma długość 8 (zobacz rysunek).</p>
+        <figure>
+            <img src="zdjecia/arkusz1/e8062026-12.jpg" alt="Równoległobok ABCD z przekątną BD prostopadłą do boku AD" style="max-width: 100%; height: auto;">
+        </figure>
+        <p>Dokończ zdanie. Wybierz właściwą odpowiedź spośród podanych.</p>
+        <p>Obwód równoległoboku \(𝐴𝐵𝐶𝐷\) jest równy</p>
+        <div class="odp">
+            <label><input type="radio" name="zadanie12" value="wrong" id="z12a"> A. \( 32 \)</label><br>
+            <label><input type="radio" name="zadanie12" value="wrong" id="z12b"> B. \( 48 \)</label><br>
+            <label><input type="radio" name="zadanie12" value="wrong" id="z12c"> C. \( 24 \)</label><br>
+            <label><input type="radio" name="zadanie12" value="correct" id="z12d"> D. \( 22 \)</label>
+        </div>
+        <div class="button-row">
+            <button type="button" onclick="checkAnswer('zadanie12', 'correct', 'z12-result')">Sprawdź</button>
+            <button type="button" class="show-solution-button">Pokaż rozwiązanie</button>
+        </div>
+        <p id="z12-result" class="feedback"></p>
+        <p class="solution" style="display: none;">Rozwiązanie: Z twierdzenia Pitagorasa \( AB =10 \). Obwód jest równy \( 2 \cdot (6 + 10) = 32 \).</p>
+    </div>
+
+    <div class="zadanie">
+        <h2>Zadanie 13</h2>
+        <p>Z ośmiu jednakowych patyczków zbudowano figurę 𝑆 (zobacz rysunek). Ta figura ma dwie
+            osie symetrii w płaszczyźnie rysunku.</p>
+        <figure>
+            <img src="zdjecia/arkusz1/e8062026-13.jpg" alt="Figura S złożona z kwadratu i dwóch trójkątów" style="max-width: 100%; height: auto;">
+        </figure>
+        <p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F –
+            jeśli jest fałszywe.</p>
+
+        <div class="odp">
+            <p>Po usunięciu z figury 𝑆 patyczków 𝐴𝐹 i 𝐴𝐵, bez przesuwania pozostałych
+                patyczków, otrzymamy figurę, która ma jedną oś symetrii.</p>
+            <label><input type="radio" name="zadanie13-1" value="correct" id="z13a"> P</label><br>
+            <label><input type="radio" name="zadanie13-1" value="wrong" id="z13b"> F</label>
+        </div>
+        <div class="odp">
+            <p>Po usunięciu z figury 𝑆 patyczka 𝐹𝐸, bez przesuwania pozostałych
+                patyczków, otrzymamy figurę, która nie ma osi symetrii.</p>
+            <label><input type="radio" name="zadanie13-2" value="wrong" id="z13c"> P</label><br>
+            <label><input type="radio" name="zadanie13-2" value="correct" id="z13d"> F</label>
+        </div>
+        <div class="button-row">
+            <button type="button" onclick="checkAllAnswers([{ group: 'zadanie13-1', correct: 'correct' }, { group: 'zadanie13-2', correct: 'correct' }], 'z13-result')">Sprawdź</button>
+            <button type="button" class="show-solution-button">Pokaż rozwiązanie</button>
+        </div>
+        <p id="z13-result" class="feedback"></p>
+        <p class="solution" style="display: none;">Rozwiązanie: </p>
+    </div>
+
+    <div class="zadanie">
+        <h2>Zadanie 14</h2>
+        <p>Na rysunku przedstawiono siatkę pewnego sześcianu. Obwód tej siatki jest równy 70 cm.</p>
+        <figure>
+            <img src="zdjecia/arkusz1/e8062026-14.jpg" alt="Figura złożona z pięciu kwadratów ułożonych w układzie zygzakowatym" style="max-width: 100%; height: auto;">
+        </figure>
+        <p>Dokończ zdanie. Wybierz właściwą odpowiedź spośród podanych.</p>
+        <p>Pole powierzchni całkowitej tego sześcianu jest równe</p>
+
+        <div class="odp">
+            <label><input type="radio" name="zadanie14" value="wrong" id="z14a"> A. \( 100 cm^2\)</label><br>
+            <label><input type="radio" name="zadanie14" value="wrong" id="z14b"> B. \( 120 cm^2\)</label><br>
+            <label><input type="radio" name="zadanie14" value="wrong" id="z14c"> C. \( 125 cm^2\)</label><br>
+            <label><input type="radio" name="zadanie14" value="correct" id="z14d"> D. \( 150 cm^2\)</label>
+        </div>
+        <div class="button-row">
+            <button type="button" onclick="checkAnswer('zadanie14', 'correct', 'z14-result')">Sprawdź</button>
+            <button type="button" class="show-solution-button">Pokaż rozwiązanie</button>
+        </div>
+        <p id="z14-result" class="feedback"></p>
+        <p class="solution" style="display: none;">Rozwiązanie: Pole powierzchni całkowitej sześcianu jest równe \( 6 \cdot a^2 \), gdzie \( a \) to długość krawędzi. Z obwodu siatki można wyznaczyć długość krawędzi.</p>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
