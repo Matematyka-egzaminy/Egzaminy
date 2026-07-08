@@ -72,6 +72,25 @@
 <div class="menu-buttons">
     <button class="arkusz-buttons" onclick="location.href='dzialy.html'">Powrót</button>
 </div>
+<div id="test1" class="quiz-section">
+    <div class="zadanie">
+        <h2>Zadanie 1</h2>
+        <p>Oblicz: \(\frac{-20}{(-2)^2\cdot 5}\). Wybierz prawidłową odpowiedź spośród podanych.</p>
+        <div class="odp">
+            <label><input type="radio" name="zadanie1" value="wrong" id="z1a"> A) \( 1\)</label><br>
+            <label><input type="radio" name="zadanie1" value="correct" id="z1b"> B) \(-1\)</label><br>
+            <label><input type="radio" name="zadanie1" value="wrong" id="z1c"> C) \( 0\)</label><br>
+            <label><input type="radio" name="zadanie1" value="wrong" id="z1d"> D) \( -2\)</label>
+        </div>
+        <div class="button-row">
+            <button type="button" onclick="checkAnswer('zadanie1', 'correct', 'z1-result')">Sprawdź</button>
+            <button type="button" class="show-solution-button">Pokaż rozwiązanie</button>
+        </div>
+        <p id="z1-result" class="feedback"></p>
+        <p class="solution" style="display: none;">Rozwiązanie: \(\frac{-20}{(-2)^2\cdot 5}=\frac{-20}{20}=-1.\)</p>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 <script src="script.js"></script>
 </body>
 </html>

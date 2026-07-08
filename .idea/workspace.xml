@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1331c87a-abef-4e89-b235-9d3205a021a5" name="Changes" comment="działy">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/naturalne.html" beforeDir="false" afterPath="$PROJECT_DIR$/naturalne.html" afterDir="false" />
+    <list default="true" id="1331c87a-abef-4e89-b235-9d3205a021a5" name="Changes" comment="działy naturalne">
+      <change beforePath="$PROJECT_DIR$/calkowite.html" beforeDir="false" afterPath="$PROJECT_DIR$/calkowite.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -226,15 +225,7 @@
       <workItem from="1783007492593" duration="4127000" />
       <workItem from="1783250914869" duration="2493000" />
       <workItem from="1783424459479" duration="2435000" />
-      <workItem from="1783431327056" duration="3099000" />
-    </task>
-    <task id="LOCAL-00038" summary="przyciski powrotu">
-      <option name="closed" value="true" />
-      <created>1778172787162</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1778172787162</updated>
+      <workItem from="1783431327056" duration="3398000" />
     </task>
     <task id="LOCAL-00039" summary="edycja panelu logowania">
       <option name="closed" value="true" />
@@ -620,7 +611,15 @@
       <option name="project" value="LOCAL" />
       <updated>1783433722400</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="działy naturalne">
+      <option name="closed" value="true" />
+      <created>1783526923002</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1783526923002</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -638,7 +637,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="edycja panelu logowania" />
     <MESSAGE value="edycja index.html" />
     <MESSAGE value="edycja arkusze/testy/rozwiazania" />
     <MESSAGE value="edycja CKE" />
@@ -663,7 +661,8 @@
     <MESSAGE value="arkusze cke" />
     <MESSAGE value="dokończony arkusz 01.2026" />
     <MESSAGE value="działy" />
-    <option name="LAST_COMMIT_MESSAGE" value="działy" />
+    <MESSAGE value="działy naturalne" />
+    <option name="LAST_COMMIT_MESSAGE" value="działy naturalne" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
