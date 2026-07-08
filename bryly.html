@@ -74,7 +74,22 @@
 </div>
 <div id="test1" class="quiz-section">
 
-
+    <div class="zadanie">
+        <h2>Zadanie 1</h2>
+        <p>Oblicz objętość prostopadłościanu o wymiarach: \(5 cm x 60mm x 1 dm\). Wybierz prawidłową odpowiedź spośród podanych.</p>
+        <div class="odp">
+            <label><input type="radio" name="zadanie1" value="wrong" id="z1a"> A) \(30 cm^3\)</label><br>
+            <label><input type="radio" name="zadanie1" value="correct" id="z1b"> B) \(300 cm^3\)</label><br>
+            <label><input type="radio" name="zadanie1" value="wrong" id="z1c"> C) \(3 cm^3\)</label><br>
+            <label><input type="radio" name="zadanie1" value="wrong" id="z1d"> D) \(300 mm^3\)</label>
+        </div>
+        <div class="button-row">
+            <button type="button" onclick="checkAnswer('zadanie1', 'correct', 'z1-result')">Sprawdź</button>
+            <button type="button" class="show-solution-button">Pokaż rozwiązanie</button>
+        </div>
+        <p id="z1-result" class="feedback"></p>
+        <p class="solution" style="display: none;">Rozwiązanie: \(5cm\cdot 6 cm\cdot 10 cm=300 cm^3\)</p>
+    </div>
 
 </div>
 <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>

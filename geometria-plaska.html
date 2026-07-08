@@ -74,7 +74,25 @@
 </div>
 <div id="test1" class="quiz-section">
 
-
+    <div class="zadanie">
+        <h2>Zadanie 1</h2>
+        <p>Obwód równoległoboku wynosi: \(32 cm\). Dłuższy bok jest 3 razy dłuższy od krótszego.
+            Wysokość opuszczona na dłuższy bok ma \(3 cm\). Oblicz długość drugiej wysokości równoległoboku.</p>
+        <div class="odp">
+            <label><input type="radio" name="zadanie1" value="wrong" id="z1a"> A) \(12 cm\)</label><br>
+            <label><input type="radio" name="zadanie1" value="wrong" id="z1b"> B) \(3 cm\)</label><br>
+            <label><input type="radio" name="zadanie1" value="wrong" id="z1c"> C) \(4 cm\)</label><br>
+            <label><input type="radio" name="zadanie1" value="correct" id="z1d"> D) \(9 cm\)</label>
+        </div>
+        <div class="button-row">
+            <button type="button" onclick="checkAnswer('zadanie1', 'correct', 'z1-result')">Sprawdź</button>
+            <button type="button" class="show-solution-button">Pokaż rozwiązanie</button>
+        </div>
+        <p id="z1-result" class="feedback"></p>
+        <p class="solution" style="display: none;">Rozwiązanie: Oznaczmy przez x długość krótszego boku, wtedy dłuższy bok to 3x. Obwód: \(8x=32\).
+            Stąd \(x=4, 3x=12\). Pole \(P=3 \cdot 12 =36\). Pole możemy obliczyć podstawiając do wzoru drugi bok i wysokość, która na niego opada.
+            Zatem: \(P= h\cdot 4=36\). Stąd \(h=9cm.\)</p>
+    </div>
 
 </div>
 <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>

@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1331c87a-abef-4e89-b235-9d3205a021a5" name="Changes" comment="działy całkowite">
+    <list default="true" id="1331c87a-abef-4e89-b235-9d3205a021a5" name="Changes" comment="działy">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bryly.html" beforeDir="false" afterPath="$PROJECT_DIR$/bryly.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/geometria-plaska.html" beforeDir="false" afterPath="$PROJECT_DIR$/geometria-plaska.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jednostki.html" beforeDir="false" afterPath="$PROJECT_DIR$/jednostki.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/potegi-pierwiastki.html" beforeDir="false" afterPath="$PROJECT_DIR$/potegi-pierwiastki.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/prawdopodobienstwo.html" beforeDir="false" afterPath="$PROJECT_DIR$/prawdopodobienstwo.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/procenty.html" beforeDir="false" afterPath="$PROJECT_DIR$/procenty.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statystyka-opisowa.html" beforeDir="false" afterPath="$PROJECT_DIR$/statystyka-opisowa.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ulamki.html" beforeDir="false" afterPath="$PROJECT_DIR$/ulamki.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wyrazenia.html" beforeDir="false" afterPath="$PROJECT_DIR$/wyrazenia.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -233,15 +230,7 @@
       <workItem from="1783007492593" duration="4127000" />
       <workItem from="1783250914869" duration="2493000" />
       <workItem from="1783424459479" duration="2435000" />
-      <workItem from="1783431327056" duration="3823000" />
-    </task>
-    <task id="LOCAL-00040" summary="edycja index.html">
-      <option name="closed" value="true" />
-      <created>1778229400529</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1778229400529</updated>
+      <workItem from="1783431327056" duration="5747000" />
     </task>
     <task id="LOCAL-00041" summary="edycja index.html">
       <option name="closed" value="true" />
@@ -627,7 +616,15 @@
       <option name="project" value="LOCAL" />
       <updated>1783527205092</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="działy">
+      <option name="closed" value="true" />
+      <created>1783527415216</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1783527415216</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -667,10 +664,10 @@
     <MESSAGE value="arkusz 1" />
     <MESSAGE value="arkusze cke" />
     <MESSAGE value="dokończony arkusz 01.2026" />
-    <MESSAGE value="działy" />
     <MESSAGE value="działy naturalne" />
     <MESSAGE value="działy całkowite" />
-    <option name="LAST_COMMIT_MESSAGE" value="działy całkowite" />
+    <MESSAGE value="działy" />
+    <option name="LAST_COMMIT_MESSAGE" value="działy" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>

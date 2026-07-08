@@ -74,7 +74,26 @@
 </div>
 <div id="test1" class="quiz-section">
 
-
+    <div class="zadanie">
+        <h2>Zadanie 1</h2>
+        <p>Niech x oznacza długość boku kwardratu.</p>
+        <div class="odp">
+            <p>1. Pole tego kwadratu wynosi: \(x^2\)</p>
+            <label><input type="radio" name="zadanie1-1" value="correct" id="z1a"> Prawda</label><br>
+            <label><input type="radio" name="zadanie1-1" value="wrong" id="z1b"> Fałsz</label>
+        </div>
+        <div class="odp">
+            <p>2. Obwód tego kwadratu wynosi: \(4x\)</p>
+            <label><input type="radio" name="zadanie1-2" value="correct" id="z1c"> Prawda</label><br>
+            <label><input type="radio" name="zadanie1-2" value="wrong" id="z1d"> Fałsz</label>
+        </div>
+        <div class="button-row">
+            <button type="button" onclick="checkAllAnswers([{ group: 'zadanie1-1', correct: 'correct' }, { group: 'zadanie1-2', correct: 'correct' }], 'z1-result')">Sprawdź</button>
+            <button type="button" class="show-solution-button">Pokaż rozwiązanie</button>
+        </div>
+        <p id="z1-result" class="feedback"></p>
+        <p class="solution" style="display: none;">Rozwiązanie: Pole \(P=x \cdot x =x^2\).  \(Ob=4\cdot x=4x.\)</p>
+    </div>
 
 </div>
 <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>

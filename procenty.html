@@ -74,7 +74,22 @@
 </div>
 <div id="test1" class="quiz-section">
 
-
+    <div class="zadanie">
+        <h2>Zadanie 1</h2>
+        <p>Oblicz stężenie procentowe roztworu, który składa się z \(8l\) wody i \(2l\) soli.</p>
+        <div class="odp">
+            <label><input type="radio" name="zadanie1" value="wrong" id="z1a"> A) \(25\%\)</label><br>
+            <label><input type="radio" name="zadanie1" value="wrong" id="z1b"> B) \(2\%\)</label><br>
+            <label><input type="radio" name="zadanie1" value="correct" id="z1c"> C) \(20\%\)</label><br>
+            <label><input type="radio" name="zadanie1" value="wrong" id="z1d"> D) \(8\%\)</label>
+        </div>
+        <div class="button-row">
+            <button type="button" onclick="checkAnswer('zadanie1', 'correct', 'z1-result')">Sprawdź</button>
+            <button type="button" class="show-solution-button">Pokaż rozwiązanie</button>
+        </div>
+        <p id="z1-result" class="feedback"></p>
+        <p class="solution" style="display: none;">Rozwiązanie: \(8l + 1l=10l).  \(\frac{2}{10}=20\%\)</p>
+    </div>
 
 </div>
 <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
