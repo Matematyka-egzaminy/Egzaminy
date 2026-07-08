@@ -72,6 +72,27 @@
 <div class="menu-buttons">
     <button class="arkusz-buttons" onclick="location.href='dzialy.html'">Powrót</button>
 </div>
+<div id="test1" class="quiz-section">
+<div class="zadanie">
+    <h2>Zadanie 1</h2>
+    <p>Znajdź NWW i NWD liczb \(12,9\). Wybierz prawidłową odpowiedź spośród podanych.</p>
+    <div class="odp">
+        <label><input type="radio" name="zadanie1" value="correct" id="z1a"> A) \( NWW(9,12)=36 ; \quad NWD(9,12)=3\)</label><br>
+        <label><input type="radio" name="zadanie1" value="wrong" id="z1b"> B) \( NWW(9,12)=3 ; \quad NWD(9,12)=36\)</label><br>
+        <label><input type="radio" name="zadanie1" value="wrong" id="z1c"> C) \( NWW(9,12)=60 ; \quad NWD(9,12)=3\)</label><br>
+        <label><input type="radio" name="zadanie1" value="wrong" id="z1d"> D) \( NWW(9,12)=12 ; \quad NWD(9,12)=9\)</label>
+    </div>
+    <div class="button-row">
+        <button type="button" onclick="checkAnswer('zadanie1', 'correct', 'z1-result')">Sprawdź</button>
+        <button type="button" class="show-solution-button">Pokaż rozwiązanie</button>
+    </div>
+    <p id="z1-result" class="feedback"></p>
+    <p class="solution" style="display: none;">Rozwiązanie: Rozkład na czynniki pierwsze liczby 9: \(9=3\cdot 3\)
+        Rozkład na czynniki pierwsze liczby 12: \(12=2\cdot 2 \cdot 3\)
+        \( NWW(9,12)=3\cdot 3 \cdot 2 \cdot 2=36  ; \quad NWD(9,12)=3\)</p>
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 <script src="script.js"></script>
 </body>
 </html>
