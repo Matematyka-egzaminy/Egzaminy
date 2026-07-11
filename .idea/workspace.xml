@@ -5,34 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1331c87a-abef-4e89-b235-9d3205a021a5" name="Changes" comment="pasek nawigacji">
-      <change beforePath="$PROJECT_DIR$/01-2026.html" beforeDir="false" afterPath="$PROJECT_DIR$/01-2026.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-2026.html" beforeDir="false" afterPath="$PROJECT_DIR$/06-2026.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arkusz0.html" beforeDir="false" afterPath="$PROJECT_DIR$/arkusz0.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arkusz1.html" beforeDir="false" afterPath="$PROJECT_DIR$/arkusz1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arkusz2.html" beforeDir="false" afterPath="$PROJECT_DIR$/arkusz2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arkusz3.html" beforeDir="false" afterPath="$PROJECT_DIR$/arkusz3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arkusze.html" beforeDir="false" afterPath="$PROJECT_DIR$/arkusze.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bryly.html" beforeDir="false" afterPath="$PROJECT_DIR$/bryly.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calkowite.html" beforeDir="false" afterPath="$PROJECT_DIR$/calkowite.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cke.html" beforeDir="false" afterPath="$PROJECT_DIR$/cke.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dzialy.html" beforeDir="false" afterPath="$PROJECT_DIR$/dzialy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geometria-plaska.html" beforeDir="false" afterPath="$PROJECT_DIR$/geometria-plaska.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jednostki.html" beforeDir="false" afterPath="$PROJECT_DIR$/jednostki.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/naturalne.html" beforeDir="false" afterPath="$PROJECT_DIR$/naturalne.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/potegi-pierwiastki.html" beforeDir="false" afterPath="$PROJECT_DIR$/potegi-pierwiastki.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prawdopodobienstwo.html" beforeDir="false" afterPath="$PROJECT_DIR$/prawdopodobienstwo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/procenty.html" beforeDir="false" afterPath="$PROJECT_DIR$/procenty.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rozwiazania.html" beforeDir="false" afterPath="$PROJECT_DIR$/rozwiazania.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rozwiazanie1.html" beforeDir="false" afterPath="$PROJECT_DIR$/rozwiazanie1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statystyka-opisowa.html" beforeDir="false" afterPath="$PROJECT_DIR$/statystyka-opisowa.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test1.html" beforeDir="false" afterPath="$PROJECT_DIR$/test1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testy.html" beforeDir="false" afterPath="$PROJECT_DIR$/testy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testy/test2.html" beforeDir="false" afterPath="$PROJECT_DIR$/testy/test2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testy/test3.html" beforeDir="false" afterPath="$PROJECT_DIR$/testy/test3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ulamki.html" beforeDir="false" afterPath="$PROJECT_DIR$/ulamki.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wyrazenia.html" beforeDir="false" afterPath="$PROJECT_DIR$/wyrazenia.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -256,15 +230,7 @@
       <workItem from="1783612324104" duration="3061000" />
       <workItem from="1783616126418" duration="154000" />
       <workItem from="1783616350547" duration="300000" />
-      <workItem from="1783764874497" duration="1137000" />
-    </task>
-    <task id="LOCAL-00043" summary="edycja arkusze/testy/rozwiazania">
-      <option name="closed" value="true" />
-      <created>1778258121458</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1778258121459</updated>
+      <workItem from="1783764874497" duration="2488000" />
     </task>
     <task id="LOCAL-00044" summary="edycja arkusze/testy/rozwiazania">
       <option name="closed" value="true" />
@@ -650,7 +616,15 @@
       <option name="project" value="LOCAL" />
       <updated>1783765731159</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="pasek nawigacji">
+      <option name="closed" value="true" />
+      <created>1783766092515</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1783766092515</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
