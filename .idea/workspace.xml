@@ -6,11 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1331c87a-abef-4e89-b235-9d3205a021a5" name="Changes" comment="działy">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bryly.html" beforeDir="false" afterPath="$PROJECT_DIR$/bryly.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geometria-plaska.html" beforeDir="false" afterPath="$PROJECT_DIR$/geometria-plaska.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prawdopodobienstwo.html" beforeDir="false" afterPath="$PROJECT_DIR$/prawdopodobienstwo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/procenty.html" beforeDir="false" afterPath="$PROJECT_DIR$/procenty.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wyrazenia.html" beforeDir="false" afterPath="$PROJECT_DIR$/wyrazenia.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-2026.html" beforeDir="false" afterPath="$PROJECT_DIR$/05-2026.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +40,7 @@
     <option name="chatModeId" value="Agent" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="59" />
+    <option name="cachedIndexableFilesCount" value="70" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -230,15 +226,11 @@
       <workItem from="1783007492593" duration="4127000" />
       <workItem from="1783250914869" duration="2493000" />
       <workItem from="1783424459479" duration="2435000" />
-      <workItem from="1783431327056" duration="5747000" />
-    </task>
-    <task id="LOCAL-00041" summary="edycja index.html">
-      <option name="closed" value="true" />
-      <created>1778230052575</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1778230052575</updated>
+      <workItem from="1783431327056" duration="5865000" />
+      <workItem from="1783612324104" duration="3061000" />
+      <workItem from="1783616126418" duration="154000" />
+      <workItem from="1783616350547" duration="300000" />
+      <workItem from="1783764874497" duration="744000" />
     </task>
     <task id="LOCAL-00042" summary="edycja arkusze/testy/rozwiazania">
       <option name="closed" value="true" />
@@ -624,7 +616,15 @@
       <option name="project" value="LOCAL" />
       <updated>1783527415216</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="działy">
+      <option name="closed" value="true" />
+      <created>1783529369968</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1783529369969</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
