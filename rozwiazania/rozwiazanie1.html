@@ -1,12 +1,12 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
-    <title>Logowanie</title>
+    <title>Twierdzenie Pitagorasa</title>
     <link rel="stylesheet" href="../css/main.css">
-    <link rel="stylesheet" href="stylelogowania.css">
 </head>
 <body>
+
 <nav class="navbar">
     <div class="navbar-container">
         <a href="../index.html" class="navbar-brand" aria-label="Strona główna – Matematyka, ósma sprawa">
@@ -18,17 +18,17 @@
             <li class="navbar-dropdown">
                 <a href="../dzialy.html" class="navbar-dropdown-trigger">Działy</a>
                 <ul class="navbar-dropdown-menu navbar-dropdown-menu--dzialy">
-                    <li><a href="naturalne.html">Liczby naturalne</a></li>
-                    <li><a href="calkowite.html">Liczby całkowite</a></li>
-                    <li><a href="ulamki.html">Ułamki zwykłe i dziesiętne</a></li>
-                    <li><a href="wyrazenia.html">Wyrażenia algebraiczne</a></li>
-                    <li><a href="potegi-pierwiastki.html">Potęgi i pierwiastki</a></li>
-                    <li><a href="procenty.html">Procenty (podatki, lokaty, stężenia procentowe)</a></li>
-                    <li><a href="jednostki.html">Zamiana jednostek</a></li>
-                    <li><a href="geometria-plaska.html">Geometria płaska</a></li>
-                    <li><a href="bryly.html">Bryły</a></li>
-                    <li><a href=" prawdopodobienstwo.html">Prawdopodobieństwo</a></li>
-                    <li><a href="statystyka-opisowa.html">Statystyka opisowa</a></li>
+                    <li><a href="../naturalne.html">Liczby naturalne</a></li>
+                    <li><a href="../calkowite.html">Liczby całkowite</a></li>
+                    <li><a href="../ulamki.html">Ułamki zwykłe i dziesiętne</a></li>
+                    <li><a href="../wyrazenia.html">Wyrażenia algebraiczne</a></li>
+                    <li><a href="../potegi-pierwiastki.html">Potęgi i pierwiastki</a></li>
+                    <li><a href="../procenty.html">Procenty (podatki, lokaty, stężenia procentowe)</a></li>
+                    <li><a href="../jednostki.html">Zamiana jednostek</a></li>
+                    <li><a href="../geometria-plaska.html">Geometria płaska</a></li>
+                    <li><a href="../bryly.html">Bryły</a></li>
+                    <li><a href="../prawdopodobienstwo.html">Prawdopodobieństwo</a></li>
+                    <li><a href="../statystyka-opisowa.html">Statystyka opisowa</a></li>
                 </ul>
             </li>
             <li class="navbar-dropdown">
@@ -48,9 +48,9 @@
                 </ul>
             </li>
             <li class="navbar-dropdown">
-                <a href="../rozwiazania/rozwiazania.html" class="navbar-dropdown-trigger">Rozwiązania</a>
+                <a href="rozwiazania.html" class="navbar-dropdown-trigger">Rozwiązania</a>
                 <ul class="navbar-dropdown-menu">
-                    <li><a href="../rozwiazania/rozwiazanie1.html">Twierdzenie Pitagorasa</a></li>
+                    <li><a href="rozwiazanie1.html">Twierdzenie Pitagorasa</a></li>
                     <li><a href="#">Ostrosłupy</a></li>
                     <li><a href="#">Graniastosłupy</a></li>
                 </ul>
@@ -67,29 +67,17 @@
         </ul>
     </div>
 </nav>
-<main class="login-page">
-    <section class="login-hero">
-        <p class="hero-badge">Przygotowanie do egzaminu ósmoklasisty</p>
-        <h1>Zaloguj sie do platformy</h1>
-        <p class="login-subtitle">
-            Wróć do nauki, rozwiazuj kolejne zadania i monitoruj swoje postepy.
-        </p>
-    </section>
 
-    <section class="login-box">
-        <form id="loginForm">
-            <label for="username">Login</label>
-            <input id="username" name="username" type="text" autocomplete="username" required>
-
-            <label for="password">Haslo</label>
-            <input id="password" name="password" type="password" autocomplete="current-password" required>
-
-            <button type="submit">Zaloguj</button>
-            <div id="loginMsg" class="login-msg"></div>
-        </form>
-    </section>
-</main>
-
-<script src="script-login.js"></script>
+<h1>Twierdzenie Pitagorasa</h1>
+<div class="menu-buttons">
+    <button class="arkusz-buttons" onclick="location.href='rozwiazania.html'">Powrót</button>
+</div>
+<h2>Zadanie 1</h2>
+<video class="lesson-video" controls>
+    <source src="../filmy/1.mp4" type="video/mp4">
+    Twoja przeglądarka nie obsługuje tagu wideo.
+</video>
+<h2>Zadanie 2</h2>
+<script src="../script.js"></script>
 </body>
 </html>
