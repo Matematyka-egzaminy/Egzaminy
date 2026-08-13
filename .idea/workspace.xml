@@ -4,8 +4,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1331c87a-abef-4e89-b235-9d3205a021a5" name="Changes" comment="naturalne">
+    <list default="true" id="1331c87a-abef-4e89-b235-9d3205a021a5" name="Changes" comment="rozwiązania1 do folderu">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-2026.html" beforeDir="false" afterPath="$PROJECT_DIR$/01-2026.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-2026.html" beforeDir="false" afterPath="$PROJECT_DIR$/05-2026.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-2026.html" beforeDir="false" afterPath="$PROJECT_DIR$/06-2026.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arkusz0.html" beforeDir="false" afterPath="$PROJECT_DIR$/arkusz0.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arkusz1.html" beforeDir="false" afterPath="$PROJECT_DIR$/arkusz1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arkusz2.html" beforeDir="false" afterPath="$PROJECT_DIR$/arkusz2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arkusz3.html" beforeDir="false" afterPath="$PROJECT_DIR$/arkusz3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arkusze.html" beforeDir="false" afterPath="$PROJECT_DIR$/arkusze.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bryly.html" beforeDir="false" afterPath="$PROJECT_DIR$/bryly.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calkowite.html" beforeDir="false" afterPath="$PROJECT_DIR$/calkowite.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cke.html" beforeDir="false" afterPath="$PROJECT_DIR$/cke.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dzialy.html" beforeDir="false" afterPath="$PROJECT_DIR$/dzialy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geometria-plaska.html" beforeDir="false" afterPath="$PROJECT_DIR$/geometria-plaska.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jednostki.html" beforeDir="false" afterPath="$PROJECT_DIR$/jednostki.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/naturalne.html" beforeDir="false" afterPath="$PROJECT_DIR$/naturalne.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/potegi-pierwiastki.html" beforeDir="false" afterPath="$PROJECT_DIR$/potegi-pierwiastki.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prawdopodobienstwo.html" beforeDir="false" afterPath="$PROJECT_DIR$/prawdopodobienstwo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/procenty.html" beforeDir="false" afterPath="$PROJECT_DIR$/procenty.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rozwiazania/rozwiazania.html" beforeDir="false" afterPath="$PROJECT_DIR$/rozwiazania/rozwiazania.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rozwiazania/rozwiazanie1.html" beforeDir="false" afterPath="$PROJECT_DIR$/rozwiazania/rozwiazanie1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/statystyka-opisowa.html" beforeDir="false" afterPath="$PROJECT_DIR$/statystyka-opisowa.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1.html" beforeDir="false" afterPath="$PROJECT_DIR$/test1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testy.html" beforeDir="false" afterPath="$PROJECT_DIR$/testy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testy/test2.html" beforeDir="false" afterPath="$PROJECT_DIR$/testy/test2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testy/test3.html" beforeDir="false" afterPath="$PROJECT_DIR$/testy/test3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ulamki.html" beforeDir="false" afterPath="$PROJECT_DIR$/ulamki.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyrazenia.html" beforeDir="false" afterPath="$PROJECT_DIR$/wyrazenia.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,10 +148,10 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Maria\WebstormProjects\zadania" />
+      <recent name="C:\Users\Maria\WebstormProjects\zadania\rozwiazania" />
       <recent name="C:\Users\Maria\WebstormProjects\zadania\filmy" />
       <recent name="C:\Users\Maria\WebstormProjects\zadania\.idea\testy" />
       <recent name="C:\Users\Maria\WebstormProjects\zadania\.idea\arkusze" />
-      <recent name="C:\Users\Maria\WebstormProjects\zadania\zdjecia" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -235,22 +264,7 @@
       <workItem from="1785427879430" duration="719000" />
       <workItem from="1785430100973" duration="205000" />
       <workItem from="1786636886311" duration="703000" />
-    </task>
-    <task id="LOCAL-00046" summary="edycja test1">
-      <option name="closed" value="true" />
-      <created>1778259620404</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1778259620404</updated>
-    </task>
-    <task id="LOCAL-00047" summary="edycja test1">
-      <option name="closed" value="true" />
-      <created>1778259838324</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1778259838324</updated>
+      <workItem from="1786637607037" duration="1815000" />
     </task>
     <task id="LOCAL-00048" summary="edycja index/arkusze">
       <option name="closed" value="true" />
@@ -628,7 +642,23 @@
       <option name="project" value="LOCAL" />
       <updated>1786636925684</updated>
     </task>
-    <option name="localTasksCounter" value="95" />
+    <task id="LOCAL-00095" summary="rozwiązania do folderu">
+      <option name="closed" value="true" />
+      <created>1786637809719</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1786637809719</updated>
+    </task>
+    <task id="LOCAL-00096" summary="rozwiązania1 do folderu">
+      <option name="closed" value="true" />
+      <created>1786637901413</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1786637901413</updated>
+    </task>
+    <option name="localTasksCounter" value="97" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -646,8 +676,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="edycja CKE" />
-    <MESSAGE value="edycja test1" />
     <MESSAGE value="edycja index/arkusze" />
     <MESSAGE value="edycja pasek nawigacji: lista arkuszy" />
     <MESSAGE value="ósma sprawa" />
@@ -671,7 +699,9 @@
     <MESSAGE value="działy" />
     <MESSAGE value="pasek nawigacji" />
     <MESSAGE value="naturalne" />
-    <option name="LAST_COMMIT_MESSAGE" value="naturalne" />
+    <MESSAGE value="rozwiązania do folderu" />
+    <MESSAGE value="rozwiązania1 do folderu" />
+    <option name="LAST_COMMIT_MESSAGE" value="rozwiązania1 do folderu" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
