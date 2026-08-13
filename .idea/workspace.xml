@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1331c87a-abef-4e89-b235-9d3205a021a5" name="Changes" comment="pasek nawigacji">
+    <list default="true" id="1331c87a-abef-4e89-b235-9d3205a021a5" name="Changes" comment="naturalne">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/naturalne.html" beforeDir="false" afterPath="$PROJECT_DIR$/naturalne.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -230,15 +229,11 @@
       <workItem from="1783612324104" duration="3061000" />
       <workItem from="1783616126418" duration="154000" />
       <workItem from="1783616350547" duration="300000" />
-      <workItem from="1783764874497" duration="2488000" />
-    </task>
-    <task id="LOCAL-00044" summary="edycja arkusze/testy/rozwiazania">
-      <option name="closed" value="true" />
-      <created>1778258300340</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1778258300340</updated>
+      <workItem from="1783764874497" duration="2538000" />
+      <workItem from="1783779709339" duration="181000" />
+      <workItem from="1784821951464" duration="531000" />
+      <workItem from="1785427879430" duration="719000" />
+      <workItem from="1785430100973" duration="205000" />
     </task>
     <task id="LOCAL-00045" summary="edycja CKE">
       <option name="closed" value="true" />
@@ -624,7 +619,15 @@
       <option name="project" value="LOCAL" />
       <updated>1783766092515</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="naturalne">
+      <option name="closed" value="true" />
+      <created>1783767775505</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1783767775505</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -642,7 +645,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="edycja arkusze/testy/rozwiazania" />
     <MESSAGE value="edycja CKE" />
     <MESSAGE value="edycja test1" />
     <MESSAGE value="edycja index/arkusze" />
@@ -667,7 +669,8 @@
     <MESSAGE value="działy całkowite" />
     <MESSAGE value="działy" />
     <MESSAGE value="pasek nawigacji" />
-    <option name="LAST_COMMIT_MESSAGE" value="pasek nawigacji" />
+    <MESSAGE value="naturalne" />
+    <option name="LAST_COMMIT_MESSAGE" value="naturalne" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
