@@ -1,20 +1,24 @@
-﻿// Ładowanie paska nawigacji
-document.addEventListener("DOMContentLoaded", () => {
-       loadLogoutScript();
+﻿document.addEventListener("DOMContentLoaded", () => {
+    ensureAuthScript();
 });
 
-function loadLogoutScript() {
-    let logoutSrc = 'login/script-login.js';
+function ensureAuthScript() {
+    if (window.Auth) {
+        return;
+    }
+
+    let authSrc = 'login/auth.js';
     const candidates = document.querySelectorAll('script[src*="script.js"]');
     for (const tag of candidates) {
         const srcAttr = tag.getAttribute('src');
         if (!srcAttr || !/\/script\.js(\?|$)/i.test(srcAttr)) continue;
         const resolved = new URL(srcAttr, window.location.href).href;
-        logoutSrc = resolved.replace(/\/script\.js(\?[^#]*)?(#.*)?$/i, '/login/script-login.js$1$2');
+        authSrc = resolved.replace(/\/script\.js(\?[^#]*)?(#.*)?$/i, '/login/auth.js$1$2');
         break;
     }
+
     const script = document.createElement('script');
-    script.src = logoutSrc;
+    script.src = authSrc;
     document.head.appendChild(script);
 }
 
