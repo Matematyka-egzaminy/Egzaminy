@@ -13,7 +13,7 @@ async function loadUsers() {
 
     const response = await fetch('users.json', { cache: 'no-store' });
     if (!response.ok) {
-        throw new Error('Nie udalo sie wczytac danych logowania.');
+        throw new Error('Nie udało się wczytać danych logowania.');
     }
 
     users = await response.json();
@@ -38,15 +38,15 @@ function validateForm(username, password) {
         setFieldError(usernameInput, usernameError, 'Podaj login.');
         isValid = false;
     } else if (username.length < 3) {
-        setFieldError(usernameInput, usernameError, 'Login musi miec co najmniej 3 znaki.');
+        setFieldError(usernameInput, usernameError, 'Login musi mieć co najmniej 3 znaki.');
         isValid = false;
     }
 
     if (!password) {
-        setFieldError(passwordInput, passwordError, 'Podaj haslo.');
+        setFieldError(passwordInput, passwordError, 'Podaj hasło.');
         isValid = false;
     } else if (password.length < 4) {
-        setFieldError(passwordInput, passwordError, 'Haslo musi miec co najmniej 4 znaki.');
+        setFieldError(passwordInput, passwordError, 'Hasło musi mieć co najmniej 4 znaki.');
         isValid = false;
     }
 
@@ -74,7 +74,7 @@ async function login() {
             return;
         }
 
-        msg.textContent = 'Bledny login lub haslo.';
+        msg.textContent = 'Błędny login lub hasło.';
         msg.style.color = 'red';
     } finally {
         submitButton.disabled = false;
@@ -92,7 +92,7 @@ document.addEventListener('DOMContentLoaded', () => {
         try {
             await login();
         } catch (_error) {
-            msg.textContent = 'Blad podczas logowania. Sprobuj ponownie.';
+            msg.textContent = 'Błąd podczas logowania. Spróbuj ponownie.';
             msg.style.color = 'red';
         }
     });
