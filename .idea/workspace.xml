@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1331c87a-abef-4e89-b235-9d3205a021a5" name="Changes" comment="logowanie działy">
-      <change afterPath="$PROJECT_DIR$/login/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login/login.html" afterDir="false" />
+    <list default="true" id="1331c87a-abef-4e89-b235-9d3205a021a5" name="Changes" comment="logowanie">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/login/register.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,6 +114,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Maria\WebstormProjects\zadania\login" />
       <recent name="C:\Users\Maria\WebstormProjects\zadania\zdjecia\arkusz1" />
       <recent name="C:\Users\Maria\WebstormProjects\zadania\zdjecia\arkusz2" />
       <recent name="C:\Users\Maria\WebstormProjects\zadania" />
@@ -237,23 +238,7 @@
       <workItem from="1785430100973" duration="205000" />
       <workItem from="1786636886311" duration="703000" />
       <workItem from="1786637607037" duration="1815000" />
-      <workItem from="1790179426627" duration="2121000" />
-    </task>
-    <task id="LOCAL-00052" summary="ósma sprawa - logo">
-      <option name="closed" value="true" />
-      <created>1778591282093</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1778591282093</updated>
-    </task>
-    <task id="LOCAL-00053" summary="ósma sprawa - logo">
-      <option name="closed" value="true" />
-      <created>1778591614069</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1778591614069</updated>
+      <workItem from="1790179426627" duration="3282000" />
     </task>
     <task id="LOCAL-00054" summary="ósma sprawa - logo">
       <option name="closed" value="true" />
@@ -631,7 +616,23 @@
       <option name="project" value="LOCAL" />
       <updated>1790180868870</updated>
     </task>
-    <option name="localTasksCounter" value="101" />
+    <task id="LOCAL-00101" summary="rejestracja">
+      <option name="closed" value="true" />
+      <created>1790181618223</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1790181618223</updated>
+    </task>
+    <task id="LOCAL-00102" summary="logowanie">
+      <option name="closed" value="true" />
+      <created>1790181712430</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1790181712430</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -649,7 +650,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ósma sprawa - logo" />
     <MESSAGE value="centrowanie h1 w hero" />
     <MESSAGE value="drukowanie w arkusz1" />
     <MESSAGE value="rozwijanie paska nawigacji" />
@@ -671,10 +671,11 @@
     <MESSAGE value="naturalne" />
     <MESSAGE value="rozwiązania do folderu" />
     <MESSAGE value="rozwiązania1 do folderu" />
+    <MESSAGE value="logowanie działy" />
+    <MESSAGE value="logowanie działy" />
+    <MESSAGE value="rejestracja" />
     <MESSAGE value="logowanie" />
-    <MESSAGE value="logowanie działy" />
-    <MESSAGE value="logowanie działy" />
-    <option name="LAST_COMMIT_MESSAGE" value="logowanie działy" />
+    <option name="LAST_COMMIT_MESSAGE" value="logowanie" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
