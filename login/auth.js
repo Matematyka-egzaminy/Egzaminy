@@ -25,6 +25,11 @@
         return path.endsWith('/login/login.html') || path.endsWith('/login.html');
     }
 
+    function isRegisterPage() {
+        const path = window.location.pathname.replace(/\\/g, '/').toLowerCase();
+        return path.endsWith('/login/register.html') || path.endsWith('/register.html');
+    }
+
     function getUser() {
         return sessionStorage.getItem(USER_KEY);
     }
@@ -48,6 +53,9 @@
         }
 
         if (!loggedIn) {
+            if (isRegisterPage()) {
+                return;
+            }
             window.location.replace(loginUrl());
         }
     }
