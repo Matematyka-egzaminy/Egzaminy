@@ -97,3 +97,20 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 });
+
+document.addEventListener('DOMContentLoaded', () => {
+    const registerForm = document.getElementById('registerForm');
+    if (!registerForm) {
+        return;
+    }
+
+    registerForm.addEventListener('submit', async (event) => {
+        event.preventDefault();
+        try {
+            await register();
+        } catch (_error) {
+            msg.textContent = 'Błąd podczas rejestrowania. Spróbuj ponownie.';
+            msg.style.color = 'red';
+        }
+    });
+});
