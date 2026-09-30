@@ -81,6 +81,30 @@ async function login() {
     }
 }
 
+async function register() {
+    clearErrors();
+
+    const username = usernameInput.value.trim();
+    const password = passwordInput.value;
+
+    if (!validateForm(username, password)) {
+        return;
+    }
+
+    submitButton.disabled = true;
+
+    try {
+        const loadedUsers = await loadUsers();
+        // add new user to the users object
+
+        window.Auth.setUser(username);
+        window.location.href = window.Auth.homeUrl();
+    } finally {
+        submitButton.disabled = false;
+    }
+}
+
+
 document.addEventListener('DOMContentLoaded', () => {
     const loginForm = document.getElementById('loginForm');
     if (!loginForm) {

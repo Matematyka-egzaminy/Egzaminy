@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1331c87a-abef-4e89-b235-9d3205a021a5" name="Changes" comment="rejestracja">
-      <change beforePath="$PROJECT_DIR$/login/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/login/register.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/login/script-login.js" beforeDir="false" afterPath="$PROJECT_DIR$/login/script-login.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -239,15 +238,7 @@
       <workItem from="1786636886311" duration="703000" />
       <workItem from="1786637607037" duration="1815000" />
       <workItem from="1790179426627" duration="3299000" />
-      <workItem from="1790783781703" duration="3062000" />
-    </task>
-    <task id="LOCAL-00056" summary="centrowanie h1 w hero">
-      <option name="closed" value="true" />
-      <created>1778777368274</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1778777368274</updated>
+      <workItem from="1790783781703" duration="4132000" />
     </task>
     <task id="LOCAL-00057" summary="drukowanie w arkusz1">
       <option name="closed" value="true" />
@@ -633,7 +624,15 @@
       <option name="project" value="LOCAL" />
       <updated>1790786176291</updated>
     </task>
-    <option name="localTasksCounter" value="105" />
+    <task id="LOCAL-00105" summary="rejestracja">
+      <option name="closed" value="true" />
+      <created>1790786879101</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1790786879101</updated>
+    </task>
+    <option name="localTasksCounter" value="106" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
